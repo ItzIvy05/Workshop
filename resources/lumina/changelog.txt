@@ -46,7 +46,6 @@ Added Vanaheimr - Mines and Caves - Complex Material - PBR
 Added Wicky's Solitude PBR - Interior
 Added Witcher Style Fences
 
-Updated Agility - an Adamant addon
 Updated Better Jumping SE
 Updated Discord Rich Presence
 Updated Encounter Zones Unlocked SE
@@ -81,12 +80,12 @@ Updated Snazzy Player Homes (Honeyside is here)
 Updated Simple Offence Suppression
 Updated SkyPrompt
 Updated Skyrim Extended Cut - Saints and Seducers
-Updated Shadow Opportunist - A Sneak Addon
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Tears of Kyne - Water Need Mod
 Updated Variadic Collision Dynamics
 Updated Zero Bounty Hostility Fix
 
+Removed Agility - an Adamant addon
 Removed Animated Static Reload Fix - NG
 Removed Adamant - A Perk Overhaul - Bard Perks Addon (Merged into Main Mod)
 Removed Aurora Fix (Seams like we dont need it anymore)
@@ -129,6 +128,7 @@ Removed Racial Abilities - I4 icons
 Removed Riton's Medieval Solitude
 Removed Skyrim Remastered - Caves
 Removed Skyking Soul Gems (They Look bad with CS)
+Removed Shadow Opportunist - A Sneak Addon
 Removed Thieves Guild Requirements SE
 Removed Thieves Guild Requirements SE - Settings Loader
 Removed Wicky's Solitude PBR
