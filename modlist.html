@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Load Order</title>
+  <meta name="description" content="Browse the full mod list and plugin load order.">
+  <link rel="icon" type="image/x-icon" href="resources/ico.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/site.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
+    <nav id="lo-nav"></nav>
+  </header>
+
+  <section class="doc-hero">
+    <p class="eyebrow" id="lo-eyebrow">Mod List</p>
+    <h1 id="lo-title">Load Order</h1>
+  </section>
+
+  <div class="lo-wrap" id="loadorder"></div>
+
+  <footer class="site-footer">
+    &copy; 2025-2026 Ivy's Workshop.
+  </footer>
+
+  <script src="scripts/loadorder.js" defer></script>
+  <script>
+    const LISTS = {
+      lumina: {
+        accent: "#86C06C",
+        name: "Lumina",
+        dir: "resources/lumina/",
+        home: "lumina.html",
+        gallery: "lumina.html#gallery",
+        extras: []
+      },
+      skyground: {
+        accent: "#FFA500",
+        name: "SkyGround Chronicles",
+        dir: "resources/skyground/",
+        home: "skyground.html",
+        gallery: "skyground.html#gallery",
+        extras: [{ label: "Cat", href: "cat.html" }]
+      }
+    };
+    const key = (new URLSearchParams(location.search).get("list") || "lumina").toLowerCase();
+    const cfg = LISTS[key] || LISTS.lumina;
+
+    document.body.style.setProperty("--accent", cfg.accent);
+    document.getElementById("lo-eyebrow").textContent = cfg.name;
+    document.title = cfg.name + " Load Order";
+
+    const nav = [
+      '<a href="index.html">Modlists</a>',
+      '<a href="' + cfg.home + '">Home</a>',
+      '<a href="readme.html' + (key === "skyground" ? "" : "?list=" + key) + '">Read Me</a>',
+      '<a href="modlist.html?list=' + key + '" class="active">Mod List</a>',
+      '<a href="changelog.html?list=' + key + '">Changelog</a>',
+      '<a href="' + cfg.gallery + '">Gallery</a>'
+    ].concat(cfg.extras.map(function (e) { return '<a href="' + e.href + '">' + e.label + '</a>'; }));
+    nav.push('<a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>');
+    document.getElementById("lo-nav").innerHTML = nav.join("");
+
+    window.addEventListener("DOMContentLoaded", () => {
+      initLoadOrder({
+        mount: "#loadorder",
+        files: [
+          { label: "modlist.txt", type: "modlist", url: cfg.dir + "modlist.txt" },
+          { label: "plugins.txt", type: "plugins", url: cfg.dir + "plugins.txt" }
+        ]
+      });
+    });
+  </script>
+
+</body>
+</html>

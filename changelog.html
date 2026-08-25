@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Changelog</title>
+  <meta name="description" content="Version history and changelog.">
+  <link rel="icon" type="image/x-icon" href="resources/ico.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/site.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
+    <nav id="cl-nav"></nav>
+  </header>
+
+  <section class="doc-hero">
+    <p class="eyebrow" id="cl-eyebrow">Changelog</p>
+    <h1>Changelog</h1>
+  </section>
+
+  <div class="cl-wrap" id="changelog"></div>
+
+  <footer class="site-footer">
+    &copy; 2025-2026 Ivy's Workshop.
+  </footer>
+
+  <script src="scripts/changelog.js" defer></script>
+  <script>
+    const LISTS = {
+      lumina: { accent: "#86C06C", name: "Lumina", dir: "resources/lumina/", home: "lumina.html", gallery: "lumina.html#gallery", extras: [] },
+      skyground: { accent: "#FFA500", name: "SkyGround Chronicles", dir: "resources/skyground/", home: "skyground.html", gallery: "skyground.html#gallery", extras: [{ label: "Cat", href: "cat.html" }] }
+    };
+    const key = (new URLSearchParams(location.search).get("list") || "lumina").toLowerCase();
+    const cfg = LISTS[key] || LISTS.lumina;
+
+    document.body.style.setProperty("--accent", cfg.accent);
+    document.getElementById("cl-eyebrow").textContent = cfg.name;
+    document.title = cfg.name + " Changelog";
+
+    const nav = [
+      '<a href="index.html">Modlists</a>',
+      '<a href="' + cfg.home + '">Home</a>',
+      '<a href="readme.html' + (key === "skyground" ? "" : "?list=" + key) + '">Read Me</a>',
+      '<a href="modlist.html?list=' + key + '">Mod List</a>',
+      '<a href="changelog.html?list=' + key + '" class="active">Changelog</a>',
+      '<a href="' + cfg.gallery + '">Gallery</a>'
+    ].concat(cfg.extras.map(function (e) { return '<a href="' + e.href + '">' + e.label + '</a>'; }));
+    nav.push('<a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>');
+    document.getElementById("cl-nav").innerHTML = nav.join("");
+
+    window.addEventListener("DOMContentLoaded", () => {
+      initChangelog({ mount: "#changelog", url: cfg.dir + "changelog.txt" });
+    });
+  </script>
+
+</body>
+</html>

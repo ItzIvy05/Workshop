@@ -1,0 +1,278 @@
+# 0.3 | 2026-00-00
+Added First Person Animations Expansion - Katana
+Added Capital Windhelm Expansion
+Added Capital Windhelm Expansion - Exterior NavMesh Fix and Patches
+Added Capital Windhelm Expansion - Windows
+Added Capital Windhelm Expansion - Icicle performance
+Added Capital Windhelm Expansion Lite
+Added Capital Windhelm Expansion Bug fixes
+Added ClefJ's Morthal
+Added ClefJ's Morthal - Patches
+Added ClefJ's Morthal - Expanded Towns and Cities Patch
+Added Comprehensive Attack Rate Patch - SKSE
+Added Combat Music Fix NG Updated
+Added Dirt and Blood - Use Those Basins
+Added Rob's Bug Fixes - Capital Windhelm Expansion
+Added Rob's Bug Fixes - Capital Windhelm Expansion - Invisible Pit Fighter Fix
+Added Grand Solitude - The Walls of High King Erling (Oh how i missed you)
+Added Grand Solitude - Optimized Meshes
+Added Grand Solitude - Light Addon
+Added Carts Remodeled
+Added Iyre's Cozy Whiterun Gazebo
+Added Interior DALC Fix
+Added Icy Cave Remaster (Old Version 2.2.3)
+Added Improvement Names Customized AE
+Added Lyra's Slumber
+Added LOD Refresh Bug Fix
+Added Motionless Rocks Killing People Fix
+Added No Auto Local Map (Fuckin took 15 years thanks JP)
+Added NPCs Learn to Aim (Skill-Based Aiming)
+Added Praedy's Soul gems (Works with CS and looks Awesome )
+Added Spider Webs and Particles for ENB (Better Webs :P)
+Added SkyPatcher
+Added SkyPatcher - Animals Report No Crime
+Added SkyPatcher - Mortal Enemies
+Added Starfrost - A Survival Overhaul
+Added Steal off Scoundrels - Pickpocketing Criminals is Not Stealing
+Added TRE Brows 2 - New Brow Textures
+Added The Tools of Kagrenac
+Added The Tools of Kagrenac - EVG Animated Traversal Add-On
+Added The Tools of Kagrenac - Unofficial Patch
+Added The Taste of Death - Quest Addon
+Added Thieves Guild Plus Plus - A Questline Overhaul
+Added Thieves Guild Plus Plus - Patch Collection
+Added Tomato's Solitude Remastered
+Added Vanaheimr - Mines and Caves - Complex Material - PBR
+Added Wicky's Solitude PBR - Interior
+Added Witcher Style Fences
+
+Updated Agility - an Adamant addon
+Updated Better Jumping SE
+Updated Discord Rich Presence
+Updated Encounter Zones Unlocked SE
+Updated Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
+Updated Stuck on Screen Auto Load Door Fix SKSE
+Updated Aetherium Forge Destroys Items (AFDI)
+Updated Adamant - A Perk Overhaul
+Updated Apprentice - A Class Overhaul
+Updated Blade and Blunt - A Combat Overhaul
+Updated Hand to Hand - An Adamant Addon
+Updated Mundus - A Standing Stone Overhaul
+Updated Mysticism - A Magic Overhaul
+Updated Thaumaturgy - An Enchanting Overhaul
+Updated Bobbing Framework - SKSE Plugin
+Updated Cure Disease Overhaul
+Updated Chocolate Poise - Reforged
+Updated Character Menu SE - Stress and Fear - Show in UI
+Updated Helmet Toggle 2
+Updated JK's Understone Keep
+Updated Lost Grimoire SSE
+Updated Locational Encounter Zones
+Updated Object Categorization Framework - Some KID Patches
+Updated Particle Patch
+Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
+Updated Riverside Treehouse
+Updated RemoveAllItems Freeze Fix
+Updated Smooth Terrain
+Updated Snazzy Riften AIO
+Updated Snazzy Interiors Patch Collection
+Updated Snazzy Misc Locations
+Updated Snazzy Player Homes (Honeyside is here)
+Updated Simple Offence Suppression
+Updated SkyPrompt
+Updated Skyrim Extended Cut - Saints and Seducers
+Updated Shadow Opportunist - A Sneak Addon
+Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
+Updated Tears of Kyne - Water Need Mod
+Updated Variadic Collision Dynamics
+Updated Zero Bounty Hostility Fix
+
+Removed Animated Static Reload Fix - NG
+Removed Adamant - A Perk Overhaul - Bard Perks Addon (Merged into Main Mod)
+Removed Aurora Fix (Seams like we dont need it anymore)
+Removed ALT - Farmhouse Fences LP (Swapped to SkyFall Fences)
+Removed Another Riverwood Bridge (I love you brother but too much combos)
+Removed Blade and Blunt - A Combat Overhaul - MCM Addon (Not updated)
+Removed Bards College Rework (Merged into main mod)
+Removed Drengins's Solitude Patch Collection
+Removed Cities of the North - Morthal
+Removed Cities of the North - Morthal Patch Collection
+Removed Ciri Trailer Armor (Broke Weight on meshes)
+Removed Creation Club - Sunder & Wraithguard (Fully Replaced by The Tools of Kagrenac)
+Removed Combat Music Fix - Papyrus (Seams to bug out more and replaced by Combat Music Fix NG Updated)
+Removed FYX - Windhelm Palace of The Kings (Not compatible with Capital Windhelm)
+Removed FYX - Windhelm Entrance - Defensive Towers (Not compatible with Capital Windhelm)
+Removed Handcarts - Base Object Swapper (30k Faces for one handcart...hhahaha nice joke)
+Removed Haugbui - A Draugr Overhaul (Is not compatible with The Dragon Cult)
+Removed Haugbui - A Draugr Overhaul - CC Fishing Patch
+Removed Haugbui - A Draugr Overhaul - Believable Weapons Patch
+Removed Haugbui - A Draugr Overhaul - Draugrs - SE
+Removed Haugbui - A Draugr Overhaul - SimonRim Patch
+Removed HDT-SMP Physics Racemenu Hairs and Wigs Unisex
+Removed Ivy's Resource Nook
+Removed Icy Cave Remaster (Latest Version)
+Removed KS Hairdos (NON - SMP.. no one really uses it)
+Removed KS Hairdos - Sassy Salt and Wind Hair Retexture 
+Removed LOD Unloading Bug Fix (Replaced with Bottle's LOD Refresh Bug Fix)
+Removed LOD Unloading Bug Fix - Settings Loader
+Removed Lawless - A Bandit Overhaul
+Removed Lawless Bandits - Female NPC Overhaul (Botox)
+Removed Lawless - A Bandit Overhaul - Simonrim
+Removed Lawless - A Bandit Overhaul - Patches (RERUN)
+Removed Mrf's Solitude - Interior
+Removed Mrf's Solitude - Exterior
+Removed MAGECORE - hdt SMP (CBBE 3BA) (couldnt make it SFW)
+Removed Native Water Light Stabilizer (Don't Like AI Slop)
+Removed Orc Exiles - Bilegulch Stronghold (Too Broken, JJerem Please ask for help, if you cant fix it)
+Removed Orc Exiles - Bilegulch - Patch Collection
+Removed Racial Abilities - I4 icons
+Removed Riton's Medieval Solitude
+Removed Skyrim Remastered - Caves
+Removed Skyking Soul Gems (They Look bad with CS)
+Removed Thieves Guild Requirements SE
+Removed Thieves Guild Requirements SE - Settings Loader
+Removed Wicky's Solitude PBR
+
+Fixed Owl Master Patch Man it was cooked.
+Fixed CC Master Patch for unwanted quest scripts.
+Fixed and Updated Dragon Cult Patch.
+FIxed few meshes from Better Optimized and Fixed Riften Meshes.
+Fixed Delphine getting stuck in riverwood or whiterun.
+Fixed Navmesh all around whiterun
+
+ESM Flagged Aspen Ablaze
+ESM Flagged Nature of the Wild
+ESM Flagged Caves of Morrowind
+ESM Flagged Ashe
+ESM Flagged Remiel
+ESM The Tools of Kagrenac
+Swapped Windhelm Is Snowy - Base Object Swapper to Capital version
+Spiders and mudcrab are fully unleveled now
+Nerfed Trolls regen from 12 -> 10 per second
+Nerfed paralysis on spiders from 10secs -> 6secs
+Added Enchanted Sphere in Dwemer Locations as Gatekeeper in some cases. 
+Reverted recruitment changes for Zora Fair-child
+Removed bunch of modules form RYFTEN Build your city. (Conflicting with)
+
+# 0.2 | 2026-00-00
+Added 1st Person Animations Expansion - Katana
+Added 1st Person Animations Expansion - Scimitar
+Added ADXP I MCO BDO Guardian
+Added ADXP I MCO Elden Rim
+Added ADXP I MCO Elden Rim Warhammer
+Added ADXP I MCO ER Spear Basic Animation (SCAR)
+Added ADXP I MCO Nordic Dagger Animation
+Added ADXP I MCO Nordic Mace Animation For Player
+Added ADXP I MCO Nordic Warhammer Animation
+Added ADXP I MCO Spear Soldier Animations
+Added Agility - an Adamant Addon
+Added BDO Guardian Battle Axe
+Added Blade and Blunt - A Combat Overhaul - MCM Addon
+Added Bobbing Framework - SKSE Plugin
+Added Break Stagger
+Added Capital Whiterun Expansion
+Added Capital Whiterun Expansion - Fixed Meshes
+Added Capital Whiterun Expansion - JK's The Bannered Mare Patch
+Added Capital Whiterun Expansion - Meshes Optimization Project
+Added Capital Whiterun Expansion - Patches
+Added Capital Whiterun Expansion - Rob's Bug Fixes
+Added Character Menu SE - Stress and Fear - Show in UI
+Added Chocolate Poise - Reforged
+Added City Bag Checks
+Added Coin Weight
+Added Crafting Grants XP
+Added Cure Disease Overhaul
+Added Divine Crusader - PBR and CM Redone
+Added Dynamic Armor Variants Extended
+Added Dynamic Footprints SKSE - TomatoRim
+Added Dynamic Armor Physics
+Added Elder Creed - Blade
+Added Elder Creed - Valhalla Axe Moveset AIO
+Added Elden RIM x DS3 Mashup
+Added Elden Ring Nightreign Duchess I MCO I BFCO I DAGGER
+Added Emittance Removal Project (Dust Fog Smoke Mist FX Effect)
+Added For Honor Reforged
+Added Fuse00 - Helga Armor 3BA
+Added FYX - Riften - Window Consistency
+Added Glow Be Gone Redone - NG
+Added Hellblade Battle Sword Animation
+Added HollowSlayer Greatsword Moveset I MCO ISCAR
+Added Iconic Statues PBR
+Added Imperial Kit Tweaks
+Added Ivy ENB Light Smelter
+Added JK's College of Winterhold
+Added JK's College of Winterhold ObscureCombo Patches 
+Added LDD's Classic Helga Retexture
+Added Leviathan Animations II - Greatsword MCO Moveset
+Added Mace Animation MCO
+Added Manbeast - A Werewolf Overhaul
+Added Modern Stagger Lock
+Added No Auto-Equip Behaviour
+Added Natural Waterfalls - CS Particle Patch
+Added Shadow Opportunist - A Sneak Addon
+Added Save and Load Accelerator for SKSE Cosaves - S.L.A.C.Ks
+Added SIGMA - Dagger Animations - First Person
+Added State Globals Framework
+Added Smooth Terrain
+Added Skyrim Reputation
+Added Skyrim Reputation - Manbeast - A Werewolf Overhaul Patch
+Added Skyrim Reputation - Sacrilege Patch
+Added Skyrim Reputation - Unofficial Patch
+Added Stormcrown - A Shout Overhaul
+Added Stormcrown - A Shout Overhaul - Optimized and Upscaled Textures
+Added Stormcrown - A Shout Overhaul - Siege at Icemoth
+Added Stormcrown - A Shout Overhaul - Capstone Perk Consistency
+Added Stormcrown - A Shout Overhaul - Dragon Cult Patches
+Added Smooth Moveset - OAR
+Added Spell Knight Armor Redone - PBR and Complex Material
+Added The Dragon Cult - A Draugr Overhaul
+Added Tomato's Imperial Forts Remake - PBR or Complex Material
+Added Whiterun Thatched Roof Replacer
+
+Updated Aetherial Bloodlines - A Race Overhaul
+Updated Alternative Riften - Revived and Optimized
+Updated Alternative Riften Revived - Plant Addon by Areei
+Updated Apprentice - Aptitude Codex
+Updated Core Impact Framework (CIF)
+Updated Critter Master - Script Call Reduction
+Updated Directional Movement Keys - DMK
+Updated Embers XD - PBR
+Updated Embershard
+Updated Input Manager
+Updated Kaidan Revoiced - Community Expansion (KRCE)
+Updated No Grass In Objects
+Updated New Creature Animation - Dwarven Centurion - OAR
+Updated New Creature Animation - Riekling and Goblin
+Updated Open Animation Replacer
+Updated Particle Limit Uncapper
+Updated Rotols More Icons
+Updated Roastlawyer's Restored Whiterun Defences
+Updated Ryn's Skyrim Patch Collection
+Updated Siege at Icemoth
+Updated Sanguine Symphony
+Updated Shrubbery Symphony - Enhanced Greenery
+Updated Skyrim Food Expansion and Added PBR
+Updated Skyrim Cut Content Restoration
+Updated Skyrim Cut Content Restoration - Patch Collection
+Updated Spell Perk Item Distributor
+Updated Snozz's Resource Pack
+Updated Whiterun - Circle of Kynareth
+Updated Wait Your Turn Redux - Enemy Circling Behavior  
+
+Removed Dynamic Armor Variants
+Removed Dynamic Footprints SKSE - Vana
+Removed For Honor in Skyrim -BFCO Edition (All-in-One)
+Removed Lush Dragonsreach Pools
+Removed Medieval Markets
+Removed Old FYX - Riften - Window Consistency
+Removed Old Tomato's Imperial Forts
+Removed Read Or Take SKSE
+Removed Simple Beheading - NG
+Removed Stances NG (For whatever reason I had this marked as installed)
+Removed Warmaiden's Hole Covers
+Removed Witcherun - A Verdant Whiterun Overhaul
+
+Fixed Missing Aspen Logs Texture (Hopefully)
+Fixed Lux Meshes for CS
+Fixed Bunch of floating things
+Fixed Bunch of Seams lines in landscape

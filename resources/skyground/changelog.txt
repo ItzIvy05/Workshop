@@ -1,0 +1,7 @@
+// SkyGround changelog. Newest version goes at the TOP.
+// Version line:  # <version> | <YYYY-MM-DD>
+
+# 3.0 | 2026-07-20
+Added Example mod goes here
+Updated Example updated mod
+Removed Example removed mod
