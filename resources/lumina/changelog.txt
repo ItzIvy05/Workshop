@@ -99,6 +99,7 @@ Updated powerofthree's Papyrus Extender
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
 Updated RemoveAllItems Freeze Fix
 Updated Riverside Treehouse
+Updated Rim Lighting Removed
 Updated Regional Save Names
 Updated So This Aint Right (S.T.A.R.)
 Updated Save Unbaker
@@ -125,6 +126,7 @@ Updated Sprint Sneak Movement Speed Fix
 Updated SSE Display Tweaks
 Updated SSE FPS Stabilizer
 Updated STB No Save & Load in Combat
+Updated Stagger Effect Fix
 Updated Stuck on Screen Auto Load Door Fix SKSE
 Updated Swindlers Den
 Updated Tears of Kyne - Water Need Mod
@@ -132,6 +134,7 @@ Updated Terrain Helper
 Updated Thaumaturgy - An Enchanting Overhaul
 Updated Variadic Collision Dynamics
 Updated Variadic Collision Dynamics - Resources
+Updated Widescreen Scale Removed
 Updated Zero Bounty Hostility Fix
 
 Removed Adamant - A Perk Overhaul - Bard Perks Addon (Merged into Main Mod)

@@ -71,7 +71,7 @@
       '<div><span class="lo-name">' + escapeHtml(file.label) + "</span>" +
       '<div class="lo-meta">' + fmtSize(file.size) + " &bull; " + enabledCount + "/" + total +
       (isModlist ? " mods enabled" : " plugins enabled") + "</div></div></div>" +
-      '<div class="lo-actions"><button class="lo-btn lo-collapse" title="Collapse">' + svgChevron() + "</button></div>";
+      '<div class="lo-actions"><button class="lo-btn lo-collapse" type="button" aria-label="Toggle section">' + svgChevron() + "</button></div>";
     card.appendChild(head);
 
     const body = el("div", "lo-body");

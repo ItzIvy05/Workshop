@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d">
   <title>SkyGround Chronicles, Read Me</title>
   <meta name="description" content="Installation guide for SkyGround Chronicles: system requirements, pre-installation, download list, and crash prevention.">
 
@@ -16,19 +18,23 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/site.css">
   <link rel="stylesheet" href="style/lightbox.css">
+  <script src="scripts/ui.js" defer></script>
 </head>
 <body style="--accent:#FFA500;">
 
   <div id="lightbox"><img id="lightbox-img" alt=""></div>
   <script src="scripts/lightbox.js" defer></script>
-  <script src="scripts/youtubeapi.js" defer></script>
 
   <header class="site-nav">
     <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
     <nav id="ro-nav"></nav>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg class="ico-open" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="ico-close" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </header>
 
   <section class="doc-hero">
@@ -54,7 +60,7 @@
           <li>Only Windows 10/11 operating systems are supported. Windows LTSC, special variants, lightened editions, or any other modified variant will not work.</li>
           <li>At least 8GB of GPU VRAM minimum is recommended for the list (1080p), otherwise you'll experience frequent stutters in exteriors. Higher resolutions may require even more.</li>
         </ul>
-        <div class="doc-img"><img src="resources/SYS.webp" alt="System requirements"></div>
+        <div class="doc-img"><img src="resources/SYS.webp" alt="System requirements" loading="lazy" decoding="async"></div>
       </section>
 
       <section id="preinstallation" class="doc-section">
@@ -89,7 +95,7 @@
             Select the In-Game tab<br>
             Disable "Enable the Steam Overlay while in-game"
           </div>
-          <div class="doc-img"><img src="resources/steamoverlay.webp" alt="Steam Overlay settings"></div>
+          <div class="doc-img"><img src="resources/steamoverlay.webp" alt="Steam Overlay settings" loading="lazy" decoding="async"></div>
 
           <div class="callout">
             <strong>Important:</strong> Do not install Skyrim in <b>C:\Program Files</b> or <b>C:\Program Files (x86)</b>. This can cause permission issues.
@@ -100,7 +106,7 @@
 
         <h3>Antiviruses</h3>
         <p>Remove or disable any 3rd party antiviruses such as Webroot or Bitdefender. These programs can cause issues with your installation due to how MO2's Virtual File Staging works. You will also need to add the Wabbajack list folder to your antivirus exclusion list. Otherwise, the game may have trouble loading scripts, which can lead to crashes.</p>
-        <div class="doc-img"><img src="resources/anti.webp" alt="Antivirus exclusions"></div>
+        <div class="doc-img"><img src="resources/anti.webp" alt="Antivirus exclusions" loading="lazy" decoding="async"></div>
 
         <h3>Other Notes</h3>
         <ul class="doc-list">
@@ -112,9 +118,9 @@
       <section id="download-list" class="doc-section">
         <h2>Download List</h2>
         <div class="video-embed">
-          <iframe id="player" type="text/html"
-            src="https://www.youtube.com/embed/IddGH4C-F6I?origin=https://itzivy05.github.io"
-            frameborder="0" allowfullscreen></iframe>
+          <iframe id="player" title="SkyGround Chronicles installation guide"
+            src="https://www.youtube-nocookie.com/embed/IddGH4C-F6I"
+            loading="lazy" allowfullscreen></iframe>
         </div>
         <a href="https://www.wabbajack.org/" class="btn btn-primary" target="_blank" rel="noopener">Download Now</a>
       </section>
@@ -146,7 +152,7 @@
           14. Click <strong>OK</strong><br>
           15. Restart your computer for the new pagefile to take effect
         </div>
-        <div class="doc-img small"><img src="resources/Pagefile.webp" alt="Pagefile settings"></div>
+        <div class="doc-img small"><img src="resources/Pagefile.webp" alt="Pagefile settings" loading="lazy" decoding="async"></div>
       </section>
     </main>
   </div>

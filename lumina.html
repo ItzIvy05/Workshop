@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d">
 
   <title>Lumina</title>
   <meta name="description" content="Lumina is a handcrafted Skyrim survival experience focused on immersion and meaningful progression, built on modern standards with Community Shaders. We call it LumaRim.">
@@ -16,7 +18,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/site.css">
   <link rel="stylesheet" href="style/lightbox.css">
 </head>
@@ -25,6 +27,7 @@
   <div id="lightbox"><img id="lightbox-img" alt=""></div>
   <script src="scripts/lightbox.js" defer></script>
   <script src="scripts/carousel.js" defer></script>
+  <script src="scripts/ui.js" defer></script>
 
   <header class="site-nav">
     <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
@@ -37,42 +40,66 @@
       <a href="#gallery">Gallery</a>
       <a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>
     </nav>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg class="ico-open" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="ico-close" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </header>
 
-  <section class="hero" style="background-image:url('resources/lumina/cover.jpg');" data-no-lightbox>
-    <p class="eyebrow">Ivy's Workshop presents</p>
-    <h1>Lumina<span class="accent">.</span></h1>
-    <p>A handcrafted Skyrim experience focused on survival, immersion, and meaningful progression, built on modern standards. We call it <em>LumaRim</em>.</p>
-    <div class="hero-cta">
-      <a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="btn btn-primary">
-        Join the Discord
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a href="#gallery" class="btn btn-ghost">Explore</a>
+  <section class="hero" data-no-lightbox>
+    <div class="hero-art" style="background-image:url('resources/lumina/cover.jpg');"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">Ivy's Workshop presents</p>
+      <h1 class="stack-title">
+        <span class="ghost">Enter</span>
+        <span class="solid">Lumina</span>
+      </h1>
+      <p>A handcrafted Skyrim experience focused on survival, immersion, and meaningful progression, built on modern standards. We call it <em>LumaRim</em>.</p>
+      <div class="hero-cta">
+        <a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="btn btn-primary">
+          Join the Discord
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#gallery" class="btn btn-ghost">Explore</a>
+      </div>
+      <div class="logo-row">
+        <span>Built on</span>
+        <a href="https://github.com/doodlum/skyrim-community-shaders" target="_blank" rel="noopener">Community Shaders</a>
+        <a href="https://www.wabbajack.org/" target="_blank" rel="noopener">Wabbajack</a>
+      </div>
     </div>
-    <div class="scroll-cue"></div>
   </section>
 
   <section class="section" data-no-lightbox>
-    <div class="about-card">
+    <div class="stats">
+      <div class="stat" data-reveal><span class="num">2,491</span><span class="label">Mods enabled</span></div>
+      <div class="stat" data-reveal style="--d:80ms;"><span class="num">2,269</span><span class="label">Active plugins</span></div>
+      <div class="stat" data-reveal style="--d:160ms;"><span class="num">LumaRim</span><span class="label">Rebuilt from Simonrim</span></div>
+      <div class="stat" data-reveal style="--d:240ms;"><span class="num">SKSE</span><span class="label">Near-zero script lag</span></div>
+    </div>
+  </section>
+
+  <section class="section" data-no-lightbox>
+    <div class="about-card solo" data-reveal>
       <h2>The LumaRim experience</h2>
+      <div class="rule"></div>
       <p>Lumina is a handcrafted Skyrim experience focused on <em>survival</em>, <em>immersion</em>, and <em>meaningful progression</em>. Built around modern graphics with Community Shaders, challenging gameplay, and extensive optimization, it delivers a stable and cohesive world, every mod chosen and tuned by hand to work as one.</p>
     </div>
   </section>
 
   <section id="features" class="section features">
     <div class="feature-row">
-      <div class="feature-text">
+      <div class="feature-text" data-reveal>
         <span class="kicker">Gameplay</span>
         <h3>Built on Simonrim, rebuilt as our own</h3>
         <p>Lumina starts from the Simonrim base, then changes and alters it into something of our own. A custom difficulty overhaul inspired by Requiem, our own death alternative, and everything rebuilt and redone on SKSE so it runs clean with almost no script lag. We call it LumaRim.</p>
       </div>
-      <div class="feature-media"><img src="resources/lumina/media/1.jpg" alt=""></div>
+      <div class="feature-media" data-reveal style="--d:80ms;"><img src="resources/lumina/media/1.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="feature-row reverse">
-      <div class="feature-media"><img src="resources/lumina/media/11.jpg" alt=""></div>
-      <div class="feature-text">
+      <div class="feature-media" data-reveal><img src="resources/lumina/media/11.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async"></div>
+      <div class="feature-text" data-reveal style="--d:80ms;">
         <span class="kicker">Modern Standards</span>
         <h3>Modern graphics with Community Shaders</h3>
         <p>Built around modern graphics with Community Shaders and custom mods made in-house. Not a pile of presets, but a cohesive visual identity crafted for beauty and performance alike.</p>
@@ -80,36 +107,36 @@
     </div>
 
     <div class="feature-row">
-      <div class="feature-text">
+      <div class="feature-text" data-reveal>
         <span class="kicker">Survival</span>
         <h3>Survival, immersion, progression</h3>
         <p>A handcrafted survival experience focused on immersion and meaningful progression. Challenging, cohesive, and tuned by hand from start to finish.</p>
       </div>
-      <div class="feature-media"><img src="resources/lumina/media/24.jpg" alt=""></div>
+      <div class="feature-media" data-reveal style="--d:80ms;"><img src="resources/lumina/media/24.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async"></div>
     </div>
   </section>
 
   <section id="gallery" class="section">
-    <div class="section-head">
+    <div class="section-head" data-reveal>
       <p class="section-eyebrow">Gallery</p>
       <h2 class="section-title">Scenes from Lumina</h2>
     </div>
-    <div class="carousel" data-interval="5000" data-src="resources/lumina/media/">
+    <div class="carousel" data-interval="5000" data-src="resources/lumina/media/" data-reveal>
       <div class="carousel-viewport">
         <div class="carousel-track"></div>
       </div>
-      <button class="carousel-arrow carousel-prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
-      <button class="carousel-arrow carousel-next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button class="carousel-arrow carousel-prev" aria-label="Previous"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button class="carousel-arrow carousel-next" aria-label="Next"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
       <div class="carousel-dots"></div>
     </div>
   </section>
 
-  <section class="cta-strip">
+  <section class="cta-strip" data-reveal>
     <h2>Step into LumaRim</h2>
     <p>Lumina is actively crafted and growing. Join the community to follow development, get support, and be first to play.</p>
     <div class="hero-cta">
       <a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="btn btn-primary">Join the Discord</a>
-      <a href="index.html" class="btn btn-ghost">&larr; Back to Workshop</a>
+      <a href="index.html" class="btn btn-ghost">Back to Workshop</a>
     </div>
   </section>
 

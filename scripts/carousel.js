@@ -65,6 +65,8 @@
       if (!dotsWrap) return null;
       const d = document.createElement("button");
       d.className = "carousel-dot" + (i === 0 ? " active" : "");
+      d.type = "button";
+      d.setAttribute("aria-label", "Go to slide " + (i + 1));
       d.addEventListener("click", () => go(i, true));
       dotsWrap.appendChild(d);
       return d;

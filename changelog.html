@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d">
   <title>Changelog</title>
   <meta name="description" content="Version history and changelog.">
   <link rel="icon" type="image/x-icon" href="resources/ico.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/site.css">
+  <script src="scripts/ui.js" defer></script>
 </head>
 <body>
 
   <header class="site-nav">
     <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
     <nav id="cl-nav"></nav>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg class="ico-open" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="ico-close" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </header>
 
   <section class="doc-hero">

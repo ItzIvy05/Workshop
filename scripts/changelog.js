@@ -50,6 +50,10 @@
   function esc(s) {
     return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   }
+  function chevron() {
+    return '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+  }
+
   function slug(v) {
     return "v" + v.replace(/[^a-zA-Z0-9.]/g, "-");
   }
@@ -70,11 +74,28 @@
     mount.appendChild(toc);
 
     versions.forEach((v) => {
-      const sec = el("section", "cl-version");
-      sec.id = slug(v.version);
-      const head = el("div", "cl-vhead");
-      head.innerHTML = '<h2 class="cl-vnum">' + esc(v.version) + "</h2>" + (v.date ? '<span class="cl-vdate">' + esc(v.date) + "</span>" : "");
-      sec.appendChild(head);
+      const id = slug(v.version);
+      const bodyId = id + "-body";
+      const total = ORDER.reduce((n, k) => n + (v.cats[k] ? v.cats[k].list.length : 0), 0);
+
+      const sec = el("section", "cl-version collapsed");
+      sec.id = id;
+
+      const h = el("h2", "cl-vhead-h");
+      const head = el("button", "cl-vhead");
+      head.type = "button";
+      head.setAttribute("aria-expanded", "false");
+      head.setAttribute("aria-controls", bodyId);
+      head.innerHTML =
+        '<span class="cl-vnum">' + esc(v.version) + "</span>" +
+        (v.date ? '<span class="cl-vdate">' + esc(v.date) + "</span>" : "") +
+        '<span class="cl-vcount">' + total + (total === 1 ? " change" : " changes") + "</span>" +
+        '<span class="cl-vchev">' + chevron() + "</span>";
+      h.appendChild(head);
+      sec.appendChild(h);
+
+      const body = el("div", "cl-vbody");
+      body.id = bodyId;
 
       ORDER.forEach((key) => {
         const group = v.cats[key];
@@ -85,10 +106,27 @@
         const ul = el("ul", "cl-list");
         group.list.forEach((item) => ul.appendChild(el("li", null, esc(item))));
         block.appendChild(ul);
-        sec.appendChild(block);
+        body.appendChild(block);
+      });
+
+      sec.appendChild(body);
+
+      head.addEventListener("click", () => {
+        const opened = !sec.classList.toggle("collapsed");
+        head.setAttribute("aria-expanded", opened ? "true" : "false");
       });
 
       mount.appendChild(sec);
+    });
+
+    toc.addEventListener("click", (e) => {
+      const a = e.target.closest(".cl-toc-item");
+      if (!a) return;
+      const sec = document.getElementById(a.getAttribute("href").slice(1));
+      if (!sec) return;
+      sec.classList.remove("collapsed");
+      const b = sec.querySelector(".cl-vhead");
+      if (b) b.setAttribute("aria-expanded", "true");
     });
   }
 
