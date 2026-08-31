@@ -1,4 +1,5 @@
 # 0.3 | 2026-00-00
+Added Alchemy Plus
 Added CAM - Companions at Mirmulnir (Now you can ask help with first dragon fight)
 Added Capital Windhelm Expansion
 Added Capital Windhelm Expansion - Exterior NavMesh Fix and Patches
@@ -14,9 +15,10 @@ Added Combat Music Fix NG Updated
 Added Comprehensive Attack Rate Patch - SKSE
 Added Dirt and Blood - Use Those Basins
 Added First Person Animations Expansion - Katana
+Added Grand Solitude - The Walls of High King Erling (Oh how i missed you)
 Added Grand Solitude - Light Addon
 Added Grand Solitude - Optimized Meshes
-Added Grand Solitude - The Walls of High King Erling (Oh how i missed you)
+Added Grand Solitude - C.O.I.N. Bank Exchange
 Added Icy Cave Remaster (Old Version 2.2.3)
 Added Improvement Names Customized AE
 Added Interior DALC Fix
@@ -26,9 +28,12 @@ Added Lyra's Slumber
 Added Motionless Rocks Killing People Fix
 Added No Auto Local Map (Fuckin took 15 years thanks JP)
 Added NPCs Learn to Aim (Skill-Based Aiming)
+Added New Armory Series - Ash Spawn Weapons
 Added Remastered Remastered Soul Gems
 Added Rob's Bug Fixes - Capital Windhelm Expansion
 Added Rob's Bug Fixes - Capital Windhelm Expansion - Invisible Pit Fighter Fix
+Added Savage Offspring SKSE (You guys asked for this dont blame me...)
+Added Slayable Offspring SKSE (You guys asked for this dont blame me...)
 Added Serana Dialogue Expansion - Kerstyn Voices Edition
 Added SkyPatcher
 Added SkyPatcher - Animals Report No Crime
@@ -50,43 +55,62 @@ Added Vanaheimr - Mines and Caves - Complex Material - PBR
 Added Wicky's Solitude PBR - Interior
 Added Witcher Style Fences
 
+Updated Alchemy XP Fix
+Updated Actor Value Generator
 Updated Adamant - A Perk Overhaul
 Updated Aetherium Forge Destroys Items (AFDI)
 Updated Apprentice - A Class Overhaul
 Updated Better Jumping SE
 Updated Blade and Blunt - A Combat Overhaul
 Updated Bobbing Framework - SKSE Plugin
+Updated B612 - my little asteroid of useful UI components
 Updated CBPC - Physics with Collisions
 Updated Character Menu SE - Stress and Fear - Show in UI
 Updated Chocolate Poise - Reforged
 Updated Core Impact Framework - Latest Version
+Updated ConsolePlusPlus
 Updated Cure Disease Overhaul
 Updated Discord Rich Presence
 Updated Dual Casting Fixs
 Updated Encounter Zones Unlocked SE
+Updated Favorite Misc Items
 Updated Faster HDT-SMP
 Updated Feris - Custom Voiced Rogue Follower - Replacer
+Updated Fishing - Immersive Fishing
+Updated GetActorValuePercentage - Fix
 Updated Hand to Hand - An Adamant Addon
 Updated Helmet Toggle 2
+Updated Inventory Interface Information Injector - Alchemy Fix
 Updated JK's Understone Keep
+Updated Kynareth Replaces Talos - Civil War Consequence
+Updated Lexicon SKSE
 Updated Locational Encounter Zones
 Updated Lost Grimoire SSE
+Updated More Informative Console
 Updated MTD - More Thalmor Dossiers
 Updated Mundus - A Standing Stone Overhaul
 Updated Mysticism - A Magic Overhaul
 Updated Object Categorization Framework - Some KID Patches
+Updated Perk Entry Point Extender
 Updated Particle Limit Uncapper
 Updated Particle Patch
+Updated Photo Mode
 Updated powerofthree's Papyrus Extender
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
 Updated RemoveAllItems Freeze Fix
 Updated Riverside Treehouse
+Updated Regional Save Names
+Updated So This Aint Right (S.T.A.R.)
+Updated Save Unbaker
 Updated Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 Updated Silent Moons Camp
 Updated Simple Offence Suppression
+Updated Simple Follower Framework
+Updated Simple Dual Sheath
 Updated SKSE Menu Framework
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated SkyPrompt
+Updated Skyrim Script Extender (SKSE64)
 Updated Skyrim Extended Cut - Saints and Seducers
 Updated Smooth Terrain
 Updated Snazzy Interiors Patch Collection
@@ -97,6 +121,7 @@ Updated Snozz's Resource Pack
 Updated Snowpoint Beacon
 Updated Spell Perk Item Distributor
 Updated Sprint Stuttering Fix
+Updated Sprint Sneak Movement Speed Fix
 Updated SSE Display Tweaks
 Updated SSE FPS Stabilizer
 Updated STB No Save & Load in Combat
@@ -118,12 +143,14 @@ Removed Aurora Fix (Seams like we dont need it anymore)
 Removed Bards College Rework (Merged into main mod)
 Removed BFCO NG
 Removed Blade and Blunt - A Combat Overhaul - MCM Addon (Not updated)
+Removed Camera Persistence Fixes (No longer Needed with Photomode)
 Removed Ciri Trailer Armor (Broke Weight on meshes)
 Removed Cities of the North - Morthal
 Removed Cities of the North - Morthal Patch Collection
 Removed Combat Music Fix - Papyrus (Seams to bug out more and replaced by Combat Music Fix NG Updated)
 Removed Creation Club - Sunder & Wraithguard (Fully Replaced by The Tools of Kagrenac)
 Removed Drengins's Solitude Patch Collection
+Removed Fix Note Icon for SkyUI (SKSE64 plugin) (No Longer Needed)
 Removed FYX - Windhelm Entrance - Defensive Towers (Not compatible with Capital Windhelm)
 Removed FYX - Windhelm Palace of The Kings (Not compatible with Capital Windhelm)
 Removed Handcarts - Base Object Swapper (30k Faces for one handcart...hhahaha nice joke)
