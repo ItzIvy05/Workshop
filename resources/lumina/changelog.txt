@@ -26,12 +26,14 @@ Added Iyre's Cozy Whiterun Gazebo
 Added LOD Refresh Bug Fix
 Added Lyra's Slumber
 Added Motionless Rocks Killing People Fix
+Added Menu Zoom
 Added No Auto Local Map (Fuckin took 15 years thanks JP)
 Added NPCs Learn to Aim (Skill-Based Aiming)
 Added New Armory Series - Ash Spawn Weapons
 Added Remastered Remastered Soul Gems
 Added Rob's Bug Fixes - Capital Windhelm Expansion
 Added Rob's Bug Fixes - Capital Windhelm Expansion - Invisible Pit Fighter Fix
+Added Shield-Sister Physique - SerketHetyt's 3BA Body Presets
 Added Savage Offspring SKSE (You guys asked for this dont blame me...)
 Added Slayable Offspring SKSE (You guys asked for this dont blame me...)
 Added Serana Dialogue Expansion - Kerstyn Voices Edition
@@ -60,6 +62,7 @@ Updated Actor Value Generator
 Updated Adamant - A Perk Overhaul
 Updated Aetherium Forge Destroys Items (AFDI)
 Updated Apprentice - A Class Overhaul
+Updated Animation Queue Fix
 Updated Better Jumping SE
 Updated Blade and Blunt - A Combat Overhaul
 Updated Bobbing Framework - SKSE Plugin
@@ -72,12 +75,15 @@ Updated ConsolePlusPlus
 Updated Cure Disease Overhaul
 Updated Discord Rich Presence
 Updated Dual Casting Fixs
+Updated DynDOLOD 3 Alpha
+Updated DynDOLOD DLL NG
 Updated Encounter Zones Unlocked SE
 Updated Favorite Misc Items
 Updated Faster HDT-SMP
 Updated Feris - Custom Voiced Rogue Follower - Replacer
 Updated Fishing - Immersive Fishing
 Updated GetActorValuePercentage - Fix
+Updated Goetia Animations - Enchanted Magic Staves
 Updated Hand to Hand - An Adamant Addon
 Updated Helmet Toggle 2
 Updated Inventory Interface Information Injector - Alchemy Fix
@@ -90,13 +96,19 @@ Updated More Informative Console
 Updated MTD - More Thalmor Dossiers
 Updated Mundus - A Standing Stone Overhaul
 Updated Mysticism - A Magic Overhaul
+Updated No Furniture Camera
 Updated Object Categorization Framework - Some KID Patches
+Updated Open Animation Replacer
+Updated Open Animation Replacer - Math Plugin
+Updated Paired Animation Improvements
 Updated Perk Entry Point Extender
 Updated Particle Limit Uncapper
 Updated Particle Patch
+Updated Precision - Accurate Melee Collisions
 Updated Photo Mode
 Updated powerofthree's Papyrus Extender
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
+Updated Rain Splashes SKSE
 Updated RemoveAllItems Freeze Fix
 Updated Riverside Treehouse
 Updated Rim Lighting Removed
@@ -131,10 +143,13 @@ Updated Stuck on Screen Auto Load Door Fix SKSE
 Updated Swindlers Den
 Updated Tears of Kyne - Water Need Mod
 Updated Terrain Helper
+Updated True Directional Movement - Modernized Third Person Gameplay
+Updated TrueHUD - HUD Additions
 Updated Thaumaturgy - An Enchanting Overhaul
 Updated Variadic Collision Dynamics
 Updated Variadic Collision Dynamics - Resources
 Updated Widescreen Scale Removed
+Updated Whose Quest is it Anyway NG
 Updated Zero Bounty Hostility Fix
 
 Removed Adamant - A Perk Overhaul - Bard Perks Addon (Merged into Main Mod)
@@ -146,12 +161,27 @@ Removed Aurora Fix (Seams like we dont need it anymore)
 Removed Bards College Rework (Merged into main mod)
 Removed BFCO NG
 Removed Blade and Blunt - A Combat Overhaul - MCM Addon (Not updated)
+Removed Bodyslide Preset - 3BA BodySlide Preset Fausta Hourglass Shape
+Removed Bodyslide Preset - 3BA BodySlide Preset Cyrene Hourglass Shape
+Removed Bodyslide Preset - Am Skinny - Bodyslide Preset 3BA V2
+Removed Bodyslide Preset - Beauty Body Preset - CBBE 3BA 3BBB Bodyslide
+Removed Bodyslide Preset - D-sney Mommy - 3BA Edition - Bodyslide Preset
+Removed Bodyslide Preset - NotSoSrs Body V2 (3BA BODYSLIDE PRESET)
+Removed Bodyslide Preset - Nordic Balance - Viper's 3BA Bodyslide Preset
+Removed Bodyslide Preset - OWBody - Athletic
+Removed Bodyslide Preset - OWBody - Natural
+Removed Bodyslide Preset - Ordinary - CBBE 3BA BodySlide Preset
+Removed Bodyslide Preset - Sonderbains Waifu Bodyslides RE
+Removed Bodyslide Preset - ShyGirl - 3ba Cbbe bodyslide preset
+Removed Bodyslide Preset - SH's Sanguinea - A 3BA BodySlide Preset
+Removed Bodyslide Preset - Vestal Body 3BA - Lazarus Bodyslide Presets
 Removed Camera Persistence Fixes (No longer Needed with Photomode)
 Removed Ciri Trailer Armor (Broke Weight on meshes)
 Removed Cities of the North - Morthal
 Removed Cities of the North - Morthal Patch Collection
 Removed Combat Music Fix - Papyrus (Seams to bug out more and replaced by Combat Music Fix NG Updated)
 Removed Creation Club - Sunder & Wraithguard (Fully Replaced by The Tools of Kagrenac)
+Removed Death Drop Overhaul (Its way too buggy)
 Removed Drengins's Solitude Patch Collection
 Removed Fix Note Icon for SkyUI (SKSE64 plugin) (No Longer Needed)
 Removed FYX - Windhelm Entrance - Defensive Towers (Not compatible with Capital Windhelm)
@@ -247,6 +277,7 @@ Added Elder Creed - Valhalla Axe Moveset AIO
 Added Elden RIM x DS3 Mashup
 Added Elden Ring Nightreign Duchess I MCO I BFCO I DAGGER
 Added Emittance Removal Project (Dust Fog Smoke Mist FX Effect)
+Added Female Merchant Counter Animations (OAR)
 Added For Honor Reforged
 Added Fuse00 - Helga Armor 3BA
 Added FYX - Riften - Window Consistency
