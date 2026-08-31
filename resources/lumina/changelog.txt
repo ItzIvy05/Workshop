@@ -210,7 +210,7 @@ Added Enchanted Sphere in Dwemer Locations as Gatekeeper in some cases.
 Reverted recruitment changes for Zora Fair-child
 Removed bunch of modules form RYFTEN Build your city. (Conflicting with)
 
-# 0.2 | 2026-00-00
+# 0.2 | 2026-08-02
 Added 1st Person Animations Expansion - Katana
 Added 1st Person Animations Expansion - Scimitar
 Added ADXP I MCO BDO Guardian
