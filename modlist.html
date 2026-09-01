@@ -68,9 +68,11 @@
       '<a href="index.html">Modlists</a>',
       '<a href="' + cfg.home + '">Home</a>',
       '<a href="readme.html' + (key === "skyground" ? "" : "?list=" + key) + '">Read Me</a>',
-      '<a href="modlist.html?list=' + key + '" class="active">Mod List</a>',
+      (key === "lumina" ? '<a href="wiki.html">Wiki</a>' : ''),
+      '<a href="modlist.html?list=' + key + '" class="active">Load Order</a>',
       '<a href="changelog.html?list=' + key + '">Changelog</a>',
-      '<a href="' + cfg.gallery + '">Gallery</a>'
+      '<a href="' + cfg.gallery + '">Gallery</a>',
+      (key === "lumina" ? '<a href="supporters.html">Supporters</a>' : '')
     ].concat(cfg.extras.map(function (e) { return '<a href="' + e.href + '">' + e.label + '</a>'; }));
     nav.push('<a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>');
     document.getElementById("lo-nav").innerHTML = nav.join("");

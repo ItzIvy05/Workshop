@@ -1,0 +1,30 @@
+{
+  "title": "Lumina Wiki",
+  "parts": [
+    {
+      "title": "Followers",
+      "chapters": [
+        {
+          "id": "followers",
+          "title": "Custom Followers",
+          "file": "followers.md"
+        },
+        {
+          "id": "interesting-npcs",
+          "title": "Interesting NPCs",
+          "file": "interesting-npcs.md"
+        }
+      ]
+    },
+    {
+      "title": "Linux",
+      "chapters": [
+        {
+          "id": "linux",
+          "title": "Modding Skyrim on Linux",
+          "file": "linux.md"
+        }
+      ]
+    }
+  ]
+}
