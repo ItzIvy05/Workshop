@@ -113,6 +113,7 @@ Updated RemoveAllItems Freeze Fix
 Updated Riverside Treehouse
 Updated Rim Lighting Removed
 Updated Regional Save Names
+Updated Rogue's Gallery
 Updated So This Aint Right (S.T.A.R.)
 Updated Save Unbaker
 Updated Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
