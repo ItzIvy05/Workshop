@@ -37,6 +37,7 @@ Added Shield-Sister Physique - SerketHetyt's 3BA Body Presets
 Added Savage Offspring SKSE (You guys asked for this dont blame me...)
 Added Slayable Offspring SKSE (You guys asked for this dont blame me...)
 Added Serana Dialogue Expansion - Kerstyn Voices Edition
+Added SkySight Skins 2025
 Added SkyPatcher
 Added SkyPatcher - Animals Report No Crime
 Added SkyPatcher - Mortal Enemies
@@ -216,6 +217,7 @@ Removed Riton's Medieval Solitude
 Removed Shadow Opportunist - A Sneak Addon
 Removed Skyking Soul Gems (They Look bad with CS)
 Removed Skyrim Remastered - Caves
+Removed Sovngarde Portal Requirements (SPR) (Buggy, you can just walk right in regardless)
 Removed Thieves Guild Requirements SE
 Removed Thieves Guild Requirements SE - Settings Loader
 Removed Wicky's Solitude PBR
