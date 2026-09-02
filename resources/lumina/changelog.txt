@@ -19,11 +19,11 @@ Added Grand Solitude - The Walls of High King Erling (Oh how i missed you)
 Added Grand Solitude - Light Addon
 Added Grand Solitude - Optimized Meshes
 Added Grand Solitude - C.O.I.N. Bank Exchange
+Added High Quality Hearth - 3D Farmhouse Firepit Replacer
 Added Icy Cave Remaster (Old Version 2.2.3)
 Added Improvement Names Customized AE
 Added Interior DALC Fix
 Added Iyre's Cozy Whiterun Gazebo
-Added LOD Refresh Bug Fix
 Added Lyra's Slumber
 Added Motionless Rocks Killing People Fix
 Added Menu Zoom
@@ -68,6 +68,8 @@ Updated Better Jumping SE
 Updated Blade and Blunt - A Combat Overhaul
 Updated Bobbing Framework - SKSE Plugin
 Updated B612 - my little asteroid of useful UI components
+Updated Crash Logger SSE AE VR - PDB support
+Updated Crafting Recipe Distributor
 Updated CBPC - Physics with Collisions
 Updated Character Menu SE - Stress and Fear - Show in UI
 Updated Chocolate Poise - Reforged
@@ -98,6 +100,7 @@ Updated MTD - More Thalmor Dossiers
 Updated Mundus - A Standing Stone Overhaul
 Updated Mysticism - A Magic Overhaul
 Updated No Furniture Camera
+Updated NPCs Names Distributor
 Updated Object Categorization Framework - Some KID Patches
 Updated Open Animation Replacer
 Updated Open Animation Replacer - Math Plugin
@@ -109,6 +112,7 @@ Updated Precision - Accurate Melee Collisions
 Updated Photo Mode
 Updated powerofthree's Papyrus Extender
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
+Updated PGPatcher (aka ParallaxGen)
 Updated Rain Splashes SKSE
 Updated RemoveAllItems Freeze Fix
 Updated Riverside Treehouse
@@ -118,10 +122,12 @@ Updated Rogue's Gallery
 Updated So This Aint Right (S.T.A.R.)
 Updated Save Unbaker
 Updated Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
+Updated Show Player In Inventory
 Updated Silent Moons Camp
 Updated Simple Offence Suppression
 Updated Simple Follower Framework
 Updated Simple Dual Sheath
+Updated Simple Activate SKSE
 Updated SKSE Menu Framework
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated SkyPrompt
@@ -204,8 +210,6 @@ Removed Lawless - A Bandit Overhaul
 Removed Lawless - A Bandit Overhaul - Patches (RERUN)
 Removed Lawless - A Bandit Overhaul - Simonrim
 Removed Lawless Bandits - Female NPC Overhaul (Botox)
-Removed LOD Unloading Bug Fix (Replaced with Bottle's LOD Refresh Bug Fix)
-Removed LOD Unloading Bug Fix - Settings Loader
 Removed MAGECORE - hdt SMP (CBBE 3BA) (couldnt make it SFW)
 Removed Mrf's Solitude - Exterior
 Removed Mrf's Solitude - Interior
