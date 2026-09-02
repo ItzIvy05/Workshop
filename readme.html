@@ -5,14 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0d0d0d">
-  <title>SkyGround Chronicles, Read Me</title>
-  <meta name="description" content="Installation guide for SkyGround Chronicles: system requirements, pre-installation, download list, and crash prevention.">
+  <title>Lumina, Read Me</title>
+  <meta name="description" content="Installation guide for Lumina: system requirements, pre-installation, download list, and crash prevention.">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="SkyGround Chronicles, Read Me">
-  <meta property="og:description" content="Installation guide for SkyGround Chronicles: system requirements, pre-installation, download list, and crash prevention.">
-  <meta property="og:url" content="https://itzivy05.github.io/SkyGround/readme.html">
-  <meta property="og:image" content="https://itzivy05.github.io/SkyGround/resources/book3.webp">
+  <meta property="og:title" content="Lumina, Read Me">
+  <meta property="og:description" content="Installation guide for Lumina: system requirements, pre-installation, download list, and crash prevention.">
+  <meta property="og:url" content="https://itzivy05.github.io/Lumina/readme.html">
+  <meta property="og:image" content="https://itzivy05.github.io/Lumina/resources/lumina/cover.jpg">
   <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://*.youtube.com https://*.youtube-nocookie.com;">
   <link rel="icon" type="image/x-icon" href="resources/ico.ico">
 
@@ -23,14 +23,23 @@
   <link rel="stylesheet" href="style/lightbox.css">
   <script src="scripts/ui.js" defer></script>
 </head>
-<body style="--accent:#FFA500;">
+<body style="--accent:#86C06C;">
 
   <div id="lightbox"><img id="lightbox-img" alt=""></div>
   <script src="scripts/lightbox.js" defer></script>
 
   <header class="site-nav">
     <a href="index.html" class="brand">Ivy's <span>Workshop</span></a>
-    <nav id="ro-nav"></nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="readme.html" class="active">Read Me</a>
+      <a href="wiki.html">Wiki</a>
+      <a href="modlist.html">Load Order</a>
+      <a href="changelog.html">Changelog</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="supporters.html">Supporters</a>
+      <a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>
+    </nav>
     <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
       <svg class="ico-open" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
       <svg class="ico-close" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
@@ -38,7 +47,7 @@
   </header>
 
   <section class="doc-hero">
-    <p class="eyebrow">SkyGround Chronicles</p>
+    <p class="eyebrow">Lumina</p>
     <h1>Read Me</h1>
   </section>
 
@@ -54,7 +63,7 @@
       <section id="requirements" class="doc-section">
         <h2>System Requirements</h2>
         <ul class="doc-list">
-          <li>SkyGround Chronicles only supports English Steam versions of full Skyrim AE. GOG and other languages are not supported.</li>
+          <li>Lumina only supports English Steam versions of full Skyrim AE. GOG and other languages are not supported.</li>
           <li>HDD and external SSD installs are absolutely not supported.</li>
           <li>Any remote PC / desktop services or apps are not supported, including Steam Link.</li>
           <li>Only Windows 10/11 operating systems are supported. Windows LTSC, special variants, lightened editions, or any other modified variant will not work.</li>
@@ -66,11 +75,11 @@
       <section id="preinstallation" class="doc-section">
         <h2>Pre-Installation</h2>
 
-        <div class="callout warn">⚠ SkyGround needs the full AE upgrade.</div>
+        <div class="callout warn">⚠ Lumina needs the full AE upgrade.</div>
         <div class="callout warn">⚠ You must update Skyrim Special Edition to the latest version on Steam. <strong>DO NOT downgrade your game.</strong></div>
 
         <h3>General Utilities</h3>
-        <p>Before installing SkyGround Chronicles, please install .NET. It is a free, cross-platform, open-source developer platform for building many different types of applications. This is required for Synthesis and Scrambled Bugs to function properly.</p>
+        <p>Before installing Lumina, please install .NET. It is a free, cross-platform, open-source developer platform for building many different types of applications. This is required for Synthesis and Scrambled Bugs to function properly.</p>
 
         <div class="doc-card">
           <h4>.NET SDK</h4>
@@ -118,7 +127,7 @@
       <section id="download-list" class="doc-section">
         <h2>Download List</h2>
         <div class="video-embed">
-          <iframe id="player" title="SkyGround Chronicles installation guide"
+          <iframe id="player" title="Lumina installation guide"
             src="https://www.youtube-nocookie.com/embed/IddGH4C-F6I"
             loading="lazy" allowfullscreen></iframe>
         </div>
@@ -130,7 +139,7 @@
         <p>Larger Skyrim modlists require a significant amount of memory, and running out of memory will result in crashes and other potential issues.</p>
 
         <div class="callout warn">
-          <strong>This step is NOT optional.</strong> Due to SkyGround Chronicles's size and the number of files required to be handled for the list, please do this regardless of how much RAM or VRAM you have.
+          <strong>This step is NOT optional.</strong> Due to Lumina's size and the number of files required to be handled for the list, please do this regardless of how much RAM or VRAM you have.
           <br><strong>If you have less than 32GB RAM, please use 61440 instead of 40960 in Initial Size (MB) and Maximum Size (MB).</strong>
         </div>
 
@@ -158,53 +167,8 @@
   </div>
 
   <footer class="site-footer">
-    &copy; 2025-2026 Ivy's Workshop, <span id="ro-name">SkyGround Chronicles</span>.
+    &copy; 2025-2026 Ivy's Workshop, Lumina.
   </footer>
-
-  <script>
-    (function () {
-      const LISTS = {
-        skyground: { accent: "#FFA500", name: "SkyGround", full: "SkyGround Chronicles", home: "skyground.html", gallery: "skyground.html#gallery", extras: [{ label: "Cat", href: "cat.html" }] },
-        lumina: { accent: "#86C06C", name: "Lumina", full: "Lumina", home: "lumina.html", gallery: "lumina.html#gallery", extras: [] }
-      };
-      const key = (new URLSearchParams(location.search).get("list") || "skyground").toLowerCase();
-      const cfg = LISTS[key] || LISTS.skyground;
-
-      document.body.style.setProperty("--accent", cfg.accent);
-      document.title = cfg.full + " Read Me";
-      const nm = document.getElementById("ro-name");
-      if (nm) nm.textContent = cfg.full;
-
-      const nav = [
-        '<a href="index.html">Modlists</a>',
-        '<a href="' + cfg.home + '">Home</a>',
-        '<a href="readme.html' + (key === "skyground" ? "" : "?list=" + key) + '" class="active">Read Me</a>',
-        (key === "lumina" ? '<a href="wiki.html">Wiki</a>' : ''),
-        '<a href="modlist.html?list=' + key + '">Load Order</a>',
-        '<a href="changelog.html?list=' + key + '">Changelog</a>',
-        '<a href="' + cfg.gallery + '">Gallery</a>',
-      (key === "lumina" ? '<a href="supporters.html">Supporters</a>' : '')
-      ].concat(cfg.extras.map(function (e) { return '<a href="' + e.href + '">' + e.label + '</a>'; }));
-      nav.push('<a href="https://discord.gg/GgkPMBMTrS" target="_blank" rel="noopener" class="pill">Discord</a>');
-      document.getElementById("ro-nav").innerHTML = nav.join("");
-
-      if (key !== "skyground") {
-        const swap = (root) => {
-          if (!root) return;
-          const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-          const ns = [];
-          while (w.nextNode()) ns.push(w.currentNode);
-          ns.forEach((n) => {
-            if (n.nodeValue.indexOf("SkyGround") >= 0) {
-              n.nodeValue = n.nodeValue.split("SkyGround Chronicles").join(cfg.full).split("SkyGround").join(cfg.name);
-            }
-          });
-        };
-        swap(document.querySelector(".doc-hero"));
-        swap(document.querySelector(".doc-layout"));
-      }
-    })();
-  </script>
 
 </body>
 </html>

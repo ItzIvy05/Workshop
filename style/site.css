@@ -138,14 +138,15 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   gap: 20px;
   padding-inline: var(--gut);
-  border-bottom: 1px solid transparent;
+  background: rgba(13, 13, 13, 0.96);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 .site-nav.scrolled {
-  background: rgba(13, 13, 13, 0.93);
-  backdrop-filter: blur(12px);
-  border-bottom-color: var(--line);
+  background: rgba(13, 13, 13, 0.99);
+  border-bottom-color: var(--line-2);
 }
 
 .site-nav .brand {

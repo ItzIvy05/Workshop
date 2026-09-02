@@ -35,3 +35,31 @@
 img[data-no-lightbox] {
   cursor: default;
 }
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(13, 13, 13, 0.7);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+#lightbox.has-nav .lb-nav { display: flex; }
+.lb-nav svg { width: 22px; height: 22px; }
+.lb-prev { left: clamp(12px, 3vw, 40px); }
+.lb-next { right: clamp(12px, 3vw, 40px); }
+
+.lb-nav:hover {
+  background: var(--accent, #fff);
+  border-color: var(--accent, #fff);
+  color: #0d0d0d;
+}

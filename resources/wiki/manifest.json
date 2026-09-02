@@ -25,6 +25,16 @@
           "file": "linux.md"
         }
       ]
+    },
+    {
+      "title": "List Modification",
+      "chapters": [
+        {
+          "id": "cache",
+          "title": "Cache",
+          "file": "cache.md"
+        }
+      ]
     }
   ]
 }

@@ -130,11 +130,12 @@
   function flatten(man) {
     const flat = [];
     man.parts.forEach((part) => {
-      part.chapters.forEach((ch, ci) => {
-        flat.push({ part: part.title, num: String(flat.filter((f) => f.depth === 0).length + 1), depth: 0, ch });
+      let n = 0;
+      part.chapters.forEach((ch) => {
+        n += 1;
+        flat.push({ part: part.title, num: String(n), depth: 0, ch });
         (ch.children || []).forEach((sub, si) => {
-          const parentNum = flat[flat.length - 1 - si].num;
-          flat.push({ part: part.title, num: parentNum + "." + (si + 1), depth: 1, ch: sub });
+          flat.push({ part: part.title, num: n + "." + (si + 1), depth: 1, ch: sub });
         });
       });
     });
