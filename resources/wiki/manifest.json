@@ -33,6 +33,11 @@
           "id": "cache",
           "title": "Cache",
           "file": "cache.md"
+        },
+        {
+          "id": "replacers",
+          "title": "Changing a Replacer",
+          "file": "replacers.md"
         }
       ]
     }
