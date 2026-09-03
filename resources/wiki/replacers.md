@@ -38,21 +38,50 @@ Put the mod in the **Rule 11** separator. It sits below `Lumina - NPC Appearance
 
 In the right pane, move the replacer's plugin so it loads **before** `Lumina - Armor Weapns and NPC Master Patch.esp`.
 
+Your own patch, once you make it in the next step, goes at the very bottom, below every `Lumina - ` patch. Finished, the order looks like this:
+
+![The replacer above the master patch, your own patch at the bottom](img/Loadoder.jpg)
+
 ### 3. Patch it in SSEEdit
 
 Launch **SSEEdit** through MO2 and load the whole list. The mod groups window on startup does not matter here.
 
 Filter to your replacer's plugin, then hover it and **alt-click** to expand everything at once. You want the **NPC record**. Armour and armour addon records may also show as conflicts, leave those alone.
 
-Right-click the NPC record, choose **Copy as override into...**, then **<new file>**. You get three plugin types. Take **ESP flagged as ESL**. Never take the ESM-flagged one, it makes your patch unusable.
+Right-click the NPC record and choose **Copy as override into...**
 
-Now drag the **head parts**, **tint layers** and **skin** across from your replacer. Leave everything else as Lumina has it, that is where the outfit, perks, factions and stats live.
+![Right-click the NPC record and choose Copy as override into](img/copy-as-override.jpg)
 
-Three things that will bite you:
+In the file list, scroll to the bottom and pick the `<new file>.esp` row with the **Light** flag and nothing else. That is an ESP flagged as ESL. Never pick a row marked **ESM**, it makes your patch unusable.
 
-- **Head parts.** Forward the whole section from your replacer and leave it. Do not try to make it match Lumina's.
-- **Yellow text** means the value is identical to a master file. Do not force those rows green, that is how you get neck seams.
-- **Worn Armor.** Leave this row alone. Forwarding Lumina's over it puts the face and body on different textures, which is the other way to get a neck seam.
+![Choosing the new file entry with the Light flag](img/new-esp.jpg)
+
+Give it a name you will recognise. It can be anything.
+
+![Naming the new plugin](img/name-the-esp.jpg)
+
+Now bring the face across. Leave everything else as Lumina has it, that is where the outfit, perks, factions and stats live.
+
+**Head parts.** Drag the whole `PNAM - Head Part` section over from your replacer. Forward all of it and leave it as it lands, do not try to make it match Lumina's.
+
+![Forwarding the head parts from the replacer](img/remove-tint.jpg)
+
+**Skin.** `WNAM - Skin` is the skin row. Your new plugin inherits Lumina's skin from the master patch, so drag your replacer's across on top of it. Leaving Lumina's there puts the face and body on different textures, which is how you get a neck seam.
+
+![Dragging the replacer's skin into the new plugin](img/forward-skin.jpg)
+
+**Tint layers** come across the same way.
+
+> [!WARNING]
+> Yellow text means the value is identical to a master file. Do not force those rows green, that is the other way to end up with neck seams.
+
+**Special case.** Now and then a row carried over from Lumina's patch fights your replacer and has to go rather than be replaced. Right-click it in your plugin and choose **Remove**. Most replacers will never need this.
+
+![Right-click a row and choose Remove](img/remove-tint.jpg)
+
+Removed rows sit empty in your plugin, which is what you want. Your plugin is no longer saying anything about them, so the value beneath it applies.
+
+![The removed rows now empty in the new plugin](img/remove-tint-result.jpg)
 
 Save and close SSEEdit.
 
@@ -71,7 +100,7 @@ You have changed files on disk. See [Cache](#cache).
 
 | What you see | Cause |
 | --- | --- |
-| Neck seam | You forwarded more than head parts, tint and skin, usually Worn Armor |
+| Neck seam | The skin row still has Lumina's value, or you forwarded rows beyond head parts, tint and skin |
 | Grey or ashen face | The mod is not in the Rule 11 separator, so the merge is still winning its face files |
 | Body is wrong, or 3BA physics stop working | The replacer installed its own body. Reinstall it without one, or take its 3BA option |
 | Face is right, behaviour is wrong | You kept the replacer's record instead of overriding Lumina's |

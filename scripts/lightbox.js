@@ -36,14 +36,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.openGallery = openGallery;
 
-  document.querySelectorAll("img").forEach((img) => {
+  document.addEventListener("click", (e) => {
+    const img = e.target.closest("img");
+    if (!img) return;
     if (img.id === "lightbox-img") return;
     if (img.closest(".carousel")) return;
-    img.addEventListener("click", (e) => {
-      if (img.closest("[data-no-lightbox]")) return;
-      e.preventDefault();
-      openSingle(img.currentSrc || img.src);
-    });
+    if (img.closest("[data-no-lightbox]")) return;
+    e.preventDefault();
+    openSingle(img.currentSrc || img.src);
   });
 
   if (prevBtn) prevBtn.addEventListener("click", (e) => { e.stopPropagation(); if (list) show(index - 1); });

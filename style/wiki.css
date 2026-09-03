@@ -1,5 +1,5 @@
 :root {
-  --wk-col: 860px;
+  --wk-col: min(1080px, 100%);
   --wk-side-w: 292px;
 }
 
@@ -150,7 +150,7 @@
 .wk-main {
   grid-column: 2;
   min-width: 0;
-  padding: clamp(30px, 5vw, 58px) clamp(20px, 5vw, 64px) 90px;
+  padding: clamp(26px, 3vw, 44px) clamp(22px, 3.5vw, 56px) 90px;
 }
 
 .wk-doc {
@@ -285,9 +285,19 @@ ol.wk-list li::before {
 .wk-callout.warn { border-left-color: #E8B14B; background: rgba(232, 177, 75, 0.06); }
 
 #wk-body img {
-  width: 100%;
-  border: 1px solid var(--line);
-  margin: 22px 0;
+  display: block;
+  width: auto;
+  max-width: min(100%, 600px);
+  margin: 26px 0;
+  border: 1px solid var(--line-2);
+  background: var(--panel);
+  cursor: zoom-in;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+#wk-body img:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .wk-video {
