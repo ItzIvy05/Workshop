@@ -7,8 +7,6 @@
     { key: "removed", label: "Removed", test: (w) => w.startsWith("remov") },
     { key: "fixed", label: "Fixed", test: (w) => w.startsWith("fix") || w.startsWith("bug") }
   ];
-  const ORDER = ["added", "updated", "removed", "fixed", "other"];
-  const LABELS = { other: "Changed" };
 
   function categorize(line) {
     const first = (line.split(/\s+/)[0] || "").toLowerCase();
@@ -24,19 +22,26 @@
   function parse(text) {
     const versions = [];
     let cur = null;
+    let last = null;
     for (const raw of text.split(/\r?\n/)) {
       const line = raw.trim();
       if (!line || line.startsWith("//")) continue;
       if (line[0] === "#") {
         const body = line.replace(/^#+\s*/, "");
         const parts = body.split(/\s*\|\s*|\s+-\s+/);
-        cur = { version: (parts[0] || "").trim(), date: (parts[1] || "").trim(), cats: {} };
+        cur = { version: (parts[0] || "").trim(), date: (parts[1] || "").trim(), items: [] };
         versions.push(cur);
+        last = null;
         continue;
       }
-      if (!cur) { cur = { version: "Unreleased", date: "", cats: {} }; versions.push(cur); }
+      if (!cur) { cur = { version: "Unreleased", date: "", items: [] }; versions.push(cur); last = null; }
+
+      const sub = line.match(/^[-*]\s*(.*)$/);
+      if (last && (sub || /^\s+\S/.test(raw))) { last.children.push((sub ? sub[1] : line).trim()); continue; }
+
       const c = categorize(line);
-      (cur.cats[c.key] = cur.cats[c.key] || { label: c.label, list: [] }).list.push(c.text);
+      last = { key: c.key, label: c.label, text: c.text, children: [] };
+      cur.items.push(last);
     }
     return versions;
   }
@@ -52,6 +57,16 @@
   }
   function chevron() {
     return '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+  }
+
+  function runs(items) {
+    const out = [];
+    items.forEach((item) => {
+      const tail = out[out.length - 1];
+      if (tail && tail.key === item.key) { tail.list.push(item); return; }
+      out.push({ key: item.key, label: item.label, list: [item] });
+    });
+    return out;
   }
 
   function slug(v) {
@@ -76,7 +91,7 @@
     versions.forEach((v) => {
       const id = slug(v.version);
       const bodyId = id + "-body";
-      const total = ORDER.reduce((n, k) => n + (v.cats[k] ? v.cats[k].list.length : 0), 0);
+      const total = v.items.length;
 
       const sec = el("section", "cl-version collapsed");
       sec.id = id;
@@ -97,14 +112,19 @@
       const body = el("div", "cl-vbody");
       body.id = bodyId;
 
-      ORDER.forEach((key) => {
-        const group = v.cats[key];
-        if (!group) return;
-        const label = group.label || LABELS[key] || key;
-        const block = el("div", "cl-cat cl-" + key);
-        block.appendChild(el("span", "cl-badge cl-badge-" + key, esc(label) + " <span class=\"cl-count\">" + group.list.length + "</span>"));
+      runs(v.items).forEach((run) => {
+        const block = el("div", "cl-cat cl-" + run.key);
+        block.appendChild(el("span", "cl-badge cl-badge-" + run.key, esc(run.label) + " <span class=\"cl-count\">" + run.list.length + "</span>"));
         const ul = el("ul", "cl-list");
-        group.list.forEach((item) => ul.appendChild(el("li", null, esc(item))));
+        run.list.forEach((item) => {
+          const li = el("li", null, esc(item.text));
+          if (item.children.length) {
+            const sub = el("ul", "cl-sub");
+            item.children.forEach((c) => sub.appendChild(el("li", null, esc(c))));
+            li.appendChild(sub);
+          }
+          ul.appendChild(li);
+        });
         block.appendChild(ul);
         body.appendChild(block);
       });

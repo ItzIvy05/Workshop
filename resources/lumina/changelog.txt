@@ -41,6 +41,7 @@ Added SkySight Skins 2025
 Added SkyPatcher
 Added SkyPatcher - Animals Report No Crime
 Added SkyPatcher - Mortal Enemies
+Added Soaking Wet - Character Wetness Effect (Advanced Skin Replacement)
 Added Spider Webs and Particles for ENB (Better Webs :P)
 Added Starfrost - A Survival Overhaul
 Added State Behavior Framework
@@ -64,7 +65,9 @@ Updated Adamant - A Perk Overhaul
 Updated Aetherium Forge Destroys Items (AFDI)
 Updated Apprentice - A Class Overhaul
 Updated Animation Queue Fix
+Updated Barter Limit Fix
 Updated Better Jumping SE
+Updated BFCO - Attack Behavior Framework
 Updated Blade and Blunt - A Combat Overhaul
 Updated Bobbing Framework - SKSE Plugin
 Updated B612 - my little asteroid of useful UI components
@@ -73,37 +76,49 @@ Updated Crafting Recipe Distributor
 Updated CBPC - Physics with Collisions
 Updated Character Menu SE - Stress and Fear - Show in UI
 Updated Chocolate Poise - Reforged
-Updated Core Impact Framework - Latest Version
+Updated Core Impact Framework (CIF)
 Updated ConsolePlusPlus
 Updated Cure Disease Overhaul
 Updated Discord Rich Presence
+Updated Dismembering Framework
 Updated Dual Casting Fixs
+Updated Dynamic Armor Physics
+Updated Dynamic Bloodpool Framework
 Updated DynDOLOD 3 Alpha
 Updated DynDOLOD DLL NG
+Updated Enhanced Reanimation
 Updated Encounter Zones Unlocked SE
 Updated Favorite Misc Items
 Updated Faster HDT-SMP
 Updated Feris - Custom Voiced Rogue Follower - Replacer
 Updated Fishing - Immersive Fishing
+Updated FYX - Alpha Blood Blending Bug - NG
 Updated GetActorValuePercentage - Fix
 Updated Goetia Animations - Enchanted Magic Staves
 Updated Hand to Hand - An Adamant Addon
 Updated Helmet Toggle 2
 Updated Inventory Interface Information Injector - Alchemy Fix
+Updated Inertia (Floating Gear Fix)
 Updated JK's Understone Keep
 Updated Kynareth Replaces Talos - Civil War Consequence
 Updated Lexicon SKSE
 Updated Locational Encounter Zones
 Updated Lost Grimoire SSE
+Updated MCM Unlocked
 Updated More Informative Console
 Updated MTD - More Thalmor Dossiers
+Updated Mum's the Word NG
 Updated Mundus - A Standing Stone Overhaul
 Updated Mysticism - A Magic Overhaul
 Updated No Furniture Camera
+Updated No Auto-Equip Behaviour
+Updated Next-Gen Decapitations
 Updated NPCs Names Distributor
 Updated Object Categorization Framework - Some KID Patches
 Updated Open Animation Replacer
 Updated Open Animation Replacer - Math Plugin
+Updated Open Animation Replacer - Dialogue Plugin
+Updated Oxygen Meter 2
 Updated Paired Animation Improvements
 Updated Perk Entry Point Extender
 Updated Particle Limit Uncapper
@@ -121,8 +136,10 @@ Updated Regional Save Names
 Updated Rogue's Gallery
 Updated So This Aint Right (S.T.A.R.)
 Updated Save Unbaker
+Updated Sanguine Symphony
 Updated Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 Updated Show Player In Inventory
+Updated ShowRaceMenu - NG
 Updated Silent Moons Camp
 Updated Simple Offence Suppression
 Updated Simple Follower Framework
@@ -133,7 +150,9 @@ Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated SkyPrompt
 Updated Skyrim Script Extender (SKSE64)
 Updated Skyrim Extended Cut - Saints and Seducers
+Updated Smart Talk (Dialogue Menu Enhancer)
 Updated Smooth Terrain
+Updated Smooth Arrow Trails and Fixes
 Updated Snazzy Interiors Patch Collection
 Updated Snazzy Misc Locations
 Updated Snazzy Player Homes (Honeyside is here)
@@ -154,6 +173,7 @@ Updated Terrain Helper
 Updated True Directional Movement - Modernized Third Person Gameplay
 Updated TrueHUD - HUD Additions
 Updated Thaumaturgy - An Enchanting Overhaul
+Updated Unpoisoned Blocking
 Updated Variadic Collision Dynamics
 Updated Variadic Collision Dynamics - Resources
 Updated Widescreen Scale Removed
@@ -226,6 +246,11 @@ Removed Thieves Guild Requirements SE
 Removed Thieves Guild Requirements SE - Settings Loader
 Removed Wicky's Solitude PBR
 
+Removed Setting Loaders Mods Because MCM Memory Is W
+    - LOD Unloading Bug Fix - Settings Loader
+    - Timing is Everything SE
+    - Simple Fishing Overhaul - Settings Loader
+
 Fixed Owl Master Patch Man it was cooked.
 Fixed CC Master Patch for unwanted quest scripts.
 Fixed and Updated Dragon Cult Patch.
@@ -246,6 +271,7 @@ Nerfed paralysis on spiders from 10secs -> 6secs
 Added Enchanted Sphere in Dwemer Locations as Gatekeeper in some cases. 
 Reverted recruitment changes for Zora Fair-child
 Removed bunch of modules form RYFTEN Build your city. (Conflicting with)
+Disabled Advanced Skin
 
 # 0.2 | 2026-08-02
 Added 1st Person Animations Expansion - Katana
