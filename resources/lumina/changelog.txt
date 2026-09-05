@@ -268,9 +268,9 @@ Swapped Windhelm Is Snowy - Base Object Swapper to Capital version
 Spiders and mudcrab are fully unleveled now
 Nerfed Trolls regen from 12 -> 10 per second
 Nerfed paralysis on spiders from 10secs -> 6secs
-Added Enchanted Sphere in Dwemer Locations as Gatekeeper in some cases. 
+Enchanted Sphere in Dwemer Locations as Gatekeeper has been added. 
 Reverted recruitment changes for Zora Fair-child
-Removed bunch of modules form RYFTEN Build your city. (Conflicting with)
+Bunch of modules form RYFTEN Build your city has been removed. (Conflicting with)
 Disabled Advanced Skin
 
 # 0.2 | 2026-08-02
