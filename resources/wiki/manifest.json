@@ -28,6 +28,7 @@
     },
     {
       "title": "List Modification",
+      "last": true,
       "chapters": [
         {
           "id": "cache",
@@ -38,6 +39,37 @@
           "id": "replacers",
           "title": "Changing a Replacer",
           "file": "replacers.md"
+        }
+      ]
+    },
+    {
+      "title": "Creation Club",
+      "chapters": [
+        {
+          "id": "cc-armors",
+          "title": "Alternative Armors",
+          "file": "cc-armors.md"
+        },
+        {
+          "id": "cc-arcane",
+          "title": "Arcane Archer & Accessories",
+          "file": "cc-arcane.md"
+        },
+        {
+          "id": "cc-houses",
+          "title": "Creation Club Houses",
+          "file": "cc-houses.md"
+        },
+        {
+          "id": "cc-other",
+          "title": "Other Creations",
+          "file": "cc-other.md",
+          "last": true
+        },
+        {
+          "id": "cc-weapons",
+          "title": "Weapons",
+          "file": "cc-weapons.md"
         }
       ]
     }

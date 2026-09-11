@@ -127,11 +127,15 @@
     return out.join("\n");
   }
 
+  function byOrder(a, b) {
+    return (!!a.last - !!b.last) || a.title.localeCompare(b.title);
+  }
+
   function flatten(man) {
     const flat = [];
-    man.parts.forEach((part) => {
+    [...man.parts].sort(byOrder).forEach((part) => {
       let n = 0;
-      part.chapters.forEach((ch) => {
+      [...part.chapters].sort(byOrder).forEach((ch) => {
         n += 1;
         flat.push({ part: part.title, num: String(n), depth: 0, ch });
         (ch.children || []).forEach((sub, si) => {

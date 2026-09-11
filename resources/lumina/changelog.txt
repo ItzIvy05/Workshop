@@ -15,16 +15,19 @@ Added Combat Music Fix NG Updated
 Added Comprehensive Attack Rate Patch - SKSE
 Added Dirt and Blood - Use Those Basins
 Added First Person Animations Expansion - Katana
+Added Fortify Attribute Fix - NG
 Added Grand Solitude - The Walls of High King Erling (Oh how i missed you)
 Added Grand Solitude - Light Addon
 Added Grand Solitude - Optimized Meshes
 Added Grand Solitude - C.O.I.N. Bank Exchange
 Added High Quality Hearth - 3D Farmhouse Firepit Replacer
+Added Hand Placed Enemies
 Added Icy Cave Remaster (Old Version 2.2.3)
 Added Improvement Names Customized AE
 Added Interior DALC Fix
 Added Iyre's Cozy Whiterun Gazebo
 Added Lyra's Slumber
+Added Lingering Subtitles Fix
 Added Motionless Rocks Killing People Fix
 Added Menu Zoom
 Added No Auto Local Map (Fuckin took 15 years thanks JP)
@@ -173,6 +176,7 @@ Updated Terrain Helper
 Updated True Directional Movement - Modernized Third Person Gameplay
 Updated TrueHUD - HUD Additions
 Updated Thaumaturgy - An Enchanting Overhaul
+Updated Tween Menu Overhaul
 Updated Unpoisoned Blocking
 Updated Variadic Collision Dynamics
 Updated Variadic Collision Dynamics - Resources
@@ -245,6 +249,7 @@ Removed Sovngarde Portal Requirements (SPR) (Buggy, you can just walk right in r
 Removed Thieves Guild Requirements SE
 Removed Thieves Guild Requirements SE - Settings Loader
 Removed Wicky's Solitude PBR
+Removed Yes Im Sure
 
 Removed Setting Loaders Mods Because MCM Memory Is W
     - LOD Unloading Bug Fix - Settings Loader
