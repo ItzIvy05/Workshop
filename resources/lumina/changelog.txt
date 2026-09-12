@@ -251,11 +251,6 @@ Removed Thieves Guild Requirements SE - Settings Loader
 Removed Wicky's Solitude PBR
 Removed Yes Im Sure
 
-Removed Setting Loaders Mods Because MCM Memory Is W
-    - LOD Unloading Bug Fix - Settings Loader
-    - Timing is Everything SE
-    - Simple Fishing Overhaul - Settings Loader
-
 Fixed Owl Master Patch Man it was cooked.
 Fixed CC Master Patch for unwanted quest scripts.
 Fixed and Updated Dragon Cult Patch.
