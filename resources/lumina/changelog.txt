@@ -1,4 +1,4 @@
-# 0.3 | 2026-00-00
+# 0.3 | 2026-09-13
 Added Alchemy Plus
 Added CAM - Companions at Mirmulnir (Now you can ask help with first dragon fight)
 Added Capital Windhelm Expansion
