@@ -54,6 +54,7 @@ Added The Taste of Death - Quest Addon
 Added The Tools of Kagrenac
 Added The Tools of Kagrenac - EVG Animated Traversal Add-On
 Added The Tools of Kagrenac - Unofficial Patch
+Added The Thalmor's Shadow - Taliesin (Custom Voiced Follower)
 Added Thieves Guild Plus Plus - A Questline Overhaul
 Added Thieves Guild Plus Plus - Patch Collection
 Added Tomato's Solitude Remastered
@@ -218,6 +219,8 @@ Removed Drengins's Solitude Patch Collection
 Removed Fix Note Icon for SkyUI (SKSE64 plugin) (No Longer Needed)
 Removed FYX - Windhelm Entrance - Defensive Towers (Not compatible with Capital Windhelm)
 Removed FYX - Windhelm Palace of The Kings (Not compatible with Capital Windhelm)
+Removed GKB Waves Reborn
+Removed GKB Waves Reborn - Patches For Various Mods
 Removed Handcarts - Base Object Swapper (30k Faces for one handcart...hhahaha nice joke)
 Removed Haugbui - A Draugr Overhaul (Is not compatible with The Dragon Cult)
 Removed Haugbui - A Draugr Overhaul - Believable Weapons Patch
