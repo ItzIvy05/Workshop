@@ -1,3 +1,9 @@
+# 0.3.0.1 | 2026-08-02
+Removed Compass Navigation Overhaul (Abandoned and buggy)
+Removed Infinity UI (Abandoned and buggy)
+
+Fixed CTD caused by Inventory Interface Information Injector
+
 # 0.3 | 2026-09-13
 Added Alchemy Plus
 Added CAM - Companions at Mirmulnir (Now you can ask help with first dragon fight)
