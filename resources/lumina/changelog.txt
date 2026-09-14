@@ -6,6 +6,7 @@ Reran DynDOLOD
 
 Fixed CTD caused by Inventory Interface Information Injector
 Fixed Missing Hair Textures for CTFO Drivers
+FIxed a crashed caused by ShiveringIslesUsesGibbers_DESC
 
 # 0.3.0.1 | 2026-09-13
 Removed Compass Navigation Overhaul (Abandoned and buggy)
