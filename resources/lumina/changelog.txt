@@ -4,7 +4,6 @@ Removed High Poly NPC Overhaul - Carriage and Ferry Travel Overhaul (CFTO)
 
 Reran DynDOLOD
 
-Fixed CTD caused by Inventory Interface Information Injector
 Fixed Missing Hair Textures for CTFO Drivers
 FIxed a crashed caused by ShiveringIslesUsesGibbers_DESC
 
