@@ -5,7 +5,11 @@ Removed High Poly NPC Overhaul - Carriage and Ferry Travel Overhaul (CFTO)
 Reran DynDOLOD
 
 Fixed Missing Hair Textures for CTFO Drivers
-FIxed a crashed caused by ShiveringIslesUsesGibbers_DESC
+Fixed a crashed caused by ShiveringIslesUsesGibbers_DESC
+Fixed CS AO Settings Should give you 5ish+ extra fps
+
+Updated Community Shaders to latest build
+
 
 # 0.3.0.1 | 2026-09-13
 Removed Compass Navigation Overhaul (Abandoned and buggy)
