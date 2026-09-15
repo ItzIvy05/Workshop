@@ -16,6 +16,8 @@
 *AEI - Creatures.esl
 *Skyrim Extended Cut - Saints and Seducers.esp
 *ECSS - Dawnfang Patch.esl
+*LexiconSKSE.esl
+*PerkEntryPointExtender.esl
 *OCF.esp
 *TrueHUD.esl
 *SmoothCam.esl
@@ -24,24 +26,34 @@
 *evgSIRENROOT.esm
 *ksws07_quest.esm
 *Siege at Icemoth.esp
+*Tools of Kagrenac.esp
 *3DNPC.esp
+*CavesofMorrowind.esp
+*Ashe - Fire and Blood.esp
+*Lucien.esp
+*Lucien-AnniversaryEdition-Patch.esp
+*HLIORemi.esp
 *SMIM-SE-Merged-All.esp
 *Mesh Improvement Compilation.esp
 *Alpine Forest of Whiterun Valley.esp
-*GKBWavesReborn.esp
 *Natural Waterfalls.esp
 *Natural Waterfalls - Dragonborn.esp
 *Natural Waterfalls - Blackreach.esp
 *Natural Waterfalls - Dawnguard.esp
+*Nature of the Wild Lands.esp
+*Aspens Ablaze.esp
 *SnozzResources.esp
-*Ivy Resource Nook.esm
 *JK's College of Winterhold.esp
+*Grand Solitude - The Walls of High King Erling.esp
+*Grand Solitude - Lighten Addon.esp
 *Snazzy Location Resources.esp
 *Resources - The Great Cities.esp
 *Lux Via - Markarth Entrance and Farm Overhaul.esp
 *BluePalaceTerrace.esp
+*BluePalaceTerrace-Grand Solitude-Patch.esl
 *JK's Blue Palace.esp
 *JK's Blue Palace Terrace.esp
+*JK's Castle Volkihar.esp
 *Snazzy Interiors - Sarethi Farm.esp
 *Snazzy Black Briar Lodge.esp
 *Snazzy Honningbrew Meadery.esp
@@ -63,6 +75,8 @@
 *Snazzy Interiors - Karthwasten Hall.esp
 *Snazzy Interiors - Rorik's Manor.esp
 *Snazzy Proudspire Manor.esp
+*Snazzy Honeyside.esp
+*AncientBloodII.esl
 *Lightpower.esl
 *KittySpellPack01.esl
 *SurvivalControlPanel.esp
@@ -83,13 +97,12 @@
 *Lux Orbis - Master plugin.esm
 *Lux - Master plugin.esm
 *Water for ENB.esm
-*DynDOLOD.esm
 *PGPatcher.esp
-*Simplicity of Seeding.esp
+*DynDOLOD.esm
 *FISS.esp
-*fixLOD.esp
+*Simplicity of Seeding.esp
 *WERoad02Fix.esp
-*SightlessNavFix.esp
+*fixLOD.esp
 *Book Covers Skyrim.esp
 *allowProgressBugFix.esp
 *Trainers Gold Reclaim Fix.esp
@@ -126,7 +139,6 @@
 *Brawling - No Hitting Bystanders.esp
 *ProjectBroHesThere.esp
 *Neutral Whiterun Guards.esp
-*CombatMusicFixPapyrus.esp
 *FNIS.esp
 *Siege at Icemoth Occlusion addon.esp
 *DebugMenu.esp
@@ -237,10 +249,12 @@
 *RaceMenuPlugin.esp
 *RaceMenu Undress.esp
 *Racemenu - Character Creation Natural Light.esp
+*Companions at Mirmulnir.esp
 *Dungeon Quests are not Miscellaneous.esp
 *A False Front Fix.esp
 *Quest Fixes.esp
 *CC Fishing - Delayed Start.esp
+*Storm the Thalmor Embassy.esp
 *BuyableGoldenClaw.esp
 *Bring Meeko to Lod.esp
 *The Cursed Tribe - Quest Expansion.esp
@@ -257,12 +271,18 @@
 *THTE - MTD Patch.esp
 *MLQSomebodyElsesProblem.esp
 *RadiantRequirements.esp
-*Sovngarde Portal Requirements.esp
 *The Gildergreen Grows.esp
 *The Gildergreen Grows - USSEP Patch.esp
 *The Gildergreen Grows - Nature of the wild Lands - Standalone Patch.esp
+*TasteOfDeath_Addon_Boss.esp
+*TasteOfDeath_Addon_Dialogue.esp
+*TTOD_WSN_Integration.esp
+*TTOD_WSN_RingBinding.esp
 *TimingIsEverything.esp
-*thieves guild requirements.esp
+*Flow-TG.esp
+*Flow-MQ202.esp
+*Flow-DB04a.esp
+*Flow-TG RadiantsAreMisc.esp
 *Bandit Lines Expansion.esp
 *DarkElfVoicesForBandits.esp
 *Werebeasts Dont Talk.esp
@@ -283,7 +303,9 @@
 *NPCs React To Invisibility - Bow of Shadows Patch.esp
 *NPCs React To Necromancy.esp
 *Remarks of Dragonborn.esp
+*SeranaRevampedKerstynVoicesDawnguard.esp
 *SeranaDialogueExpansion.esp
+*SeranaRevampedKerstynVoicesSDE.esp
 *Sleeping Expanded.esp
 *Sleeping Expanded_3DNPC.esp
 *Shouts of Stallholders.esp
@@ -343,7 +365,11 @@
 *ksws04.esp
 *ksws04_quest.esp
 *ksws07_quest_shrubs.esp
-*Ashe - Fire and Blood.esp
+*TOK_EVGAT_Patch.esp
+*Tools of Kagrenac - Unofficial Patch.esp
+*Tools of Kagrenac - Perfectly Valid Wards Patch.esp
+*Tools of Kagrenac - Rebalanced.esp
+*Tools of Kagrenac Occlusion Addon.esp
 *Ashe Impressionist Patches.esp
 *Ashe Replacer Ponytail.esp
 *018Auri.esp
@@ -362,16 +388,15 @@
 *Skyrim Cut Content Restoration - KW-Kaidan.esp
 *Kaidan CE - No Quest Autostart.esp
 *Katana.esp
-*Lucien.esp
-*Lucien-AnniversaryEdition-Patch.esp
 *More Thalmor Dossiers - Lucien.esp
 *KW-Lucien Patch.esp
 *LucienReplacer.esp
-*HLIORemi.esp
 *HLIONameFix.esp
 *HLIORemi-Replacer-Belladonna.esp
 *HLIORemi-Replacer-Belladonna-Glasses.esp
 *Remiel Occlusion Addon.esp
+*00Taliesin.esp
+*Aurea Umbra - SerketHetyt's Taliesin Overhaul.esp
 *3DNPCNavFix.esp
 *3DNPC0.esp
 *3DNPC1.esp
@@ -440,6 +465,7 @@
 *Rainbows Remade.esp
 *StormLightning.esp
 *ENB Light.esp
+*SMIM - USSEP patch.esp
 *Rally's All The Things.esp
 *Snazzy Common Wardrobes.esp
 *Snazzy Noble Wardrobes.esp
@@ -452,6 +478,7 @@
 *Dynamic Things Alternative.esp
 *SB_Traps.esp
 *SpiceOfLife - OrcLStrongholds.esp
+*Diverse Gravestones Falkreath.esp
 *Rally's Nord War Horns - Unique Torygg's Horn.esp
 *Rally's Crates.esp
 *Diverse Grindstones BOS.esp
@@ -462,7 +489,6 @@
 *Dwemer Water Wheels.esp
 *Dovahnique's Diverse Dark Elf Lanterns - BOS.esp
 *HFs_Diverse(BOS)_Satchel.esp
-*Handcarts_BOS.esp
 *HSF BOS Tankards.esp
 *Snazzy Silver Inkwell - BOS.esp
 *Skykings Unique Signs.esp
@@ -506,7 +532,6 @@
 *Water Plants.esp
 *blendedshrooms.esp
 *Grumbledook_SwordFerns.esp
-*Nature of the Wild Lands.esp
 *NOTWL - Forgotten Vale.esp
 *NOTWL - Soul Cairn.esp
 *NotWL - Autumn Rift.esp
@@ -520,8 +545,8 @@
 *Snazzy Proudspire Manor - Nature of the Wild Lands patch.esp
 *Snazzy Interiors - Windhelm AIO - Nature of the Wild Lands patch.esp
 *Snazzy Black Briar Lodge - Nature of the Wild Lands patch.esp
+*3DNPC - Nature of the Wild Lands patch.esp
 *Shadow's NotWL - Solitude Docks Patch - Lite Trees.esp
-*Aspens Ablaze.esp
 *SelectionofStumpsBOS.esp
 *Diverse WoodChoppingBlocks.esp
 *Diverse Firewood Piles DTA Patch.esp
@@ -535,7 +560,7 @@
 *Simple Snow Improvements - Solstheim Ruins.esp
 *Windhelm Snow Pile Fix.esp
 *ICRFixes.esp
-*IcyFixes.esp
+*Vanaheimr - Mines and Caves - PBR.esp
 *Stones of Solitude.esp
 *Shaders of Solstheim.esp
 *RedMountainPlumeSE.esp
@@ -546,8 +571,6 @@
 *TomatoRim PBR - Shaders of Solstheim Patch.esp
 *Epic Centurion Combat.esp
 *Humanoid Dragon Priest.esp
-*Haugbui.esp
-*Haugbui - CC Fishing Patch.esp
 *NPCs Take Cover.esp
 *ParryAll.esp
 *Realistic AI Detection 3 - Medium Interior, Medium Exterior.esp
@@ -556,6 +579,7 @@
 *StealthKillDetectionFixLite.esp
 *Ultimate NPC Dodging.esp
 *Ivy_VigilantAedricScepter.esp
+*Vagrants - Bandit Overhaul.esp
 *King-Priest.esp
 *Final Boss Ascension.esp
 *WebMotherVenom.esp
@@ -576,6 +600,7 @@
 *Locked Chests Have Keys.esp
 *OptimalPotionHotkeyMCM.esp
 *Lock Bashing.esp
+*SubclassesOfSkyrim.esp
 *Open World Loot.esp
 *Open World Loot - Creation Club Full Integration.esp
 *Morrowloot Miscellania - Item Distribution.esp
@@ -593,6 +618,8 @@
 *PSI.esp
 *Frost Meshes Patch.esp
 *MysticismMagic.esp
+*MysticismJumpSpells.esp
+*MysticismSurvivalSpells.esp
 *Necromantic Grimoire - Mysticism Rebalance.esp
 *Necromantic Grimoire - Thaumaturgy Robes.esp
 *Staves - Mysticism Consistency.esp
@@ -601,14 +628,16 @@
 *Praedy's StavesAIO.esp
 *360 Ward.esp
 *Adamant.esp
-*AdamantBard.esp
+*AdamantCrossbows.esp
+*AdamantSmithing.esp
+*SimonrimAttackSpeedFix.esp
 *BladeAndBlunt.esp
-*BladeAndBluntMCM.esp
+*BBNoSneakCost.esp
 *BBNoKillmoves.esp
 *HandtoHand.esp
-*Thaumaturgy.esp
-*Haugbui - SimonRim Patch.esp
+*AdamantBlade.esp
 *DragonCultDraugr - LumaRim Edit.esp
+*Thaumaturgy.esp
 *ArteFake.esp
 *Artificer.esp
 *ArtificerXav.esp
@@ -622,8 +651,8 @@
 *Aetherial Bloodlines - Apprentice.esp
 *ApprenticeLowerStartSkills.esp
 *Apprentice - Starting Gear for Start Mods.esp
-*Apprentice - Aptitude Codex.esp
 *Arena.esp
+*LockPickingRedone.esp
 *Mundus.esp
 *Stormcrown.esp
 *Siege at Icemoth - Stormcrown.esp
@@ -640,11 +669,10 @@
 *know_your_enemy_2_integration_patch.esp
 *Apex Overhaul.esp
 *Apex Overhaul - SkyTEST and KYE2 Patch.esp
-*ShadowOpportunist.esp
-*ShadowOpportunist_Perk.esp
 *Stress and Fear.esp
 *Journey of Mortal - Stress and Fear Patch.esp
 *StressAndFearUI.esp
+*Vagrants - Simonrim.esp
 *DragonWar.esp
 *DragonWarAudioOverhaulSkyrim.esp
 *DragonWarDeadlySpellImpacts.esp
@@ -654,16 +682,9 @@
 *DragonsFallDown.esp
 *Apothecary.esp
 *BOOBIES_Potions - Apothecary Patch.esp
-*Apothecary - Fishing Patch.esp
+*Apothecary - Web Mother Venom Patch.esp
 *Apothecary - Saints & Seducers Patch.esp
 *Apothecary - Rare Curios Patch.esp
-*Apothecary - CC Zombies Patch.esp
-*Apothecary - Bittercup Patch.esp
-*Apothecary - CC Forgotten Seasons Patch.esp
-*Apothecary - CC Goblins Patch.esp
-*Apothecary - Resource Pack Patch.esp
-*Apothecary - GRAHL Patch.esp
-*Apothecary - The Cause Patch.esp
 *Katana-Apothecary.esp
 *Alchemy Requires Bottles Redux.esp
 *Alchemy Requires Bottles - Empty Bottle Patch.esp
@@ -686,6 +707,7 @@
 *AFDI - CC Saints and Seducers Creatures Patch.esp
 *Wintersun - Faiths of Skyrim.esp
 *Wintersun - GotT Patch.esp
+*Flow-TG and Wintersun.esp
 *man_Sithis_WintersunPatch.esp
 *man_DaedricShrines_Wintersun_Patch.esp
 *man_DaedricShrines - The Only Cure patch by Xtudo.esp
@@ -693,6 +715,7 @@
 *TOCQE - Wintersun - Daedric Shrines Xtudo patch.esp
 *TWDQE - Wintersun patch.esp
 *Wintersun - Auri Patch.esp
+*GHTE - Wintersun Patch.esp
 *CC Goblin Addon - Wintersun Patch.esp
 *CoinWeight.esp
 *Gourmet.esp
@@ -706,6 +729,7 @@
 *M.I.N.T.esp
 *DominionUsesSancar.esp
 *WindhelmUsesUlfrics.esp
+*Grand Solitude - COIN Exchange.esp
 *Snazzy Interiors - Windhelm AIO - Skyrim Silver Currency Swapper patch.esp
 *MorrowindUsesDrams.esp
 *ShiveringIslesUsesGibbers.esp
@@ -725,13 +749,15 @@
 *Dirt and Blood - Dynamic Visuals.esp
 *Dirt and Blood - Seamless soap texture patch.esp
 *You Reek - Dirt and Blood.esp
+*UsableWashbasins.esp
 *Malignis Sound FX.esp
 *Dirt and Blood - Malignis Animations Patch.esp
 *WA_BathWidget.esp
 *SurvivalModeImproved.esp
-*Racial Abilities Survival Mode - I4.esp
+*Starfrost.esp
+*TasteOfDeath_Addon_RingCurse_SMI.esp
 *CC Survival Mode - Innkeepers Fill Up.esp
-*Cure Disease Overhaul - Survival Mode Improved Patch.esp
+*Cure Disease Overhaul - Starfrost Patch.esp
 *Simple Hunting Overhaul.esp
 *Simple Hunting Overhaul - MCM.esp
 *CarryYourCarcasses - SHO.esp
@@ -762,6 +788,7 @@
 *No Crime Teleport Voice Consistency Fix.esp
 *NPCs_Wear_Amulets_Of_Mara.esp
 *NPCsWearWeddingBands.esp
+*Inns Can Be Closed.esp
 *WeddingBand.esp
 *Name Randomizer UI.esp
 *Take a Nap.esp
@@ -774,10 +801,11 @@
 *SkyrimsGotTalent - Free Movement.esp
 *SkyrimsGotTalent_AnimAddon.esp
 *SGT_FreeMovement_Anim.esp
-*Skyrim's Got Talent - Adamant Bard Perks Synergy.esp
 *Skyrim Got Talent - UI.esp
 *SkyrimsGotTalent-Bards_3dnpc.esp
+*Skyrim's Got Talent - Adamant Synergy.esp
 *Use Those Blankets.esp
+*WindhelmSegregation.esp
 *SkyrimReputation_SSE.esp
 *Skyrim Reputation Patch.esp
 *SkyrimReputation_SSE_Wintersun.esp
@@ -787,6 +815,7 @@
 *Skyrim Reputation - Innocence Lost.esp
 *Skyrim Reputation - Manbeast patch.esp
 *Skyrim Reputation - Sacrilege Patch.esp
+*Skyrim Reputation - The Taste of Death Patch.esp
 *DF - Official Creature Pack.esp
 *DF - Official Humanoid Pack.esp
 *DF - Xtudo Creature Pack - ccbgssse003-zombies.esp
@@ -827,17 +856,12 @@
 *SaintsAndSeducersSECOverhaul.esp
 *Milfactory Colette.esp
 *Milfactory Jenassa.esp
-*Bandit War.esp
-*Bandit War - Fearsome Fists.esp
-*Bandit War - OWL.esp
-*Bandit War - Simonrim.esp
 *Snazzy Drelas Cottage - 3DNPC patch.esp
 *Snazzy Interiors - Frostfruit Inn - 3DNPC patch.esp
 *Snazzy Interiors - Markarth AIO - 3DNPC patch.esp
 *Snazzy Interiors - Riften AIO - 3DNPC patch.esp
 *Snazzy Interiors - Sarethi Farm - 3DNPC patch.esp
 *Snazzy Interiors - Windhelm AIO - 3DNPC patch.esp
-*CavesofMorrowind.esp
 *JK's Septimus Signus's Outpost.esp
 *JK's Sinderion's Field Laboratory.esp
 *JK's Dark Brotherhood Sanctuary.esp
@@ -854,7 +878,6 @@
 *Imperial Castles of Skyrim - Reimperialized Abandoned Prison.esp
 *Reimperialized Abandoned Prison - Kaidan Revoices patch.esp
 *Abandoned Prison Start - Reimperialized Patch.esp
-*JK's Castle Volkihar.esp
 *JKs Castle Volkihar - Atlas Map Markers patch.esp
 *JKs Castle Volkihar - Book Covers Skyrim patch.esp
 *JKs Castle Volkihar - CC Fishing patch.esp
@@ -877,11 +900,7 @@
 *Ivy Stendarr Beacon Overhaul - 3DNPC Patch.esp
 *JK's High Hrothgar.esp
 *Mage Towers of Skyrim.esp
-*Mage Towers of Skyrim - The Cause - Patch.esp
-*Orc Exiles - Bilegulch.esp
-*Orc Exiles - Bilegulch - USSEP patch.esp
-*Orc Exiles - Bilegulch - Hendraheim TaE patch.esp
-*Orc Exiles - Bilegulch - 3DNPCs patch.esp
+*Mage Towers of Skyrim - NOTWL - Patch.esp
 *Skyrim Bandit Expansion.esp
 *Locked Chests Have Keys - SBE - No Falkreath Addon patch.esp
 *RiverwoodBandits.esp
@@ -908,6 +927,7 @@
 *Navigator - Snozz Redoran's Retreat Patch.esp
 *Robbers Gorge.esp
 *SMIM - Robbers Gorge Patch.esp
+*Imperial Castles - RobbersGorge Patch.esp
 *SilentMoons.esp
 *Snowpoint.esp
 *Sunderstone.esp
@@ -923,25 +943,23 @@
 *Riverside Treehouse.esp
 *Riverside Treehouse - Use Those Blankets patch.esp
 *Riverside Treehouse - Occlusion Addon.esp
+*Lyras Slumber.esp
+*Lyras Slumber - Nature of the Wildlands patch.esp
 *Mirele Bismath Reborn.esp
 *MireleBismathReborn_InteriorFixes.esp
 *Winter Cove.esp
 *Bells of Skyrim.esp
-*Bells of Skyrim - Companions Join the Battle.esp
 *ETaC - Complete.esp
+*ETaC - Complete AI Overhaul Patch.esp
 *Modpocalypse NPCs (v3) ETaC - Complete.esp
 *Missives - ETAC Dawnstar Patch.esp
 *COMAP Khajiit Caravans - ETAC Complete Patch.esp
+*ETaC - Complete CC Patch Fish.esp
 *ETaC - Complete Finding Helgi Patch.esp
 *ETaC Complete - Nature of the Wildlands Patch.esp
 *JKs Dark Brotherhood Sanctuary - ETaC Complete patch.esp
 *Snazzy Interiors - Frostfruit Inn - ETaC Complete patch.esp
 *Lux Via - ETAC Complete Patch.esp
-*Snazzy Interiors - Riften AIO - TGR patch.esp
-*Snazzy Interiors - Solitude AIO - TGR patch.esp
-*Snazzy Interiors - Windhelm AIO - TGR patch.esp
-*Snazzy Interiors - Markarth AIO - TGR patch.esp
-*Snazzy Interiors - Whiterun AIO - TGR patch.esp
 *Snazzy Black Briar Lodge - Aspens Ablaze patch.esp
 *Snazzy Black Briar Lodge - Daedric Shrines patch.esp
 *Mihail Rooster - Snazzy Black Briar Lodge patch.esp
@@ -974,16 +992,9 @@
 *Riften Trees.esp
 *TMDRiftLeaves.esp
 *RYFTEN DOWN.esp
-*RYFTEN - BBM Epic Balcony.esp
-*RYFTEN - Defenses South East Keep.esp
 *RYFTEN - Pathway.esp
-*RYFTEN - Roof Tile.esp
-*RYFTEN - Defenses North West Corner.esp
 *RYFTEN - Defenses Canal West Side North.esp
-*RYFTEN - Back Keep Hole Fix.esp
 *RYFTEN - Defenses Canal West Side South.esp
-*RYFTEN - Defenses West Side.esp
-*RYFTEN - Defenses East Side.esp
 *FYX - Riften - Window Consistency.esp
 *Riften Gate Restored.esp
 *AlternativeRiften.esp
@@ -1022,7 +1033,6 @@
 *JKs Temple of Mara - 3DNPC Patch.esp
 *JKs Temple of Mara - Rugnarok patch.esp
 *JKs Temple of Mara - Solitude and Temple Frescoes patch.esp
-*JKs Temple of Mara - TGR Patch.esp
 *JKs Temple of Mara - Nature of the Wild Landspatch.esp
 *JK's Thieves Guild.esp
 *GG's Thieves Guild Headquarters.esp
@@ -1036,16 +1046,25 @@
 *Snazzy Interiors - Riften AIO - CC Gray Cowl Returns patch.esp
 *Snazzy Interiors - Riften AIO - JKsGGs Thieves Guild HQ patch.esp
 *Snazzy Interiors - Riften AIO - Navigator patch.esp
-*Snazzy Interiors - Riften AIO - RYFTEN BBM Epic Balcony patch.esp
+*Snazzy Honeyside - 3DNPC patch.esp
+*Snazzy Honeyside - Ivy Riften Docks Overhaul patch.esp
+*Snazzy Interiors - Riften AIO - Gift of Saturalia patch.esp
+*Snazzy Interiors - Riften AIO - Innocence Lost Quest Expansion patch.esp
+*Grand Solitude - AI Overhaul patch.esp
+*Grand Solitude - Bells of Skyrim patch.esp
+*Grand Solitude - Alternate Perspective patch.esp
+*Grand Solitude - Bears of the North patch.esp
+*Grand Solitude - 3DNPC patch.esp
+*Grand Solitude - Missives patch.esp
+*Grand Solitude - Nature of the Wild Lands patch.esp
+*Grand Solitude - Skyrim Cut Content Restoration patch.esp
+*Grand Solitude - Solitude and Temple Frescoes Complete ESL No Lanterns patch.esp
+*Solitude Flags on the Towers SSE.esp
+*BluePalaceTerrace-Solitude Flags on the Towers SSE-Patch.esp
 *JK's Blue Palace Terrace - Occlusion Addon.esp
-*Mrf Solitude.esp
-*Mrf Solitude - Blue Palace Terrace patch.esp
-*Mrf Solitude - JK's Blue Palace patch.esp
 *Skyfalls BP Courtyard.esp
 *Skyfalls BP Courtyard - AI Overhaul Patch.esp
 *Skyfalls BP Courtyard - JKs BPT patch.esp
-*Bards College Rework.esp
-*Bards College Rework - Blue Palace Terrace patch.esp
 *Solitude Docks.esp
 *Map Marker Tweaks - Solitude Docks.esp
 *Solitue Docks - Vanilla Beds for Blankets.esp
@@ -1058,6 +1077,8 @@
 *JKs Solitude Outskirts - CC Fishing patch.esp
 *JKs Solitude Outskirts - Nature of the Wild Lands patch.esp
 *JKs Solitude Outskirts - Solitude Docks Updated patch.esp
+*JKs Solitude Outskirts - Grand Solitude patch.esp
+*JKs Solitude Outskirts - Grand Solitude + Solitude Flags patch.esp
 *BluePalaceTerrace-AI Overhaul-patch.esp
 *JKs BPT - AI Overhaul patch.esp
 *Skyfalls BP Courtyard - JKs BPT - AI Overhaul Patch.esp
@@ -1066,14 +1087,15 @@
 *JKs Angelines Aromatics - USSEP Patch.esp
 *JKs Angelines Aromatics - AI Overhaul Patch.esp
 *JK's The Bards College.esp
-*Bards College Rework - JKs Bards College patch.esp
-*Bards College Rework - AI Overhaul (JK) patch.esp
-*Bards College Rework - 3DNPC (JK) patch.esp
-*Bards College Rework - Nature of the Wild Lands (JK) patch.esp
 *JK's Bits and Pieces.esp
 *JKs Bits and Pieces - USSEP Patch.esp
 *JKs Bits and Pieces - AI Overhaul Patch.esp
 *JKs Bits and Pieces - Rugnarok patch.esp
+*Grand Solitude - JKs Bards College patch.esp
+*Grand Solitude - JKs Bards College + AI Overhaul patch.esp
+*Grand Solitude - JKs Bards College + 3DNPC patch.esp
+*Grand Solitude - JKs Bards College + NotWL patch.esp
+*Grand Solitude - Remiel patch.esp
 *JK's Radiant Raiment.esp
 *JKs Radiant Raiment - 3DNPC Patch.esp
 *JKs Radiant Raiment - Immersion Patch.esp
@@ -1083,20 +1105,32 @@
 *JKs Winking Skeever - AI Overhaul Patch.esp
 *JKs Winking Skeever - Fishing Patch.esp
 *JKs Winking Skeever - Immersion Patch.esp
-*JKs Winking Skeever - Thieves Guild Requirements Patch.esp
 *JKs Winking Skeever - Nature of the Wild Landspatch.esp
+*Snazzy Grand Solitude.esp
 *Snazzy Proudspire Manor - 3DNPC patch.esp
-*Snazzy Proudspire Manor - TGR patch.esp
 *Snazzy Proudspire Manor - AI Overhaul patch.esp
 *Snazzy Proudspire Manor - USSEP patch.esp
 *WindhelmFakeWindowsFix.esp
 *Windhelm Bridge Revived.esp
 *Windhelm Bridge Revived - BOS Snowy Bridge.esp
-*ALT - Windhelm Walls Tower.esp
+*WindhelmSSE.esp
+*Windhelm Bridge Revived - Capital Windhelm Expansion.esp
+*CapitalWindhelmExpansion - USSEP.esp
+*WindhelmUsesUlfrics - Capital Windhelm Patch.esp
+*WindhelmSSE  - Exterior NavMesh Fixes.esp
+*CWE Taluri fix.esp
+*GM_CWE Colission Fixes.esp
+*WindhelmSSE - Invisible Pit Fighter Fix.esp
+*Capital Windhelm - Icicle performance.esp
+*Windows for Capital Windhelm Expansion.esp
+*Windhelm Is Snowy - Capital Windhelm.esp
+*CWE_Windhelm - BoS Patch.esp
+*Snazzy Interiors - Windhelm AIO - Capital Windhelm patch.esp
 *JK's Palace of the Kings.esp
 *JKs Palace of the Kings - USSEP Patch.esp
 *JKs Palace of the Kings - AI Overhaul patch.esp
 *JKs Palace of the Kings - Civil War Champions - Reduced Cut patch.esp
+*JKs Palace of the Kings - Capital Windhelm Expansion patch.esp
 *Snazzy Interiors - JKs Palace of the Kings.esp
 *Snazzy Interiors - JKs Palace of the Kings - 3DNPC patch.esp
 *Snazzy Interiors - JKs Palace of the Kings - USSEP patch.esp
@@ -1107,11 +1141,13 @@
 *JKs Candlehearth Hall - 3DNPC Patch.esp
 *JKs Candlehearth Hall - AI Overhaul Patch.esp
 *JKs Candlehearth Hall - Rugnarok patch.esp
+*JKs Candlehearth Hall - Capital Windhelm Expansion patch.esp
 *JKs Candlehearth Hall - Downstairs Room Rental.esp
 *JK's New Gnisis Cornerclub.esp
 *JKs New Gnisis Cornerclub - 3DNPC Patch.esp
 *JKs New Gnisis Cornerclub - Rugnarok patch.esp
 *JKs New Gnisis Cornerclub - Gourmet Patch.esp
+*JKs New Gnisis Cornerclub - Capital Windhelm Expansion patch.esp
 *JK's White Phial.esp
 *JKs White Phial - Rugnarok patch.esp
 *JK's Sadris Used Wares.esp
@@ -1122,6 +1158,7 @@
 *JKs Temple of Talos - 3DNPC patch.esp
 *JKs Temple of Talos - AI Overhaul patch.esp
 *JKs Temple of Talos - Solitude and Temple Frescoes patch.esp
+*JKs Temple of Talos - Capital Windhelm Expansion patch.esp
 *Sovngarde Statue Removal - JK's Temple of Talos.esp
 *Snazzy Interiors - Windhelm AIO - USSEP patch.esp
 *Snazzy Interiors - Windhelm AIO - Book Covers patch.esp
@@ -1139,10 +1176,11 @@
 *Restored WR Defences - Capital Whiterun Patch.esp
 *Restored WR Defences_AddOn - Larger Layered Occ Planes - Capital Whiterun Patch.esp
 *Restored WR Defences - Bells of Skyrim and Capital Whiterun Combo Patch.esp
-*Restored WR Defences - WaterForENB_ESM Landscape Changes Patch.esp
 *Restored WR Defences - Fixed Meshes for Capital Whiterun Expansion Patch.esp
 *An Abstract Whiterun - Dragonsreach - Entrance.esp
 *Restored WR Defences - An Abstract Whiterun_Dragonsreach Entrance Patch.esp
+*Iyres Cozy Whiterun Gazebo.esp
+*Iyres Whiterun Gazebo - Capital Whiterun Expansion patch.esp
 *An Abstract Whiterun - Dragonsreach - Entrance - Occlusion Planes.esp
 *Ivy - Whiterun - Well Overhaul.esp
 *Ivy - Whiterun - Well Overhaul - Capital Whiterun Patch.esp
@@ -1208,7 +1246,6 @@
 *Ryns Whiterun City Limits - Capital Whiterun patch.esp
 *Restored WR Defences - Ryn's Whiterun City Limits Patch.esp
 *Restored WR Defences - Capital Whiterun and Ryns WR City Limits Patch.esp
-*Restored WR Defences - Ryn's WR City Limits and Water for ENB_ESM Patch.esp
 *OCW_Obscure's_CollegeofWinterhold.esp
 *OCW Miscellaneous Loot Rebalance.esp
 *OCW_BCS_FEPatch.esp
@@ -1230,6 +1267,7 @@
 *JKs CoW - OCW - Mysticism patch.esp
 *JKs CoW - OCW - Aspens Ablaze Patch.esp
 *JKs CoW - OCW - Nature of the Wild Lands patch.esp
+*JKs CoW - OCW - ToK Patch.esp
 *Praedy's WinterholdCollegeBanner.esp
 *Praedy's MageStatueFX.esp
 *COTN - Winterhold.esp
@@ -1238,12 +1276,11 @@
 *TGCotN Winterhold - AI Overhaul patch.esp
 *TGC Winterhold - Atlas Map Markers patch.esp
 *TGC Winterhold - Mihail House Cats patch.esp
-*TGC Winterhold - OCW Patch.esp
 *TGC Winterhold - Missives patch.esp
-*TGC Winterhold - TGR patch.esp
 *TGC Winterhold - Snazzy Interiors - Winterhold AIO patch.esp
 *TGC Winterhold - 3DNPC patch.esp
 *TGC Winterhold - COW Quest Expansion Patch.esp
+*TGC Winterhold - JKs CoW - OCW Patch.esp
 *TGCotN Winterhold - Snazzy Interiors - Winterhold AIO + AI Overhaul patch.esp
 *Threads of the North - The Great City Of Winterhold Patch.esp
 *The Great City of Winterhold V4 - Better Occlusion Planes.esp
@@ -1286,7 +1323,6 @@
 *Simplicity of Settlements - Dragon Bridge.esp
 *TLDragonBridge.esp
 *COTN - Falkreath.esp
-*COTN - Falkreath Gonzeh.esp
 *COTN Falkreath Occlusion Planes.esp
 *COTN Falkreath - AI Overhaul patch.esp
 *COTN Falkreath - 3DNPC Patch.esp
@@ -1297,7 +1333,6 @@
 *COTN Falkreath - SK Unique Signs Patch.esp
 *COTN Falkreath - Cut Content Restoration patch.esp
 *COTN Falkreath - Missives patch.esp
-*COTN Falkreath - TGR Patch.esp
 *COTN Falkreath - Bring Meeko to Lod Patch.esp
 *COTN Falkreath - Lucien Patch.esp
 *COTN Falkreath - Sons of Skyrim Fixes patch.esp
@@ -1306,19 +1341,26 @@
 *COTN Falkreath - Snazzy Interiors Falkreath AIO patch.esp
 *Mihail Rooster - COTN Falkreath patch.esp
 *COTN Falkreath - Smelter Addon.esp
-*COTN - Morthal.esp
-*COTN Morthal - CC - Fishing Patch.esp
-*COTN Morthal - AI Overhaul Patch.esp
-*COTN Morthal - Book Covers Skyrim patch.esp
-*COTN Morthal - Nature of the Wildlands patch.esp
-*COTN Morthal - ETaC Patch.esp
-*COTN Morthal - Finding Helgi and Laelette Patch.esp
-*COTN Morthal - ETaC - Finding Helgi and Laelette Patch.esp
-*COTN Morthal - ETAC Complete - Better Occlusion Patch.esp
-*COTN Morthal - Finding Helgi and Laelette + NotWL patch.esp
-*COTN Morthal - Snazzy Interiors Morthal AIO patch.esp
-*COTN Morthal - Snazzy Interiors Morthal AIO + Animated Armory patch.esp
-*COTN Morthal - Snazzy Interiors Morthal AIO + AI Overhaul patch.esp
+*ClefJ's Morthal.esp
+*ClefJ Morthal - CC Fishing patch.esp
+*ClefJ Morthal - AI Overhaul patch.esp
+*ClefJ Morthal - 3DNPC.esp
+*ClefJ Morthal - Finding Helgi.esp
+*ClefJ Morthal - Aspens Ablaze patch.esp
+*ClefJ Morthal - Nature of the Wildlands patch.esp
+*ClefJ Morthal - ETaC Patch.esp
+*ClefJ Morthal - ETaC - USSEP patch.esp
+*ClefJ Morthal - ETaC - AI Overhaul patch.esp
+*ClefJ Morthal - ETaC - Finding Helgi patch.esp
+*ClefJ Morthal - ETaC - CC Fishing patch.esp
+*ClefJ Morthal - ETaC - NOTWL patch.esp
+*Snazzy Interiors - Morthal AIO - AI Overhaul patch.esp
+*Snazzy Interiors - Morthal AIO - Book Covers patch.esp
+*Snazzy Interiors - Morthal AIO - 3DNPC patch.esp
+*Snazzy Interiors - Morthal AIO - Kaidan Revoiced patch.esp
+*Snazzy Interiors - Morthal AIO - ClefJ's Morthal patch.esp
+*Snazzy Interiors - Morthal AIO - AI Overhaul + ClefJs patch.esp
+*Snazzy Interiors - Morthal AIO - 3DNPC + ClefJs patch.esp
 *The Great Town of Ivarstead.esp
 *Great Town of Ivarstead - AI Overhaul Patch.esp
 *Great Town of Ivarstead - 3DNPC Patch.esp
@@ -1334,8 +1376,6 @@
 *Great Town of Karthwasten - USSEP Patch.esp
 *Great Town of Karthwasten - AI Overhaul Patch.esp
 *Great Town of Karthwasten - 3DNPC Patch.esp
-*Great Town of Karthwasten - Redguard Elite Armaments Patch.esp
-*Great Town of Karthwasten - TGR Patch.esp
 *Great Town of Karthwasten - Nature of the Wild Lands patch.esp
 *Great Town of Karthwasten - ETaC Complete patch.esp
 *Great Town of Karthwasten - Atlas Map Markers patch.esp
@@ -1375,17 +1415,17 @@
 *Ivy Riverwood Overhaul - ETAC Complete - Riverwood Docks.esp
 *Ivy Riverwood Overhaul - ETAC Complete - NOTWL Patch.esp
 *Threads of the North - Ivy Riverwood Overhaul Patch.esp
-*Ivy Riverwood Overhaul - Tree Addons.esp
-*Another Riverwood Bridge.esp
 *Ryn's Gerdur's House.esp
 *Ryn's Gerdur's House - USSEP patch.esp
 *Ryn's Sven's House.esp
 *JK's Sleeping Giant Inn.esp
 *Ivy Riverwood Overhaul - Jk's Sleeping Giant Inn Patch.esp
+*Ivy's Riverwood - JK's Sleeping Giant Inn - Thieves Guild Plus Plus patch.esp
 *JKs Sleeping Giant Inn - Downstairs Room Rental.esp
 *Ivy Riverwood Overhaul - JK's Sleeping Giant Inn - Downstairs Room Renting Patch.esp
 *JK's Riverwood Trader.esp
 *JKs Riverwood Trader - Rugnarok patch.esp
+*JK's Riverwood Trader - Thieves Guild Plus Plus patch.esp
 *RiverwoodEdge.esp
 *Riverwood Edge - Add on - NotWL.esp
 *Lund's Hut Overhaul.esp
@@ -1455,6 +1495,7 @@
 *ULP AIO - Hircine Statue Addon.esp
 *JKs Raven Rock - Unmarked Locations Pack AIO patch.esp
 *CFTO.esp
+*CFTO - CC Fishing patch.esp
 *Snazzy Diverse Carriages - BOS.esp
 *Carriage Drivers - New Clothes by Xtudo.esp
 *Ferrymen - New Outfits by Xtudo.esp
@@ -1468,6 +1509,9 @@
 *WaitCarriageInns.esp
 *CarriageAndStableDialogues - CFTO Patch.esp
 *Ryns Whiterun City Limits - CFTO Patch.esp
+*ETaC - Complete CFTO Patch.esp
+*ClefJ Morthal - CFTO.esp
+*ClefJ Morthal - ETaC - CFTO patch.esp
 *Missile IED Meshes.esp
 *XPMSE.esp
 *Racial Body Morphs.esp
@@ -1513,16 +1557,13 @@
 *LDD_LevisChoice_DetailMakeupSetforHPH.esp
 *ObiWarpaintsTattoos.esp
 *RXOverlays.esp
-*KS Hairdo's.esp
 *KSHairdosSMP.esp
 *evgmodularSMPhair.esp
-*Xing SMP Hairs and Wigs - Dint999.esp
-*Xing SMP Hairs and Wigs - Fuse.esp
-*Xing SMP Hairs and Wigs - HHairstyles.esp
 *CK_Fishtail_Hair.esp
 *CK_Hair_Collection_v2.esp
 *ThorHair.esp
 *_Fuse00HairPack02_ESL.esp
+*BDOr Hairstyles.esp
 *KaliliesBrows.esp
 *Kalilies Brows for High Poly Head.esp
 *Kyoe Bangin Brows PLUS PLUS.esp
@@ -1537,6 +1578,7 @@
 *HiPoly Pretty Face and Darker Eyebrows Standalone.esp
 *Koralina's Eyebrows.esp
 *LDD_DetailedEyebrowsforHPH.esp
+*TRE_Brows2_HP.esp
 *Beards.esp
 *Beards of Power.esp
 *Beards of Power HDT-SMP.esp
@@ -1547,6 +1589,7 @@
 *AdvancedEyesAddon_CVEObyLDD.esp
 *AretuzaEyesRemastered_CVEObyLDD.esp
 *CompleteVanillaEyeOverhaul_MikanEyes.esp
+*zhizheneyes.esp
 *JS Barenziah SE - Johnskyrim.esp
 *DD - JWC replacer by Vergi.esp
 *JS Unique Utopia SE - Rings - Johnskyrim.esp
@@ -1566,11 +1609,13 @@
 *JKs Mistveil Keep - Animated Armory Patch.esp
 *JKs BPT - Animated Armoury patch.esp
 *TGC Winterhold - Animated Armoury patch.esp
+*Grand Solitude - Animated Armoury patch.esp
+*JKs CoW - OCW - Animated Armoury Patch.esp
 *JKs Haelgas Bunkhouse - Animated Armory Patch.esp
 *PrvtI_ArgonianWeapons.esp
+*Prvti_AshenArmory.esp
 *InsanitySilverBow.esp
 *Open World Loot - Silver Bow.esp
-*JKs CoW - OCW - Animated Armoury Patch.esp
 *NW_Sons_of_Skyrim.esp
 *NW_Sons_of_Skyrim - My fixes by Xtudo.esp
 *Snazzy Interiors - JKs Dragonsreach - Sons of Skyrim patch.esp
@@ -1597,7 +1642,6 @@
 *[Tofi] Blued Armour.esp
 *Bosmeri Swallowtail.esp
 *CarminewindVesture.esp
-*[Tofi] Ciri Trailer Armor.esp
 *ColdharbourExecutionerArmor.esp
 *Cultural Bards.esp
 *(SmolSaltLemon) Dark Apprentice.esp
@@ -1605,7 +1649,6 @@
 *_Fuse00_ArmorHelga.esp
 *GVLT_Gryphonknight.esp
 *[Tofi]Hunter_Armor.esp
-*[Caenarvon] Magecore.esp
 *[FB] Master Thief Armor.esp
 *Kad_MoonMonkRobes.esp
 *Tamrielic Distribution - Moon Monk Amulet.esp
@@ -1640,7 +1683,6 @@
 *evgnnsmpaccessories.esp
 *JS Badges of Office SE.esp
 *DynamicLoweredHoods.esp
-*ImmersiveInteractions.esp
 *Keytrace.esp
 *Precision.esp
 *Sonders_Keyword_Distribution.esp
@@ -1651,7 +1693,7 @@
 *Horse Whistle Key.esp
 *Horse Whistle Key - Named Horses.esp
 *Horse Whistle Key - CC Horse Armors.esp
-*Draw Fix - Move Equip Animation Fix.esp
+*Sharpen Other Swords II.esp
 *CraftingAnimations.esp
 *TaberuAnimation.esp
 *Taberu Animation - Fishing Patch.esp
@@ -1666,7 +1708,9 @@
 *Immersive Equipping Animations.esp
 *FollowerInteractWithGestures.esp
 *Helmet Toggle 2.esp
+*ImmersiveInteractions.esp
 *SkyParkour.esp
+*SwimmingExtensions.esp
 *evgCLAMBER.esp
 *Dynamic Sprint.esp
 *EVGConditionalIdles.esp
@@ -1678,18 +1722,13 @@
 *TKDodgeAddon.esp
 *WadeInWater.esp
 *WadeInWaterRedone.esp
-*Agility - an Adamant Addon.esp
 *Chocolate Poise - Reforged.esp
-*BFCO NG.esp
 *BloodSkaalMCO.esp
 *Smooth Moveset.esp
 *For Honor in Skyrim.esp
 *For Honor Balance Patch.esp
 *Reforged Directional Combat.esp
 *For Honor Reforged - Removed Effects Patch.esp
-*Blade and Blunt Stagger Patch.esp
-*GKBWavesRE-BlackBoneIsle.esp
-*GKBWavesRE-SkyrimExtendedCutSaintSeducerShiveringIsle.esp
 *Water for ENB (Shades of Skyrim).esp
 *Water for ENB - Patch - JKs Bannered Mare.esp
 *Water for ENB - Patch - Atlas Map Markers.esp
@@ -1702,6 +1741,7 @@
 *Babbling Brooks - A Water Audio Overhaul.esp
 *Markarth Outskirts - Natural Waterfalls patch.esp
 *Ivy Riverwood Overhaul - ETAC Complete - Water for ENB - Patch.esp
+*ClefJ Morthal - ETaC - Water for ENB (SoS) patch.esp
 *Embers XD.esp
 *Embers XD - Fire Magick Add-On.esp
 *Embers XD - Patch - JK's Belethor's General Goods.esp
@@ -1725,12 +1765,12 @@
 *JKs Bee and Barb - Embers XD Patch.esp
 *JKs Elgrims Elixirs - Embers XD Patch.esp
 *JKs Mistveil Keep - Embers XD Patch.esp
+*Embers XD - Patch - ClefJ's Morthal.esp
 *JKs Pawned Prawn - Embers XD Patch.esp
 *JKs Ragged Flagon - Embers XD Patch.esp
 *Gonz - Stonehills ReRe - Embers XD.esp
 *RedBag's Shor's Stone - Embers XD.esp
-*COTN Morthal - Embers XD Patch.esp
-*COTN Morthal - Snazzy Interiors Morthal AIO + Embers XD patch.esp
+*Lyras Slumber - Embers XD patch.esp
 *TGCotN Winterhold - Embers XD patch.esp
 *JKs Hags Cure - Embers XD Patch.esp
 *JKs Silver-Blood Inn - Embers XD Patch.esp
@@ -1748,7 +1788,6 @@
 *Half-Moon Mill COTNed - Embers XD patch.esp
 *Granite Hill CCR - Embers XD Patch.esp
 *RedBag's Falkreath - RG Granite Hill Addon - Ember XD patch.esp
-*Orc Exiles - Bilegulch - Embers XD patch.esp
 *Lux Via - plugin.esp
 *Ivy Riverwood Overhaul - Lux Via Patch.esp
 *JKs Solitude Outskirts - Lux Via patch.esp
@@ -1762,6 +1801,8 @@
 *Lux Via - Robbers Gorge Patch.esp
 *Ryns Whiterun City Limits - Lux Via patch.esp
 *Lux Via - COTN Dawnstar - ETAC Complete Patch.esp
+*Grand Solitude - Lux Via patch.esp
+*ClefJ Morthal - ETaC - Lux Via patch.esp
 *Lux Orbis.esp
 *Lux Orbis - USSEP patch.esp
 *Lux Orbis - Goblins CC.esp
@@ -1773,13 +1814,15 @@
 *Lux Orbis - Lord's Mail CC.esp
 *Lux Orbis - Saints and Seducers Extended Cut patch.esp
 *Lux Orbis - Saturalia CC.esp
+*Lux Orbis - Tools of Kagrenac patch.esp
 *Lux Orbis - Spell Knight Armor CC.esp
 *Lux Orbis - Tundra Homestead patch.esp
 *Lux Orbis - Tundra Homestead Tweaks and Enhancements patch.esp
 *Lux Orbis - Embers XD patch.esp
 *Lux Orbis - Daedric Shrines AiO Patch.esp
 *Lux Orbis - Markarth Entrance and Farm overhaul patch.esp
-*Lux Orbis - OCW patch.esp
+*Lux Orbis - JK's College patch.esp
+*Lux Orbis - JK's College OCW patch.esp
 *Imperial Castles of Skyrim- Lux Orbis patch.esp
 *Lux Orbis - Medieval Towers patch.esp
 *Lux Orbis - Ryn's Western Watchtower.esp
@@ -1800,21 +1843,22 @@
 *Snazzy Interiors - Riften AIO - Lux Orbis patch.esp
 *Snazzy Black Briar Lodge - Lux Orbis patch.esp
 *Snazzy Interiors - Sarethi Farm - Lux Orbis patch.esp
+*Snazzy Honeyside - Lux Orbis patch.esp
 *Lux Orbis - Alternate Perspective.esp
 *Lux Orbis - JK's Bee and Barb patch.esp
 *Lux Orbis - JK's Mistveil Keep patch.esp
-*Lux Orbis - Windhelm Bridge Revived patch.esp
 *Lux Orbis - JK's Raven Rock patch.esp
 *Lux Orbis - JK's Tel Mithryn patch.esp
 *Lux Orbis - Markarth City of Stone patch.esp
 *Lux Orbis - Skaal Village Overhaul.esp
 *Lux Orbis - ETaC Complete patch.esp
+*Lux Orbis - ClefJ Morthal patch.esp
+*ClefJ Morthal - ETaC - Lux Orbis patch.esp
+*ClefJ Morthal - ETaC - 3DNPC patch.esp
 *Ivy Riverwood Overhaul - ETAC Complete - Lux Orbis Patch.esp
 *Lux Orbis - COTN Dawnstar patch.esp
 *Lux Orbis - COTN Dawnstar - ETAC Complete Patch.esp
 *Lux Orbis - COTN Falkreath patch.esp
-*Lux Orbis - COTN Morthal patch.esp
-*Lux Orbis - COTN Morthal - ETAC Complete Patch.esp
 *COTN Falkreath Center Tree Replacer - Lux Orbis Patch.esp
 *Lux Orbis - COTN Falkreath Center Tree Replacer.esp
 *Lux Orbis - Missile Riverwood Docks Patch.esp
@@ -1822,11 +1866,11 @@
 *Ivarstead Well Addon - Lux Orbis Patch.esp
 *Ivarstead Well Addon - The Great Town of Ivarstead - Lux Orbis Patch.esp
 *Ivy Riften Docks Overhaul - Lux Orbis Patch.esp
-*Another Riverwood Bridge - Lux Orbis Patch.esp
 *Alternative Riften - Lux Orbis - Patch.esp
 *JKs Solitude Outskirts - Lux Orbis patch.esp
 *Lux Orbis - Solitude Docks Updated patch.esp
 *JKs Solitude Outskirts - Solitude Docks Updated + Lux Orbis patch.esp
+*Half-Moon Mill COTNed - Lux Orbis patch.esp
 *Lux Orbis - COTN Winterhold patch.esp
 *Lux Orbis - The Great City of Winterhold V4 patch.esp
 *Lux Orbis - TGCotN Winterhold patch.esp
@@ -1843,7 +1887,6 @@
 *Lux Orbis - Great Town of Ivarstead patch.esp
 *Lux Orbis - Great Village of Kynesgrove patch.esp
 *Lux Orbis - ETAC Complete + TGV Kynesgrove Patch.esp
-*Lux Orbis - Orc Exiles - Bilegulch Patch.esp
 *Redwater Den - Lux Orbis Patch.esp
 *Ivy Stendarrs Beacon Overhaul - Lux Orbis Patch.esp
 *Ivy - Whiterun - Well Overhaul - Lux Orbis Patch.esp
@@ -1856,6 +1899,7 @@
 *Lux Orbis - Skyrim Cut Content Restoration Patch.esp
 *RB- Bear Cave Mill Addon - Lux Orbis.esp
 *AP Sev Cut - Lux Orbis Patch.esp
+*Lyras Slumber - Lux Orbis patch.esp
 *Lux Orbis - Gonz Stonehills ReRe.esp
 *Lux Orbis - Caves of Morrowind patch.esp
 *Lux Orbis - RBR - CC - Barley Dark Farm patch.esp
@@ -1883,14 +1927,17 @@
 *Lux Orbis - Remiel patch.esp
 *Lux Orbis - Whiterun City Limits patch.esp
 *Lux Orbis - Wintersun patch.esp
+*Lux Orbis - Capital Windhelm Expansion patch.esp
+*Lux Orbis - Capital Windhelm Bridge Revived patch.esp
 *Lux Orbis - 3DNPC patch.esp
 *Lux Orbis - Capital Whiterun patch.esp
+*Iyres Whiterun Gazebo - Capital Whiterun - Lux Orbis combo patch.esp
 *Lux Orbis - Capital Whiterun City Limits patch.esp
 *Lux Orbis - Roastlawyer's Restored WR Defences Patch.esp
 *Lux Orbis - Restored WR Defences - Capital Whiterun Patch.esp
 *Lux Orbis - Riverside Treehouse Patch.esp
+*Lux Orbis - Grand Solitude patch.esp
 *Ashe - Lux Orbis Patch.esp
-*Lux Orbis - Bard College Rework patch.esp
 *Lux.esp
 *Lux - USSEP patch.esp
 *Helios_Lux.esp
@@ -1905,12 +1952,11 @@
 *Lux - JK's Drunken Huntsman patch.esp
 *Lux - Necrohouse patch.esp
 *Lux - Gallows Hall TnE patch.esp
-*Lux - Morihaus' Refuge Standalone.esp
 *Lux - Embers XD patch.esp
 *Lux - Dead Mans Dread Patch.esp
 *Lux - CC Farming Tweaks patch.esp
-*Lux - CC Goblins Addon.esp
 *Lux - CC Fish patch.esp
+*Lux - Morihaus' Refuge Standalone.esp
 *Lux - Myrwatch patch.esp
 *Lux - Myrwatch Tweaks and Enhancements patch.esp
 *Lux - Dawnfang CC.esp
@@ -1930,12 +1976,12 @@
 *Lux - Capital Whiterun patch.esp
 *Lux - Embershard 2.0 Patch.esp
 *Solstheim Abandoned Lodge - Lux Patch.esp
-*Lux - Mrf Solitude patch.esp
 *Lux - JK's Arcadia's Cauldron patch.esp
 *Lux - JK's Bannered Mare patch.esp
 *Lux - JK's Belethor's General Goods patch.esp
 *Lux - JK's Warmaidens patch.esp
 *Lux - JK's Dragonsreach patch.esp
+*Lux - Tools of Kagrenac patch.esp
 *Helios_Lux_ JK's Dragonsreach.esp
 *Lux - Katana Follower.esp
 *Lux - JK's Jorrvaskr patch.esp
@@ -1976,7 +2022,6 @@
 *Lux - Eli Skaal Village patch.esp
 *Lux - JK's Raven Rock patch.esp
 *Lux - Redwater Brewery patch.esp
-*Lux - Orc Exiles - Bilegulch Patch.esp
 *Snazzy Interiors - Raven Rock AIO - Lux patch.esp
 *JKs Raven Rock - Snazzy Raven Rock AIO + Lux patch.esp
 *Lux - JK's Tel Mithryn patch.esp
@@ -1990,16 +2035,17 @@
 *COTN Dawnstar - Snazzy Interiors - Dawnstar AIO + Lux patch.esp
 *Lux - COTN Falkreath patch.esp
 *Lux - COTN Falkreath - Snazzy Interiors Falkreath AIO patch.esp
-*Lux - COTN Morthal patch.esp
-*Lux - COTN Morthal ETaC Complete patch.esp
 *Lux - Great Village of Ivarstead patch.esp
-*COTN Morthal - Snazzy Interiors Morthal AIO + Lux patch.esp
 *Lux - Solitude Docks patch.esp
 *Lux - Great Village of Karthwasten patch.esp
 *Great Town of Karthwasten - ETaC Complete + Lux patch.esp
 *Lux - Great Village of Kynesgrove patch.esp
 *Lux - MorrowindUsesDrams patch.esp
+*Lux - ClefJ's Morthal.esp
+*ClefJ Morthal - ETaC - Lux patch.esp
 *JKs Solitude Outskirts - Lux patch.esp
+*Snazzy Interiors - Morthal AIO - Lux patch.esp
+*Snazzy Interiors - Morthal AIO - Lux + ClefJs patch.esp
 *JKs Solitude Outskirts - Solitude Docks Updated + Lux patch.esp
 *JKsGGs Thieves Guild HQ - Lux patch.esp
 *Snazzy Drelas Cottage - Lux patch.esp
@@ -2025,7 +2071,10 @@
 *Snazzy Interiors - Windhelm AIO - 3DNPC + Lux patch.esp
 *Snazzy Interiors - Whiterun AIO - Lux patch.esp
 *Snazzy Proudspire Manor - Lux patch.esp
+*Snazzy Honeyside - Lux patch.esp
 *TGCotN Winterhold - Snazzy Interiors - Winterhold AIO + Lux patch.esp
+*Lux - Grand Solitude patch.esp
+*Snazzy Grand Solitude - Lux patch.esp
 *Lux - Auri Song of the Green patch.esp
 *Lux - Auri's fancy pod patch.esp
 *Lux - Lucien.esp
@@ -2033,6 +2082,7 @@
 *Lux - Reimperialized Abandoned Prison Patch.esp
 *Lux - JK's Angelines Aromatics patch.esp
 *Lux - JK's Bards College patch.esp
+*Lux - Grand Solitude + JKs Bards College patch.esp
 *Helios_Lux_JK's Bards College.esp
 *Lux - JK's Bits and Pieces patch.esp
 *Lux - JK's Radiant Raiment patch.esp
@@ -2055,21 +2105,18 @@
 *Lux - Great Village of Old Hroldan patch.esp
 *Lux - Anga's Mill COTN patch.esp
 *Lux - Gonz Stonehills ReRe.esp
-*Half-Moon Mill COTNed - Lux Orbis patch.esp
 *Lund's Hamlet - Lux - Patch.esp
 *Lux - Half Moon Mill COTN patch.esp
 *RedBag's Falkreath - RG Granite Hill Addon - Lux patch.esp
 *Lux - Skyrim Cut Content Restoration.esp
 *RB- Bear Cave Mill Addon - Lux.esp
 *Ashe - Lux Patch.esp
-*Lux - Bard College Rework patch.esp
-*Lux - JK's Bard College Rework patch.esp
 *Lux - JK's DB Sanctuary patch.esp
 *Lux - Caves of Morrowind patch.esp
 *Lux - Innocence Lost USSEP patch.esp
 *Lux - Finding Helgi and Laelette patch.esp
-*Lux - Redoran's Retreat patch.esp
 *Water for ENB - Patch - Lux - JKs Ragged Flagon.esp
+*Lux - WindhelmSSE patch.esp
 *Lux - Sirenroot patch.esp
 *Lux - Sirenroot - C.O.I.N. Patch.esp
 *Lux - The Frozen Heart ksws07 patch.esp
@@ -2122,18 +2169,16 @@
 *Northern Roads - JK's Sinderion's Field Laboratory patch.esp
 *Northern Roads - JKs Solitude Outskirts patch.esp
 *Northern Roads - Solitude Docks patch.esp
-*Northern Roads - JKs Solitude Outskirts + Solitude Docks Updated patch.esp
+*Northern Roads - Grand Solitude patch.esp
+*Northern Roads - JKs Solitude Outskirts + Solitude Docks + Grand Solitude patch.esp
 *Northern Roads - RYFTEN Down patch.esp
 *Northern Roads - Water for ENB (Shades of Skyrim) patch.esp
-*Northern Roads - Windhelm Bridge Revived patch.esp
 *Northern Roads - ETaC Complete patch.esp
 *Northern Roads - ETaC Complete + CC Farming patch.esp
 *Northern Roads - COTN Dawnstar Patch.esp
 *Northern Roads - COTN Dawnstar - ETaC Complete Patch.esp
 *Northern Roads - COTN Falkreath Patch.esp
-*Northern Roads - COTN Morthal Patch.esp
-*Northern Roads - COTN Morthal - Lux Orbis Patch.esp
-*Northern Roads - COTN Morthal - ETaC Complete Patch.esp
+*Northern Roads - ClefJ Morthal patch.esp
 *Northern Roads - Watchman's Whiterun Secondary Locations patch.esp
 *Northern Roads - Mirele Bismath Reborn Patch.esp
 *Northern Roads - Ashe patch.esp
@@ -2144,6 +2189,7 @@
 *Northern Roads - Hendraheim TnE patch.esp
 *Northern Roads - Markarth Outskirts patch.esp
 *Northern Roads - Winter Cove Patch.esp
+*Northern Roads - Tools of Kagrenac patch.esp
 *Meekos Shack Reborn - Northern Roads.esp
 *Northern Roads - JKs Raven Rock patch.esp
 *Northern Roads - The Great Town of Ivarstead (stone) patch.esp
@@ -2175,14 +2221,16 @@
 *Northern Roads - Watchman's Whiterun Secondary Locations - Cut Content Restoration Patch.esp
 *Northern Roads - RBR Barley Dark Farm Patch.esp
 *Watchman's Whiterun Secondary Locations - RBR Barley Dark Farm Patch.esp
+*Northern Roads - Capital Windhelm Expansion patch.esp
+*Northern Roads - Lux Via - Capital Windhelm Expansion patch.esp
+*Northern Roads - Capital Windelm Expansion + JKs New Gnisis Cornerclub patch.esp
 *RiverwoodEdge - Northern Roads patch.esp
-*Another Riverwood Bridge - Northern Roads Patch.esp
 *Ivy Riverwood Overhaul - ETAC Complete - Northern Road Patch.esp
 *Ivy Riverwood Overhaul - ETAC Complete - Riverwood Docks - NR Patch.esp
-*ARBridge - Ivy Riverwood Docks - ETAC Complete - Lux Via - NR Patch.esp
 *Ivy Riverwood Overhaul - ETAC Complete - Northern Roads - RiverwoodEdge Patch.esp
+*Northern Roads - ClefJ Morthal - ETac patch.esp
 *Northern Roads - Watchman's Whiterun Secondary Locations + RBR Barley Dark Farm Patch.esp
-*Northern Roads - Kaidan Revoiced Patch.esp
+*Northern Roads - Kaidan Revoiced patch.esp
 *Northern Roads - Snozz's Fort Dunstad patch.esp
 *Northern Roads - Snozz's Robber's Gorge patch.esp
 *Northern Roads - Lux Via - Snozz's Robber's Gorge patch.esp
@@ -2190,16 +2238,10 @@
 *Northern Roads - Ryn's Whiterun City Limits Patch.esp
 *Northern Roads - Ryn's Whiterun City Limits + CC Tundra Homestead patch.esp
 *Northern Roads - Roastlawyer's Restored Whiterun Defences Patch.esp
-*Northern Roads - Restored WR Defences and WaterForENB (Shades of Skyrim) Patch.esp
-*Northern Roads - Restored WR Defences and WaterForENB_ESM Combo Patch.esp
-*Northern Roads - Restored WR Defences and Ryn's Whiterun City Limits Patch.esp
-*Northern Roads - Restored WR Defences, Ryn's WR City Limits, and WaterForENB_ESM Patch.esp
-*Northern Roads - Restored WR Defences, Ryn's WR City Limits, and WaterForENB (Shades of Skyrim) Patch.esp
 *Northern Roads - Capital WR Expansion and Restored WR Defences Combo Patch.esp
-*Northern Roads - Capital WR Expansion, Restored WR Defences, and Water for ENB_ESM Combo Patch.esp
+*Northern Roads - Restored WR Defences and Ryn's Whiterun City Limits Patch.esp
 *Riverside Treehouse - Northern Roads patch.esp
 *sweepingOrganizesStuff.esp
-*Windhelm Is Snowy.esp
 *Softly Obscuring Snowfall - No Dirty Ruins Snow.esp
 *Softly Obscuring Snowfall - Simple Snow Improvements Skyrim Patch.esp
 *Softly Obscuring Snowfall - Simple Snow Improvements Snow Forts Patch.esp
@@ -2207,7 +2249,8 @@
 *Softly Obscuring Snowfall - No Dirty Ruins Snow - Ryn's Standing Stones.esp
 *TheRealSnowRockFix.esp
 *Threads of the North - Master Patch.esp
-*Lumina - Lumina Grimoire.esp
+*Vagrants - OWL Patch.esp
+*Vagrants - OWL - CC Patch.esp
 *Lumina - CC Goblin Fix.esp
 *Lumina - Ingestible Master Patch.esp
 *Lumina - iTweaks.esp
@@ -2223,12 +2266,10 @@
 *Lumina - Expanded Towns and City Master Patch.esp
 *Lumina - Falkreath Master Patch.esp
 *Lumina - Morthal Master Patch.esp
-*Lumina - Riverwood Master Patch.esp
 *Lumina - Solitude Master Patch.esp
 *Lumina - Whiterun Master Patch.esp
 *Lumina - Windhelm Master Patch.esp
 *Lumina - Worldspace Edits Patch.esp
-*Lumina - CC Master Patch.esp
 *Lumina - OWL Master Patch.esp
 *Lumina - Dragon Master Patch.esp
 *Lumina - Magic Master Patch.esp
@@ -2238,9 +2279,11 @@
 *Lumina - Armor Weapns and NPC Master Patch.esp
 *Lumina - Vampire Master Patch.esp
 *Lumina - Follower Master Patch.esp
+*Lumina - Thieves Guild Plus Plus Master Patch.esp
 *Lumina - Encounter Zone Master Patch.esp
 *Lumina - Tamrielic Distribution Master Patch.esp
-*Lumina - Apprentice Redux.esp
+*Lumina - CC Master Patch.esp
+*Lumina - Stagger Patch.esp
 *Lumina - Master Patch.esp
 *Lumina - Start Up.esp
 *Lumina - Reference Fix.esp
@@ -2249,22 +2292,21 @@
 *Synthesis - High Poly Head Fix.esp
 *Synthesis - Gameplay.esp
 *Synthesis - World Fixes.esp
-*Synthesis - Landscape & Z-Floor.esp
 *Synthesis - Blacksmith Forge Water.esp
 *PG_1.esp
 *DynDOLOD.esp
 *Occlusion.esp
 *FWMF for Fantasy Paper Maps.esp
-*Frozen Heart Paper Map for FWMF.esp
+*Sovngarde Paper Map for FWMF.esp
+*Soul Cairn Paper Map for FWMF.esp
+*Skuldafn Paper Map for FWMF by Limon.esp
+*ECSS Shivering Isles Paper Map for FWMF.esp
 *Apocrypha Paper Map for FWMF.esp
+*Deepwood Vale Paper Map for FWMF.esp
 *Blackreach Paper Map for FWMF.esp
 *DLC1MapMarkerEnabler.esp
-*Forgotten Vale Map for FWMF.esp
 *Dayspring Canyon Paper Map for FWMF.esp
-*Deepwood Vale Paper Map for FWMF.esp
-*ECSS Shivering Isles Paper Map for FWMF.esp
-*Soul Cairn Paper Map for FWMF.esp
+*Forgotten Vale Map for FWMF.esp
+*Frozen Heart Paper Map for FWMF.esp
 *Siege at Icemoth Paper Map for FWMF.esp
-*Skuldafn Paper Map for FWMF by Limon.esp
-*Sovngarde Paper Map for FWMF.esp
 *Lumina - Map Master Patch.esp
