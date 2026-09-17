@@ -1,3 +1,13 @@
+# 0.3.1.1 | 2026-09-13
+Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
+
+Updated Mfg Fix NG
+Updated PGPatcher
+Updated SKSE Menu Framework
+Updated Security Overhaul SKSE - Lock Variations
+
+Fixed Darkface bug for some CTFO Drivers
+
 # 0.3.1 | 2026-09-13
 Updated Community Shaders to latest build
 
