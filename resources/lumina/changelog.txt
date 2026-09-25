@@ -27,6 +27,10 @@ Updated Luma Utility
 Updated Mini's Micro-Systems Framework (MMSF)
 Updated Classic Sprinting Redone (SKSE64)
 Updated Simple Wheeler Menu - dMenu Port
+Updated Light Placer
+Updated Skyrim Souls RE - Updated
+Updated Dialogue Movement Enabler
+Updated Bobbing Framework - SKSE Plugin
 
 Fixed Darkface bug for some CTFO Drivers
 Fixed Broken bunch of broken nav cuts from northern roads
