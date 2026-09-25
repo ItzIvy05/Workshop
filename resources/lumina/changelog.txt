@@ -1,3 +1,28 @@
+# 0.3.2 | 2026-00-00
+Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
+Added Music Queue Fix
+Added Auto Follower Stuck Sneaking Fix SKSE
+Added Dimmer Volcanic Steam at Night
+
+Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
+
+Updated The Taste of Death - Quest Addon - Wintersun Add-on
+Updated ENB Light Inventory Fix (ELIF)
+Updated Combat Music Fix NG Updated
+Updated Native EditorID Fix
+Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
+Updated My Precious...es - Multiple Rings SKSE
+Updated Variadic Collision Dynamics
+Updated EmbersXD Torch Edit
+Updated Thieves Guild Plus Plus - A Questline Overhaul
+Updated Equip Enchantment Fix
+Updated PGPatcher (aka ParallaxGen)
+Updated AnimObject Swapper
+Updated First Person Height Fix SKSE
+Updated Better Jumping SE
+
+Fixed Darkface bug for some CTFO Drivers
+
 # 0.3.1.1 | 2026-09-13
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
 
