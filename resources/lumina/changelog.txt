@@ -1,4 +1,4 @@
-# 0.3.2 | 2026-00-00
+# 0.4 | 2026-00-00
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
 Added Music Queue Fix
 Added Auto Follower Stuck Sneaking Fix SKSE
@@ -7,6 +7,15 @@ Added Dimmer Volcanic Steam at Night
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
+Removed Dirt and Blood - Dynamic Visual Effects (Replaced by Bathing in Skyrim 2)
+Removed Dirt and Blood - Dynamic Visual Effects - MCM Helper Addon
+Removed Dirt and Blood - Dynamic Visual Effects - Settings Loader
+Removed Dirt and Blood HD Retexture
+Removed Dirt and Blood - Seamless Soap Texture SE by Xtudo
+Removed Dirt and Blood - You Reek
+Removed Dirt and Blood - Use Those Basins
+Removed Malignis Animations - BiSR - Dirt and Blood Patch
+Removed Sky Signs (Replaced by my own mod.)
 
 Updated The Taste of Death - Quest Addon - Wintersun Add-on
 Updated ENB Light Inventory Fix (ELIF)
