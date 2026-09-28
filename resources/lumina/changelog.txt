@@ -3,6 +3,12 @@ Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
 Added Music Queue Fix
 Added Auto Follower Stuck Sneaking Fix SKSE
 Added Dimmer Volcanic Steam at Night
+Added Bottled Shaders
+Added JK's Markarth Outskirts
+Added JK's Markarth Outskirts - Patch Collection
+Added FLICK - Fuzz's Legally Intelligible Core Kit
+Added Inventory Interface Information Injector Improved
+Added Block Condition Freeze CTD Fix
 
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
@@ -16,6 +22,13 @@ Removed Dirt and Blood - You Reek
 Removed Dirt and Blood - Use Those Basins
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Sky Signs (Replaced by my own mod.)
+Removed Markarth Outskirts
+Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
+Removed Cities of the North - Dawnstar
+Removed Cities of the North - Dawnstar Patch Collection
+Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
+Removed Settings Loader Mods
+    - LOD Unloading Bug Fix - Settings Loader
 
 Updated The Taste of Death - Quest Addon - Wintersun Add-on
 Updated ENB Light Inventory Fix (ELIF)
@@ -40,6 +53,7 @@ Updated Light Placer
 Updated Skyrim Souls RE - Updated
 Updated Dialogue Movement Enabler
 Updated Bobbing Framework - SKSE Plugin
+Updated Lux (patch hub)
 
 Fixed Darkface bug for some CTFO Drivers
 Fixed Broken bunch of broken nav cuts from northern roads
