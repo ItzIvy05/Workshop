@@ -6,11 +6,16 @@ Added Bottled Shaders
 Added Companions Wolf Armor Redone
 Added Companions Wolf Armor Redone - Companions Wolf Armor Redone - Complex Material and PBR
 Added Dimmer Volcanic Steam at Night
+Added Fitting Room - ESO Style Transmog (Optional Mod)
 Added FLICK - Fuzz's Legally Intelligible Core Kit
+Added Inventory Refresh Fix
 Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
 Added Music Queue Fix
+Added Spell Absorption Rework - A Non-Chance Based System
+Added s6o6t Mundus Stones - Standing Stones PBR Retexture
+Added Ultimate NPC Dodging - Animation Pack
 
 Removed Cities of the North - Dawnstar
 Removed Cities of the North - Dawnstar Patch Collection
@@ -27,6 +32,7 @@ Removed LOD Unloading Bug Fix - Settings Loader
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Markarth Outskirts
 Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
+Removed Softly Obscuring Snowfall (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
@@ -53,12 +59,16 @@ Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Skyrim Souls RE - Updated
 Updated The Taste of Death - Quest Addon - Wintersun Add-on
 Updated Thieves Guild Plus Plus - A Questline Overhaul
+Updated Ultimate NPC Dodging
 Updated Variadic Collision Dynamics
 Updated XEMI Utility
 
 Fixed Darkface bug for some CTFO Drivers
 Fixed Broken bunch of broken nav cuts from northern roads
 Fixed Bunch of NR Seams.
+
+Spell Absorption is now hard caped to 80%
+Spell Absorption is not longer a chance, it will always trigger.
 
 # 0.3.1.1 | 2026-09-13
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
