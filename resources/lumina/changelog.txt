@@ -52,7 +52,7 @@ Removed Three-eyed Swallow Armor (Looks Horrible)
 
 Removed UI Mods (Redundant or Incompatible) Shoutout to Nithog for fixing my UI
     - Removed tutorialmenu.swf from Lumina - MCM & INI
-    - Fixed Shout meter not showing up
+    - Fixed Shout meter not showing up on compass
     - Fixed Alt Camera Config.
     - Removed Aura's Scrumptious Supplement (Already Part of AIT)
     - Removed Phenomenally Enriched and Nuanced Ingredients (Already Part of AIT)
