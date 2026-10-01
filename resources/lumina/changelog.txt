@@ -3,20 +3,30 @@ Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
 Added Auto Follower Stuck Sneaking Fix SKSE
 Added Block Condition Freeze CTD Fix
 Added Bottled Shaders
+Added Bathing in Skyrim - Renewed
+Added Bathing in Skyrim - You Reek - Updated
+Added Bathing in Skyrim - Wash Me - Renewed
+Added Bathing in Skyrim - Renewed - Seamless Soap Texture
 Added Companions Wolf Armor Redone
 Added Companions Wolf Armor Redone - Companions Wolf Armor Redone - Complex Material and PBR
 Added Dimmer Volcanic Steam at Night
+Added Description Framework
 Added Fitting Room - ESO Style Transmog (Optional Mod)
 Added FLICK - Fuzz's Legally Intelligible Core Kit
 Added Inventory Refresh Fix
 Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
+Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
+Added Simplicity of Snow Sulfur Ash Moss
 Added Spell Absorption Rework - A Non-Chance Based System
 Added s6o6t Mundus Stones - Standing Stones PBR Retexture
 Added Ultimate NPC Dodging - Animation Pack
+Added XPMF - Extended Projected Materials Framework
 
+Removed Better Dynamic Snow SE
+Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Cities of the North - Dawnstar
 Removed Cities of the North - Dawnstar Patch Collection
 Removed Dirt and Blood - Dynamic Visual Effects (Replaced by Bathing in Skyrim 2)
@@ -27,6 +37,9 @@ Removed Dirt and Blood - Use Those Basins
 Removed Dirt and Blood - You Reek
 Removed Dirt and Blood HD Retexture
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
+Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
+Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
+Removed FISSES for Skyrim AE 1.6.1130 (or later)
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
 Removed LOD Unloading Bug Fix - Settings Loader
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
@@ -37,6 +50,17 @@ Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
 
+Removed UI Mods (Redundant or Incompatible) Shoutout to Nithog for fixing my UI
+    - Removed tutorialmenu.swf from Lumina - MCM & INI
+    - Fixed Shout meter not showing up
+    - Fixed Alt Camera Config.
+    - Removed Aura's Scrumptious Supplement (Already Part of AIT)
+    - Removed Phenomenally Enriched and Nuanced Ingredients (Already Part of AIT)
+    - Spell Tomes - I4 icons (Already Part of AIT)
+    - Spell Tomes - I4 icons - AIT Patch (Redundant)
+    - Enabled AIT Veldun Icon Sorting.
+
+Updated Assorted Mesh Fixes
 Updated AnimObject Swapper
 Updated Better Jumping SE
 Updated Bobbing Framework - SKSE Plugin
@@ -47,6 +71,7 @@ Updated ENB Light Inventory Fix (ELIF)
 Updated EmbersXD Torch Edit
 Updated Equip Enchantment Fix
 Updated First Person Height Fix SKSE
+Updated Landscape Vertex Remover
 Updated Light Placer
 Updated Luma Utility
 Updated Lux (patch hub)
@@ -54,6 +79,7 @@ Updated Mini's Micro-Systems Framework (MMSF)
 Updated My Precious...es - Multiple Rings SKSE
 Updated Native EditorID Fix
 Updated PGPatcher (aka ParallaxGen)
+Updated Region Weather - Engine Fix
 Updated Simple Wheeler Menu - dMenu Port
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Skyrim Souls RE - Updated
