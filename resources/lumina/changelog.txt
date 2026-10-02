@@ -43,6 +43,7 @@ Removed Dirt and Blood - Use Those Basins
 Removed Dirt and Blood - You Reek
 Removed Dirt and Blood HD Retexture
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
+Removed Embers XD(Less Poly) (Outdated)
 Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
 Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
 Removed FISSES for Skyrim AE 1.6.1130 (or later)
@@ -53,7 +54,13 @@ Removed LOD Unloading Bug Fix - Settings Loader
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Markarth Outskirts
 Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
-Removed (Rudy HQ - Miscellaneous SE)
+Removed Rudy HQ - Miscellaneous SE
+Removed Rally's Farming Tools (Higher Poly)
+Removed Realistic Paper Scrolls (Redundant)
+Removed RUGNAROK - Special Edition
+Removed RUGNAROK - Special Edition - Fixed Meshes
+Removed Skyrim 3D Blacksmith
+Removed Skyrim 3D Blacksmith - PBR and Complex Material Hub
 Removed Softly Obscuring Snowfall (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
@@ -130,6 +137,7 @@ Fixed Wrong Load order for High Hrothgar Meshes Fixed
 Spell Absorption is now hard caped to 80%
 Spell Absorption is not longer a chance, it will always trigger.
 Merged Furniture - BOS mods into Furniture
+Merged Candlehorns and Sconces mods into Clutter
 Stations are in their own separator
 
 # 0.3.1.1 | 2026-09-13
