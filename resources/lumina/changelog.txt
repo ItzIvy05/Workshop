@@ -11,6 +11,7 @@ Added Bathing in Skyrim - Renewed - Seamless Soap Texture
 Added Companions Wolf Armor Redone
 Added Companions Wolf Armor Redone - Companions Wolf Armor Redone - Complex Material and PBR
 Added Dimmer Volcanic Steam at Night
+Added DrJacopo's - 3D Lavender
 Added Description Framework
 Added Fitting Room - ESO Style Transmog (Optional Mod)
 Added FLICK - Fuzz's Legally Intelligible Core Kit
@@ -20,6 +21,7 @@ Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
 Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
+Added Mushroom Remover for Dead Trees
 Added Rudy HQ - Misc SE - Pottery
 Added Sanguine Sundries - A Vampire Clutter Replacer
 Added Skyland Alchemy and Enchanting Tables
@@ -29,12 +31,20 @@ Added s6o6t Mundus Stones - Standing Stones PBR Retexture
 Added Vanilla Table Replacers (Added Non Rope Addition)
 Added Ultimate NPC Dodging - Animation Pack
 Added XPMF - Extended Projected Materials Framework
+Added Rudy HQ - More Lights for ENB SE - Glowing Mushrooms
+Added Rudy HQ - More Lights for ENB SE - Deathbells and Nirnroots
+Added Jazbay by Mari
+Added Cathedral - 3D Deathbell - Glowmap - ENB Light Patch
 
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Better Pelts and Hides Fluffy by SkySinclaire
 Removed Cities of the North - Dawnstar
 Removed Cities of the North - Dawnstar Patch Collection
+Removed ClefJ's Morthal SE (Preparing List for new Morthal)
+Removed ClefJ's Morthal - Patches
+Removed ClefJ's Morthal - Expanded Towns and Cities Patch
+Removed ClefJ's Morthal - Fixed Meshes
 Removed Dirt and Blood - Dynamic Visual Effects (Replaced by Bathing in Skyrim 2)
 Removed Dirt and Blood - Dynamic Visual Effects - MCM Helper Addon
 Removed Dirt and Blood - Dynamic Visual Effects - Settings Loader
@@ -47,6 +57,7 @@ Removed Embers XD(Less Poly) (Outdated)
 Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
 Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
 Removed FISSES for Skyrim AE 1.6.1130 (or later)
+Removed Finding Helgi and Laelette (Breaks too much shit with navmesh and towns)
 Removed High Poly Project
 Removed HPP - My Fixes - Mammoth Skulls SE-AE
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
@@ -65,6 +76,8 @@ Removed Softly Obscuring Snowfall (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
+Removed Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
+Removed Cathedral - 3D Deathbell - ENB Light
 
 Removed Furniture Simplification
     - Rally's Display Cases
@@ -109,7 +122,9 @@ Updated ENB Light Inventory Fix (ELIF)
 Updated EmbersXD Torch Edit
 Updated Equip Enchantment Fix
 Updated First Person Height Fix SKSE
+Updated Iyre's Cozy Whiterun Gazebo
 Updated Landscape Vertex Remover
+Updated Loading Menu Overhaul
 Updated Light Placer
 Updated Luma Utility
 Updated Lux (patch hub)
@@ -133,12 +148,15 @@ Fixed Darkface bug for some CTFO Drivers
 Fixed Broken bunch of broken nav cuts from northern roads
 Fixed Bunch of NR Seams.
 Fixed Wrong Load order for High Hrothgar Meshes Fixed
+Fixed Black Water in Dawnstar Dibela Temple 
 
 Spell Absorption is now hard caped to 80%
 Spell Absorption is not longer a chance, it will always trigger.
 Merged Furniture - BOS mods into Furniture
 Merged Candlehorns and Sconces mods into Clutter
 Stations are in their own separator
+Switched ElSopa - Azura's Star to 1K
+Merged Lumina - Morthal Master Patch into relative patches
 
 # 0.3.1.1 | 2026-09-13
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
