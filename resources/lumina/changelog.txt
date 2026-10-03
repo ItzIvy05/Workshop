@@ -1,5 +1,4 @@
 # 0.4 | 2026-00-00
-Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
 Added Alchemy Station Variants - Base Object Swapper
 Added Auto Follower Stuck Sneaking Fix SKSE
 Added Block Condition Freeze CTD Fix
@@ -31,10 +30,16 @@ Added s6o6t Mundus Stones - Standing Stones PBR Retexture
 Added Vanilla Table Replacers (Added Non Rope Addition)
 Added Ultimate NPC Dodging - Animation Pack
 Added XPMF - Extended Projected Materials Framework
-Added Rudy HQ - More Lights for ENB SE - Glowing Mushrooms
-Added Rudy HQ - More Lights for ENB SE - Deathbells and Nirnroots
-Added Jazbay by Mari
-Added Cathedral - 3D Deathbell - Glowmap - ENB Light Patch
+
+Added Flora Mods
+    - A Nirnroot
+    - A Nirnroot - Particle Light Patch
+    - Cathedral - 3D Deathbell - Glowmap - ENB Light Patch
+    - Clover Plant - Cathedral 3D PBR
+    - Flora Additions - Waterplants
+    - Jazbay by Mari
+    - Rudy HQ - More Lights for ENB SE - Glowing Mushrooms
+    - Spiky Grass by Mari
 
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
@@ -58,6 +63,7 @@ Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
 Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
 Removed FISSES for Skyrim AE 1.6.1130 (or later)
 Removed Finding Helgi and Laelette (Breaks too much shit with navmesh and towns)
+Removed Grab And Throw - Show in UI (Registers on main thread)
 Removed High Poly Project
 Removed HPP - My Fixes - Mammoth Skulls SE-AE
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
@@ -76,8 +82,12 @@ Removed Softly Obscuring Snowfall (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Three-eyed Swallow Armor (Looks Horrible)
-Removed Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
-Removed Cathedral - 3D Deathbell - ENB Light
+
+Removed Flora Mods
+    - Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
+    - Cathedral - 3D Deathbell - ENB Light
+    - Dave's Lilypads SE
+    - Water Plants
 
 Removed Furniture Simplification
     - Rally's Display Cases
@@ -122,6 +132,7 @@ Updated ENB Light Inventory Fix (ELIF)
 Updated EmbersXD Torch Edit
 Updated Equip Enchantment Fix
 Updated First Person Height Fix SKSE
+Updated Granite Hill - Cut Content Restoration
 Updated Iyre's Cozy Whiterun Gazebo
 Updated Landscape Vertex Remover
 Updated Loading Menu Overhaul
