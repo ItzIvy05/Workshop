@@ -1,6 +1,5 @@
 # 0.4 | 2026-00-00
 Added Alchemy Station Variants - Base Object Swapper
-Added Auto Follower Stuck Sneaking Fix SKSE
 Added Block Condition Freeze CTD Fix
 Added Bottled Shaders
 Added Bathing in Skyrim - Renewed
@@ -14,7 +13,6 @@ Added DrJacopo's - 3D Lavender
 Added Description Framework
 Added Fitting Room - ESO Style Transmog (Optional Mod)
 Added FLICK - Fuzz's Legally Intelligible Core Kit
-Added Inventory Refresh Fix
 Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
@@ -40,6 +38,7 @@ Added Flora Mods
     - Jazbay by Mari
     - Rudy HQ - More Lights for ENB SE - Glowing Mushrooms
     - Spiky Grass by Mari
+    - Frost Mirriam and Elves Ear - Forgotten Herbs Retexture SE
 
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
@@ -63,31 +62,43 @@ Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
 Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
 Removed FISSES for Skyrim AE 1.6.1130 (or later)
 Removed Finding Helgi and Laelette (Breaks too much shit with navmesh and towns)
+Removed Fortify Attribute Fix - NG (till Apodeictic fixes the survival bug)
 Removed Grab And Throw - Show in UI (Registers on main thread)
 Removed High Poly Project
 Removed HPP - My Fixes - Mammoth Skulls SE-AE
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
+Removed Inertia (Floating Gear Fix)
 Removed LOD Unloading Bug Fix - Settings Loader
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Markarth Outskirts
 Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
+Removed NPC AI Process Position Fix (I had plans to fix this but its just too broken & complicated for me)
+Removed OBody Next Generation
+Removed Player Eyes Blink Fix
 Removed Rudy HQ - Miscellaneous SE
 Removed Rally's Farming Tools (Higher Poly)
 Removed Realistic Paper Scrolls (Redundant)
 Removed RUGNAROK - Special Edition
 Removed RUGNAROK - Special Edition - Fixed Meshes
+Removed Scaleform Translation Plus Plus (Lumina does not support anything other than english)
 Removed Skyrim 3D Blacksmith
 Removed Skyrim 3D Blacksmith - PBR and Complex Material Hub
-Removed Softly Obscuring Snowfall (No Longer needed with XPMF)
+Removed Skyrim Priority SE AE (It harms more than help and better Linux Support)
+Removed Softly Obscuring Snowfall - No Dirty Ruins Snow (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
+Removed Serana Dialogue Expansion (Replaced by SDA)
+Removed Serana Dialogue Expansion - Kerstyn Voices Edition  
 Removed Three-eyed Swallow Armor (Looks Horrible)
+Removed OBody Next Generation - Settings Loader
 
 Removed Flora Mods
     - Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
     - Cathedral - 3D Deathbell - ENB Light
     - Dave's Lilypads SE
     - Water Plants
+    - Forgotten Herbs
+    - Mari's flora
 
 Removed Furniture Simplification
     - Rally's Display Cases
@@ -125,9 +136,11 @@ Updated Assorted Mesh Fixes
 Updated AnimObject Swapper
 Updated Better Jumping SE
 Updated Bobbing Framework - SKSE Plugin
+Updated Crash Logger SSE AE VR - PDB support
 Updated Classic Sprinting Redone (SKSE64)
 Updated Combat Music Fix NG Updated
 Updated Dialogue Movement Enabler
+Updated Disabled Reference Integrity Fix (SKSE)
 Updated ENB Light Inventory Fix (ELIF)
 Updated EmbersXD Torch Edit
 Updated Equip Enchantment Fix
@@ -160,6 +173,8 @@ Fixed Broken bunch of broken nav cuts from northern roads
 Fixed Bunch of NR Seams.
 Fixed Wrong Load order for High Hrothgar Meshes Fixed
 Fixed Black Water in Dawnstar Dibela Temple 
+Fixed Over 400 NPC Records
+Fixed over 100+ conficts
 
 Spell Absorption is now hard caped to 80%
 Spell Absorption is not longer a chance, it will always trigger.
@@ -168,6 +183,9 @@ Merged Candlehorns and Sconces mods into Clutter
 Stations are in their own separator
 Switched ElSopa - Azura's Star to 1K
 Merged Lumina - Morthal Master Patch into relative patches
+Mods Roll Back
+    Papyrus Tweaks NG -> 4.1.1
+    Aurora Fix -> 1.0.1
 
 # 0.3.1.1 | 2026-09-13
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
