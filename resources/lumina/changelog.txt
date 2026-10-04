@@ -19,7 +19,9 @@ Added JK's Markarth Outskirts - Patch Collection
 Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
 Added Mushroom Remover for Dead Trees
+Added Reticle Arcs
 Added Rudy HQ - Misc SE - Pottery
+Added Safer Saving SKSE (now with autosaves)
 Added Sanguine Sundries - A Vampire Clutter Replacer
 Added Skyland Alchemy and Enchanting Tables
 Added Simplicity of Snow Sulfur Ash Moss
@@ -43,12 +45,14 @@ Added Flora Mods
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Better Pelts and Hides Fluffy by SkySinclaire
+Removed Casting Bar (Replaced by Reticle Arcs)
 Removed Cities of the North - Dawnstar
 Removed Cities of the North - Dawnstar Patch Collection
 Removed ClefJ's Morthal SE (Preparing List for new Morthal)
 Removed ClefJ's Morthal - Patches
 Removed ClefJ's Morthal - Expanded Towns and Cities Patch
 Removed ClefJ's Morthal - Fixed Meshes
+Removed Desktop Splash Screen (No Longer Need)
 Removed Dirt and Blood - Dynamic Visual Effects (Replaced by Bathing in Skyrim 2)
 Removed Dirt and Blood - Dynamic Visual Effects - MCM Helper Addon
 Removed Dirt and Blood - Dynamic Visual Effects - Settings Loader
@@ -69,17 +73,21 @@ Removed HPP - My Fixes - Mammoth Skulls SE-AE
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
 Removed Inertia (Floating Gear Fix)
 Removed LOD Unloading Bug Fix - Settings Loader
+Removed Lumina - Main Menu Video (Main Menu Video was removed)
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Markarth Outskirts
+Removed Main Menu Video (No longer used and honestly needed with new menu)
 Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
 Removed NPC AI Process Position Fix (I had plans to fix this but its just too broken & complicated for me)
 Removed OBody Next Generation
 Removed Player Eyes Blink Fix
+Removed Regional Save Names (Does not really add any meaningful change)
 Removed Rudy HQ - Miscellaneous SE
 Removed Rally's Farming Tools (Higher Poly)
 Removed Realistic Paper Scrolls (Redundant)
 Removed RUGNAROK - Special Edition
 Removed RUGNAROK - Special Edition - Fixed Meshes
+Removed STB No save and load in combat (Safer Saving SKSE)
 Removed Scaleform Translation Plus Plus (Lumina does not support anything other than english)
 Removed Skyrim 3D Blacksmith
 Removed Skyrim 3D Blacksmith - PBR and Complex Material Hub
@@ -88,9 +96,9 @@ Removed Softly Obscuring Snowfall - No Dirty Ruins Snow (No Longer needed with X
 Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Serana Dialogue Expansion (Replaced by SDA)
-Removed Serana Dialogue Expansion - Kerstyn Voices Edition  
+Removed Serana Dialogue Expansion - Kerstyn Voices Edition
 Removed Three-eyed Swallow Armor (Looks Horrible)
-Removed OBody Next Generation - Settings Loader
+Removed Whose Quest is it Anyway NG (Does not add meaningful change)
 
 Removed Flora Mods
     - Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
@@ -132,13 +140,17 @@ Removed UI Mods (Redundant or Incompatible) Shoutout to Nithog for fixing my UI
     - Spell Tomes - I4 icons - AIT Patch (Redundant)
     - Enabled AIT Veldun Icon Sorting.
 
+Updated Andrealletius' Papyrus Functions
 Updated Assorted Mesh Fixes
 Updated AnimObject Swapper
 Updated Better Jumping SE
+Updated Better Third Person Selection - BTPS
+Updated BodySlide and Outfit Studio
 Updated Bobbing Framework - SKSE Plugin
 Updated Crash Logger SSE AE VR - PDB support
 Updated Classic Sprinting Redone (SKSE64)
 Updated Combat Music Fix NG Updated
+Updated Character Menu SE
 Updated Dialogue Movement Enabler
 Updated Disabled Reference Integrity Fix (SKSE)
 Updated ENB Light Inventory Fix (ELIF)
@@ -149,6 +161,7 @@ Updated Granite Hill - Cut Content Restoration
 Updated Iyre's Cozy Whiterun Gazebo
 Updated Landscape Vertex Remover
 Updated Loading Menu Overhaul
+Updated LoreBox - Item and Spell Tooltips
 Updated Light Placer
 Updated Luma Utility
 Updated Lux (patch hub)
@@ -156,17 +169,23 @@ Updated Mini's Micro-Systems Framework (MMSF)
 Updated My Precious...es - Multiple Rings SKSE
 Updated Native EditorID Fix
 Updated PGPatcher (aka ParallaxGen)
+Updated Project Bro He's There - Fix followers not starting combat
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
 Updated Region Weather - Engine Fix
 Updated Sleipnir Beds - An Upper Class Bed Replacer
 Updated Simple Wheeler Menu - dMenu Port
+Updated SkyPrompt
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Skyrim Souls RE - Updated
+Updated Tween Menu Overhaul
 Updated The Taste of Death - Quest Addon - Wintersun Add-on
 Updated Thieves Guild Plus Plus - A Questline Overhaul
+Updated Tears of Kyne - Water Need Mod
 Updated Ultimate NPC Dodging
+Updated Vagrants - A Bandit Overhaul
 Updated Variadic Collision Dynamics
 Updated XEMI Utility
+Updated Zero Bounty Hostility Fix
 
 Fixed Darkface bug for some CTFO Drivers
 Fixed Broken bunch of broken nav cuts from northern roads
@@ -184,8 +203,10 @@ Stations are in their own separator
 Switched ElSopa - Azura's Star to 1K
 Merged Lumina - Morthal Master Patch into relative patches
 Mods Roll Back
-    Papyrus Tweaks NG -> 4.1.1
     Aurora Fix -> 1.0.1
+    Discord Rich Presence - > 1.2
+    Papyrus Tweaks NG -> 4.1.1
+
 
 # 0.3.1.1 | 2026-09-13
 Added Alina Makeup - HPH COtR UBE - RaceMenu Overlay
