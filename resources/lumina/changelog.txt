@@ -8,6 +8,7 @@ Added Bathing in Skyrim - Wash Me - Renewed
 Added Bathing in Skyrim - Renewed - Seamless Soap Texture
 Added Companions Wolf Armor Redone
 Added Companions Wolf Armor Redone - Companions Wolf Armor Redone - Complex Material and PBR
+Added Dawnguard - Hall of Vigilant Requirement
 Added Dimmer Volcanic Steam at Night
 Added DrJacopo's - 3D Lavender
 Added Description Framework
@@ -16,18 +17,24 @@ Added FLICK - Fuzz's Legally Intelligible Core Kit
 Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
+Added Lady Callisto
 Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
 Added Mushroom Remover for Dead Trees
+Added Racemenu Enhancer
+Added Racemenu(SKEE) cosave Load Crash Fix
 Added Reticle Arcs
 Added Rudy HQ - Misc SE - Pottery
 Added Safer Saving SKSE (now with autosaves)
 Added Sanguine Sundries - A Vampire Clutter Replacer
 Added Skyland Alchemy and Enchanting Tables
 Added Simplicity of Snow Sulfur Ash Moss
+Added Shimmermist
 Added Spell Absorption Rework - A Non-Chance Based System
 Added s6o6t Mundus Stones - Standing Stones PBR Retexture
 Added Vanilla Table Replacers (Added Non Rope Addition)
+Added Vanaheimr - Mountains - MM - Complex Material - PBR
+Added Volkihar Soundscape Overhaul
 Added Ultimate NPC Dodging - Animation Pack
 Added XPMF - Extended Projected Materials Framework
 
@@ -42,6 +49,7 @@ Added Flora Mods
     - Spiky Grass by Mari
     - Frost Mirriam and Elves Ear - Forgotten Herbs Retexture SE
 
+Removed Another RaceMenu Rotation Mod (Replaced by Racemenu Enhancer, More Features and its stable)
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Better Pelts and Hides Fluffy by SkySinclaire
@@ -52,6 +60,9 @@ Removed ClefJ's Morthal SE (Preparing List for new Morthal)
 Removed ClefJ's Morthal - Patches
 Removed ClefJ's Morthal - Expanded Towns and Cities Patch
 Removed ClefJ's Morthal - Fixed Meshes
+Removed Cloaks and Capes - HDT-SMP
+Removed Cloaks and Capes - HDT-SMP - Retexture
+Removed Cloaks And Capes - HDT SMP (ESP Replacer)
 Removed Desktop Splash Screen (No Longer Need)
 Removed Dirt and Blood - Dynamic Visual Effects (Replaced by Bathing in Skyrim 2)
 Removed Dirt and Blood - Dynamic Visual Effects - MCM Helper Addon
@@ -61,6 +72,7 @@ Removed Dirt and Blood - Use Those Basins
 Removed Dirt and Blood - You Reek
 Removed Dirt and Blood HD Retexture
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
+Removed Embers XD - PBR
 Removed Embers XD(Less Poly) (Outdated)
 Removed FileAccess Interface for Skyrim SE Scripts - FISSES (No Longer Needed)
 Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
@@ -72,6 +84,7 @@ Removed High Poly Project
 Removed HPP - My Fixes - Mammoth Skulls SE-AE
 Removed H.O.A. - Hyperspecific Occlusion Addon - Markarth Outskirts - Lite Patch
 Removed Inertia (Floating Gear Fix)
+Removed Inventory Interface Information Injector - Alchemy Fix (Part of I5)
 Removed LOD Unloading Bug Fix - Settings Loader
 Removed Lumina - Main Menu Video (Main Menu Video was removed)
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
@@ -81,16 +94,17 @@ Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
 Removed NPC AI Process Position Fix (I had plans to fix this but its just too broken & complicated for me)
 Removed OBody Next Generation
 Removed Player Eyes Blink Fix
+Removed Rain Splashes SKSE (Part of CS)
+Removed Rim Lighting Removed (Part of CS)
 Removed Regional Save Names (Does not really add any meaningful change)
 Removed Rudy HQ - Miscellaneous SE
 Removed Rally's Farming Tools (Higher Poly)
 Removed Realistic Paper Scrolls (Redundant)
 Removed RUGNAROK - Special Edition
 Removed RUGNAROK - Special Edition - Fixed Meshes
+Removed RaceMenu Undress (Handled by Racemenu Enhancer)
 Removed STB No save and load in combat (Safer Saving SKSE)
 Removed Scaleform Translation Plus Plus (Lumina does not support anything other than english)
-Removed Skyrim 3D Blacksmith
-Removed Skyrim 3D Blacksmith - PBR and Complex Material Hub
 Removed Skyrim Priority SE AE (It harms more than help and better Linux Support)
 Removed Softly Obscuring Snowfall - No Dirty Ruins Snow (No Longer needed with XPMF)
 Removed Sky Signs (Replaced by my own mod.)
@@ -98,7 +112,17 @@ Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Serana Dialogue Expansion (Replaced by SDA)
 Removed Serana Dialogue Expansion - Kerstyn Voices Edition
 Removed Three-eyed Swallow Armor (Looks Horrible)
+Removed UIExtensions (No longer needed)
+Removed Vampire Lord Retexture (Replaced by PBR Version)
 Removed Whose Quest is it Anyway NG (Does not add meaningful change)
+
+Removed LeoMaximus Sound Mods
+    Hircine Revoiced
+    Hircine Revoiced - AFDI Patch
+    Mephala Revoiced
+    Nocturnal Revoiced
+    Peryite Revoiced
+    Peryite Revoiced - AFDI Patch
 
 Removed Flora Mods
     - Shrooms on Stumps - A Nature of the Wildlands mushroom patch using Base Object Swapper
@@ -159,6 +183,8 @@ Updated Equip Enchantment Fix
 Updated First Person Height Fix SKSE
 Updated Granite Hill - Cut Content Restoration
 Updated Iyre's Cozy Whiterun Gazebo
+Updated Interesting NPCs SE (3DNPC) - Fixes and Tweaks
+Updated JK's Interiors Patch Collection
 Updated Landscape Vertex Remover
 Updated Loading Menu Overhaul
 Updated LoreBox - Item and Spell Tooltips
@@ -177,6 +203,8 @@ Updated Simple Wheeler Menu - dMenu Port
 Updated SkyPrompt
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Skyrim Souls RE - Updated
+Updated Tomato's Solitude Remastered - PBR
+Updated True Directional Movement - Modernized Third Person Gameplay
 Updated Tween Menu Overhaul
 Updated The Taste of Death - Quest Addon - Wintersun Add-on
 Updated Thieves Guild Plus Plus - A Questline Overhaul
@@ -206,6 +234,7 @@ Mods Roll Back
     Aurora Fix -> 1.0.1
     Discord Rich Presence - > 1.2
     Papyrus Tweaks NG -> 4.1.1
+    Sound Record Distributor -> 1.5.3
 
 
 # 0.3.1.1 | 2026-09-13
