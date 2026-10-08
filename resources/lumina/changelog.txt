@@ -8,6 +8,7 @@ Added Bathing in Skyrim - Wash Me - Renewed
 Added Bathing in Skyrim - Renewed - Seamless Soap Texture
 Added Companions Wolf Armor Redone
 Added Companions Wolf Armor Redone - Companions Wolf Armor Redone - Complex Material and PBR
+Added Cute Skipping Run Animation - OAR
 Added Dawnguard - Hall of Vigilant Requirement
 Added Dimmer Volcanic Steam at Night
 Added DrJacopo's - 3D Lavender
@@ -18,9 +19,11 @@ Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
 Added Lady Callisto
+Added Labyrinthian - Object Placement Fixes
 Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
 Added Mushroom Remover for Dead Trees
+Added Praedy's Apocrypha
 Added Racemenu Enhancer
 Added Racemenu(SKEE) cosave Load Crash Fix
 Added Reticle Arcs
@@ -32,6 +35,7 @@ Added Simplicity of Snow Sulfur Ash Moss
 Added Shimmermist
 Added Spell Absorption Rework - A Non-Chance Based System
 Added s6o6t Mundus Stones - Standing Stones PBR Retexture
+Added Start Menu Redesigned
 Added Vanilla Table Replacers (Added Non Rope Addition)
 Added Vanaheimr - Mountains - MM - Complex Material - PBR
 Added Volkihar Soundscape Overhaul
@@ -71,6 +75,7 @@ Removed Dirt and Blood - Seamless Soap Texture SE by Xtudo
 Removed Dirt and Blood - Use Those Basins
 Removed Dirt and Blood - You Reek
 Removed Dirt and Blood HD Retexture
+Removed Dint BDOR Hair - Salt and Wind (Sassy)
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
 Removed Embers XD - PBR
 Removed Embers XD(Less Poly) (Outdated)
@@ -89,10 +94,11 @@ Removed LOD Unloading Bug Fix - Settings Loader
 Removed Lumina - Main Menu Video (Main Menu Video was removed)
 Removed Malignis Animations - BiSR - Dirt and Blood Patch
 Removed Markarth Outskirts
+Removed Menu Zoom
 Removed Main Menu Video (No longer used and honestly needed with new menu)
 Removed MO2 Nexus Downloads Renamer (Since nexus reverted the change)
 Removed NPC AI Process Position Fix (I had plans to fix this but its just too broken & complicated for me)
-Removed OBody Next Generation
+Removed Oxygen Meter 2 (Already Part of Reeticle Arcs)
 Removed Player Eyes Blink Fix
 Removed Rain Splashes SKSE (Part of CS)
 Removed Rim Lighting Removed (Part of CS)
@@ -111,6 +117,7 @@ Removed Sky Signs (Replaced by my own mod.)
 Removed Starfrost - A Survival Overhaul (Dont like most changes done by it)
 Removed Serana Dialogue Expansion (Replaced by SDA)
 Removed Serana Dialogue Expansion - Kerstyn Voices Edition
+Removed Serana's Hood Fix with Animation (Part of SDA)
 Removed Three-eyed Swallow Armor (Looks Horrible)
 Removed UIExtensions (No longer needed)
 Removed Vampire Lord Retexture (Replaced by PBR Version)
@@ -182,6 +189,7 @@ Updated EmbersXD Torch Edit
 Updated Equip Enchantment Fix
 Updated First Person Height Fix SKSE
 Updated Granite Hill - Cut Content Restoration
+Updated High Quality Hearth - 3D Farmhouse Firepit Replacer
 Updated Iyre's Cozy Whiterun Gazebo
 Updated Interesting NPCs SE (3DNPC) - Fixes and Tweaks
 Updated JK's Interiors Patch Collection
@@ -194,6 +202,7 @@ Updated Lux (patch hub)
 Updated Mini's Micro-Systems Framework (MMSF)
 Updated My Precious...es - Multiple Rings SKSE
 Updated Native EditorID Fix
+Updated OBody Next Generation
 Updated PGPatcher (aka ParallaxGen)
 Updated Project Bro He's There - Fix followers not starting combat
 Updated Publican's Perch - A Modular Bar and Shop Counter Replacer
@@ -203,6 +212,7 @@ Updated Simple Wheeler Menu - dMenu Port
 Updated SkyPrompt
 Updated SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 Updated Skyrim Souls RE - Updated
+Updated SmoothCam
 Updated Tomato's Solitude Remastered - PBR
 Updated True Directional Movement - Modernized Third Person Gameplay
 Updated Tween Menu Overhaul
@@ -212,6 +222,7 @@ Updated Tears of Kyne - Water Need Mod
 Updated Ultimate NPC Dodging
 Updated Vagrants - A Bandit Overhaul
 Updated Variadic Collision Dynamics
+Updated Vigilant Enforcer Redone - Complex Material and PBR
 Updated XEMI Utility
 Updated Zero Bounty Hostility Fix
 
