@@ -58,6 +58,11 @@ Added Flora Mods
     - Frost Mirriam and Elves Ear - Forgotten Herbs Retexture SE
 
 Removed Another RaceMenu Rotation Mod (Replaced by Racemenu Enhancer, More Features and its stable)
+Removed Anga's Mill - Cities of the North Addon
+    Removed because of better compatibily with few mods, if in future i get enough time i will make the patches
+    myself and i will add it back but till then U were the bestest Anga mill overhaul :)
+
+Removec Anga's Mill - Cities of the North Addon Patch Collection
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Better Pelts and Hides Fluffy by SkySinclaire
@@ -246,6 +251,8 @@ Stations are in their own separator
 Switched ElSopa - Azura's Star to 1K
 Merged Lumina - Morthal Master Patch into relative patches
 Taliesin Quest No Longer Auto Starts
+You can now buy camping supplies from general stores.
+
 Mods Roll Back
     Aurora Fix -> 1.0.1
     Discord Rich Presence - > 1.2
