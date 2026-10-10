@@ -87,6 +87,8 @@ Removed Dirt and Blood - Use Those Basins
 Removed Dirt and Blood - You Reek
 Removed Dirt and Blood HD Retexture
 Removed Dint BDOR Hair - Salt and Wind (Sassy)
+Removed Dynamic Footprints SKSE (Too buggy will wait for cs own thing)
+Removed Dynamic Footprints SKSE - TomatoRim
 Removed ELLE - Wayfarer Navi (Kinda looks out of place for Lumina)
 Removed Embers XD - PBR
 Removed Embers XD(Less Poly) (Outdated)
