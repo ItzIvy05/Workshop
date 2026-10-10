@@ -60,12 +60,14 @@ Added Flora Mods
 Removed Another RaceMenu Rotation Mod (Replaced by Racemenu Enhancer, More Features and its stable)
 Removed Anga's Mill - Cities of the North Addon
     Removed because of better compatibily with few mods, if in future i get enough time i will make the patches
-    myself and i will add it back but till then U were the bestest Anga mill overhaul :)
+    myself and i will add it back but till then U were the bestest Anga mill overhaul.
 
 Removec Anga's Mill - Cities of the North Addon Patch Collection
 Removed Better Dynamic Snow SE
 Removed Better Dynamic Snow SE - Projectednoise Tweak
 Removed Better Pelts and Hides Fluffy by SkySinclaire
+Removed Bobbing Framework - SKSE Plugin (For time being till it gets fixed)
+Removed Bobbing Framework - My Presets
 Removed Casting Bar (Replaced by Reticle Arcs)
 Removed Cities of the North - Dawnstar
 Removed Cities of the North - Dawnstar Patch Collection
@@ -131,6 +133,10 @@ Removed Three-eyed Swallow Armor (Looks Horrible)
 Removed UIExtensions (No longer needed)
 Removed Vampire Lord Retexture (Replaced by PBR Version)
 Removed Whose Quest is it Anyway NG (Does not add meaningful change)
+Removed Wheeler - Show in UI
+    - Not really useful in my opinion
+    - A lot of times it just get stuck
+    - Because of the nature of the mod it slows down the inventory load.
 
 Removed LeoMaximus Sound Mods
     Hircine Revoiced
