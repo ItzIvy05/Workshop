@@ -14,16 +14,20 @@ Added Dawnguard - Hall of Vigilant Requirement
 Added Dimmer Volcanic Steam at Night
 Added DrJacopo's - 3D Lavender
 Added Description Framework
+Added Elven Armors and Weapons - Auridon Expansion
 Added Fitting Room - ESO Style Transmog (Optional Mod)
 Added FLICK - Fuzz's Legally Intelligible Core Kit
 Added Inventory Interface Information Injector Improved
 Added JK's Markarth Outskirts
 Added JK's Markarth Outskirts - Patch Collection
+Added Kestrel Armor 3BA
 Added Lady Callisto
 Added Labyrinthian - Object Placement Fixes
 Added Legendary Map - CoMAP Support and Some Improvements
 Added Music Queue Fix
 Added Mushroom Remover for Dead Trees
+Added Native Looping Equip Animations Fix
+Added Native Unequipping Staves Fix
 Added Praedy's Apocrypha
 Added Racemenu Enhancer
 Added Racemenu(SKEE) cosave Load Crash Fix
@@ -40,6 +44,7 @@ Added Shimmermist
 Added Spell Absorption Rework - A Non-Chance Based System
 Added s6o6t Mundus Stones - Standing Stones PBR Retexture
 Added Start Menu Redesigned
+Added SIGMA - Sword Dual Wield Animations - First Person
 Added Vanilla Table Replacers (Added Non Rope Addition)
 Added Vanaheimr - Mountains - MM - Complex Material - PBR
 Added Volkihar Soundscape Overhaul
@@ -97,6 +102,7 @@ Removed FileAccess Interface for Skyrim SE Scripts - FISS ESMify
 Removed FISSES for Skyrim AE 1.6.1130 (or later)
 Removed Finding Helgi and Laelette (Breaks too much shit with navmesh and towns)
 Removed Fortify Attribute Fix - NG (till Apodeictic fixes the survival bug)
+Removed Grab And Throw
 Removed Grab And Throw - Show in UI (Registers on main thread)
 Removed High Poly Project
 Removed HPP - My Fixes - Mammoth Skulls SE-AE
@@ -260,6 +266,8 @@ Switched ElSopa - Azura's Star to 1K
 Merged Lumina - Morthal Master Patch into relative patches
 Taliesin Quest No Longer Auto Starts
 You can now buy camping supplies from general stores.
+Balanced some of the armors that bandit uses.
+Gave Kestrel Armor to feris
 
 Mods Roll Back
     Aurora Fix -> 1.0.1
