@@ -62,14 +62,33 @@ Added Flora Mods
     - Spiky Grass by Mari
     - Frost Mirriam and Elves Ear - Forgotten Herbs Retexture SE
 
-Added VIGILANT & Its Mods.
+Added VIGILANT & Addons.
     - VIGILANT
-    - VIGILANT - WorldSpaces Patches for Vigilant
-    - VIGILANT - Settings Loader
+    - VIGILANT - Armors and Weapons Retexture SE
+    - VIGILANT - Book Covers
+    - VIGILANT - CoMAP Addon
+    - VIGILANT - Coldharbour Landscape and Architecture Retexture
+    - VIGILANT - CBBE (3BA) Bodyslide
     - VIGILANT - English Translation (Plus Voiced Addon)
-    - VIGILANT - Missing Lines (ElevenLabs Voiced)
-    - VIGILANT - Molag Bal Voice Unification Project
+    - VIGILANT - Greymarch Retexture
+    - VIGILANT - Immersion Tweaks - All In One
     - VIGILANT - Mesh Lighting Fix
+    - VIGILANT - Missing Lines (ElevenLabs Voiced)
+    - VIGILANT - Molag Bal Dragon Retexture SE
+    - VIGILANT - Molag Bal Voice Unification Project
+    - VIGILANT - No Boss Summons
+    - VIGILANT - NPC Overhaul
+    - VIGILANT - NPCs Refined
+    - VIGILANT - Nerfed Rewards
+    - VIGILANT - Saint Alessia Statue Replacer
+    - VIGILANT - Settings Loader
+    - VIGILANT - Wasteland Tree
+    - VIGILANT - WorldSpaces Patches for Vigilant
+
+    Vigilant Integration changes
+    1. Armors in Vigilant were classified as "Imperial armors", meaning stormcloaks would attack you on sight if you were wearing them.
+       This has been changed and adjusted so those armors won't make the Stormcloaks attack you anymore.
+
 
 Removed Another RaceMenu Rotation Mod (Replaced by Racemenu Enhancer, More Features and its stable)
 Removed Anga's Mill - Cities of the North Addon
