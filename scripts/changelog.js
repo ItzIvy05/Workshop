@@ -23,21 +23,33 @@
     const versions = [];
     let cur = null;
     let last = null;
+    let gap = false;
     for (const raw of text.split(/\r?\n/)) {
       const line = raw.trim();
-      if (!line || line.startsWith("//")) continue;
+      if (!line) { gap = true; continue; }
+      if (line.startsWith("//")) continue;
       if (line[0] === "#") {
         const body = line.replace(/^#+\s*/, "");
         const parts = body.split(/\s*\|\s*|\s+-\s+/);
         cur = { version: (parts[0] || "").trim(), date: (parts[1] || "").trim(), items: [] };
         versions.push(cur);
         last = null;
+        gap = false;
         continue;
       }
       if (!cur) { cur = { version: "Unreleased", date: "", items: [] }; versions.push(cur); last = null; }
 
+      const indent = raw.search(/\S/);
       const sub = line.match(/^[-*]\s*(.*)$/);
-      if (last && (sub || /^\s+\S/.test(raw))) { last.children.push((sub ? sub[1] : line).trim()); continue; }
+      const num = line.match(/^(\d+)[.)]\s+(.*)$/);
+      if (last && (sub || indent > 0)) {
+        const prev = last.children[last.children.length - 1];
+        if (prev && !sub && !num && !gap && indent > prev.indent) { prev.lines.push(line); continue; }
+        last.children.push({ kind: sub ? "ul" : num ? "ol" : "p", num: num ? num[1] : "", lines: [sub ? sub[1].trim() : num ? num[2] : line], indent, gap: gap && last.children.length > 0 });
+        gap = false;
+        continue;
+      }
+      gap = false;
 
       const c = categorize(line);
       last = { key: c.key, label: c.label, text: c.text, children: [] };
@@ -57,6 +69,20 @@
   }
   function chevron() {
     return '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+  }
+
+  function subtree(children) {
+    const box = el("div", "cl-sub");
+    let list = null;
+    children.forEach((c) => {
+      const html = c.lines.map(esc).join("<br>");
+      if (c.kind === "p") { box.appendChild(el("p", "cl-note" + (c.gap ? " cl-gap" : ""), html)); list = null; return; }
+      if (!list || list.tagName.toLowerCase() !== c.kind || c.gap) { list = el(c.kind, c.gap ? "cl-gap" : null); box.appendChild(list); }
+      const li = el("li", null, html);
+      if (c.kind === "ol") li.dataset.num = c.num + ".";
+      list.appendChild(li);
+    });
+    return box;
   }
 
   function runs(items) {
@@ -118,11 +144,7 @@
         const ul = el("ul", "cl-list");
         run.list.forEach((item) => {
           const li = el("li", null, esc(item.text));
-          if (item.children.length) {
-            const sub = el("ul", "cl-sub");
-            item.children.forEach((c) => sub.appendChild(el("li", null, esc(c))));
-            li.appendChild(sub);
-          }
+          if (item.children.length) li.appendChild(subtree(item.children));
           ul.appendChild(li);
         });
         block.appendChild(ul);
@@ -150,15 +172,27 @@
     });
   }
 
+  async function load(url) {
+    const bust = url + (url.includes("?") ? "&" : "?") + "_=" + Date.now();
+    const res = await fetch(bust, { cache: "no-store" });
+    if (!res.ok) throw new Error(url + " → " + res.status);
+    return res.text();
+  }
+
   async function initChangelog(config) {
     const mount = typeof config.mount === "string" ? document.querySelector(config.mount) : config.mount;
     if (!mount) return;
     mount.innerHTML = '<div class="cl-loading">Loading changelog…</div>';
     try {
-      const bust = config.url + (config.url.includes("?") ? "&" : "?") + "_=" + Date.now();
-      const res = await fetch(bust, { cache: "no-store" });
-      if (!res.ok) throw new Error(config.url + " → " + res.status);
-      render(mount, parse(await res.text()));
+      let text;
+      if (config.manifest) {
+        const base = config.manifest.slice(0, config.manifest.lastIndexOf("/") + 1);
+        const files = JSON.parse(await load(config.manifest));
+        text = (await Promise.all(files.map((f) => load(base + f)))).join("\n");
+      } else {
+        text = await load(config.url);
+      }
+      render(mount, parse(text));
     } catch (e) {
       mount.innerHTML = '<div class="cl-error">Could not load the changelog.<br><small>' + esc(String(e.message || e)) + "</small></div>";
     }
