@@ -220,6 +220,62 @@ h1, h2, h3, h4 {
   color: #0d0d0d;
 }
 
+.nav-drop { flex-shrink: 0; }
+
+.nav-chev {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-left: 5px;
+  vertical-align: -1px;
+  transition: transform 0.2s ease;
+}
+
+.nav-drop:hover .nav-chev,
+.nav-drop:focus-within .nav-chev { transform: rotate(180deg); }
+
+/* static parent so nav's overflow doesn't clip it */
+.nav-drop-menu {
+  position: absolute;
+  min-width: 210px;
+  margin-top: calc(var(--nav-h) / 2 - 0.5lh);
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  background: rgba(13, 13, 13, 0.99);
+  border: 1px solid var(--line-2);
+  border-top: 2px solid var(--accent);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+}
+
+.nav-drop-menu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: calc(var(--nav-h) / 2 - 0.5lh);
+}
+
+.nav-drop:hover .nav-drop-menu,
+.nav-drop:focus-within .nav-drop-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.site-nav nav .nav-drop-menu a {
+  padding: 11px 20px;
+  font-size: 0.7rem;
+}
+
+.site-nav nav .nav-drop-menu a::after { display: none; }
+.site-nav nav .nav-drop-menu a:hover { color: #fff; background: var(--raise); }
+.site-nav nav .nav-drop-menu a.active { color: var(--accent); }
+
 .nav-toggle {
   display: none;
   width: 44px;
@@ -1358,6 +1414,31 @@ h1, h2, h3, h4 {
   }
 
   .site-nav nav a::after { display: none; }
+
+  .nav-drop > a { display: block; }
+  .nav-chev { display: none; }
+
+  .nav-drop-menu {
+    position: static;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: none;
+  }
+
+  .nav-drop-menu::before { display: none; }
+
+  .site-nav nav .nav-drop-menu a {
+    padding: 13px 2px 13px 22px;
+    font-size: 0.74rem;
+  }
+
+  .site-nav nav .nav-drop-menu a:hover { background: none; }
 
   .site-nav nav a.pill {
     margin-top: 16px;

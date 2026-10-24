@@ -165,11 +165,22 @@
       const a = e.target.closest(".cl-toc-item");
       if (!a) return;
       const sec = document.getElementById(a.getAttribute("href").slice(1));
-      if (!sec) return;
-      sec.classList.remove("collapsed");
-      const b = sec.querySelector(".cl-vhead");
-      if (b) b.setAttribute("aria-expanded", "true");
+      if (sec) expand(sec);
     });
+  }
+
+  function expand(sec) {
+    sec.classList.remove("collapsed");
+    const b = sec.querySelector(".cl-vhead");
+    if (b) b.setAttribute("aria-expanded", "true");
+  }
+
+  // the browser's own anchor jump runs before the versions exist
+  function openHash() {
+    const sec = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!sec || !sec.classList.contains("cl-version")) return;
+    expand(sec);
+    sec.scrollIntoView();
   }
 
   async function load(url) {
@@ -193,6 +204,8 @@
         text = await load(config.url);
       }
       render(mount, parse(text));
+      openHash();
+      window.addEventListener("hashchange", openHash);
     } catch (e) {
       mount.innerHTML = '<div class="cl-error">Could not load the changelog.<br><small>' + esc(String(e.message || e)) + "</small></div>";
     }
